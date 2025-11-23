@@ -3,41 +3,52 @@
 ### 1. Identificação básica
 
 #### 1.1 Título do experimento
-Dê um nome claro e descritivo que permita entender rapidamente o foco do experimento (o que está sendo comparado, avaliado ou medido), evitando siglas internas pouco conhecidas.
+Design de API no Contexto de Arquitetura Distribuídas: Um Estudo Comparativo entre API-First e Code-First
 
 #### 1.2 ID / código
-Informe o identificador único usado pela organização (código de projeto, número de estudo, etc.), que facilitará o rastreio e o vínculo com outros artefatos.
+gabrielreisresende-medicao-experimentacao-tcc
 
 #### 1.3 Versão do documento e histórico de revisão
-Registre a versão atual (por exemplo, v1.0, v1.1) e mantenha um curto histórico das principais alterações, para saber o que mudou entre versões.
+- v1.0 (23/11/2025): Inclusão da identificação básica, contexto e problema do projeto de pesquisa.
+- v1.1 (23/11/2025): Escopo, Objetivo, Stakeholders/Impacto, Riscos de alto nível, premissas e critérios de sucesso
 
 #### 1.4 Datas (criação, última atualização)
-Anote quando o plano foi criado e quando foi atualizado pela última vez, para ter clareza sobre a atualidade das informações.
+- Data de criação: 23/11/2025
+- Última atualização: 23/11/2025
 
 #### 1.5 Autores (nome, área, contato)
-Liste quem participou da elaboração do plano, com área de atuação e forma de contato, para dúvidas e alinhamentos futuros.
-
+- **Autor:** Gabriel Lourenço Reis Resende 
+  - Área: Bacharelado em Engenharia de Software
+  - Instituição: PUC Minas – Instituto de Informática e Ciências Exatas
+  - E-mail: gabriel.lourenco@sga.pucminas.br
+  
 #### 1.6 Responsável principal (PI / dono do experimento)
-Indique a pessoa accountable pelas decisões do experimento (científicas e/ou de negócio), normalmente o “dono” do estudo.
+- Gabriel Lourenço Reis Resende
 
 #### 1.7 Projeto / produto / iniciativa relacionada
-Descreva a qual produto, módulo, projeto ou iniciativa estratégica este experimento está conectado, facilitando o contexto.
+Planejamento de Trabalho de Conclusão de Curso (TCC) focado em medição e experimentação de software, com ênfase na comparação de abordagens de design de API em arquiteturas distribuídas.
 
 ---
 
 ### 2. Contexto e problema
 
 #### 2.1 Descrição do problema / oportunidade
-Explique de forma objetiva qual problema se busca resolver ou qual oportunidade está sendo explorada, incluindo sinais ou sintomas observados.
+O design de APIs em arquiteturas distribuídas é um desafio crítico na engenharia de software moderna. Duas abordagens principais emergiram: **API-First**, na qual a especificação da API é definida antes da implementação e **Code-First**, no qual a API é gerada a partir do código implementado. Apesar da crescente adoção dessas abordagens, há uma escassez de evidências empíricas comparativas sobre suas vantagens, desvantagens e impacto em diferentes contextos organizacionais e técnicos. Este experimento busca preencher essa lacuna através de um estudo comparativo baseado em survey com profissionais que trabalham ou já trabalharam em arquiteturas distribuídas, permitindo identificar padrões, trade-offs e fatores de sucesso de cada abordagem.
 
 #### 2.2 Contexto organizacional e técnico
-Descreva o ambiente onde o experimento ocorrerá: tipo de empresa, equipe, domínio, tecnologias, processo de desenvolvimento e ferramentas relevantes.
+O experimento será conduzido no contexto acadêmico de um TCC, mas com foco em profissionais da indústria que atuam ou já atuaram em projetos com arquiteturas distribuídas. O estudo abrangerá diferentes tipos de organizações (startups, empresas de médio e grande porte), domínios diversos (e-commerce, fintech, SaaS, etc.) e diferentes tecnologias (REST, GraphQL, gRPC, etc.). O processo de desenvolvimento pode variar entre os participantes (ágil, DevOps, tradicional), mas todos devem ter experiência prática com design e implementação de APIs em sistemas distribuídos.
 
 #### 2.3 Trabalhos e evidências prévias (internos e externos)
-Liste experimentos, estudos, análises ou dados anteriores que já tratam do tema, tanto dentro da organização quanto na literatura externa.
+- **Literatura externa**: Estudos sobre API design patterns, arquiteturas de microsserviços, e comparações conceituais entre API-First e Code-First (principalmente em blogs técnicos e documentação de ferramentas)
+- **Evidências internas**: Não há estudos prévios internos identificados
+- **Lacuna identificada**: Falta de estudos empíricos quantitativos e qualitativos comparando sistematicamente as duas abordagens com base em experiências reais de profissionais
 
 #### 2.4 Referencial teórico e empírico essencial
-Resuma os conceitos, teorias, modelos e resultados empíricos mais importantes que fundamentam o desenho do experimento e suas hipóteses.
+- **API-First Design**: Abordagem onde a especificação da API (OpenAPI/Swagger, GraphQL Schema, Protocol Buffers) é criada antes da implementação, servindo como contrato entre equipes e permitindo desenvolvimento paralelo
+- **Code-First Design**: Abordagem onde a API é implementada diretamente no código e a documentação/especificação é gerada automaticamente a partir do código
+- **Arquiteturas Distribuídas**: Sistemas compostos por múltiplos serviços independentes que se comunicam via APIs, incluindo microsserviços, sistemas orientados a serviços (SOA) e arquiteturas baseadas em eventos
+- **GQM (Goal-Question-Metric)**: Framework para definição de objetivos mensuráveis através de perguntas e métricas associadas
+- **Survey Research**: Metodologia de pesquisa baseada em questionários para coleta de dados de uma amostra representativa da população
 
 ---
 
