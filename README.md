@@ -11,6 +11,7 @@ gabrielreisresende-medicao-experimentacao-tcc
 #### 1.3 Versão do documento e histórico de revisão
 - v1.0 (23/11/2025): Inclusão da identificação básica, contexto e problema do projeto de pesquisa.
 - v1.1 (23/11/2025): Escopo, Objetivo, Stakeholders/Impacto, Riscos de alto nível, premissas e critérios de sucesso
+- v1.2 (23/11/2025): Modelo conceitual e hipóteses (Etapa 7), Variáveis, fatores, tratamentos e objetos de estudo (Etapa 8), Desenho experimental (Etapa 9)
 
 #### 1.4 Datas (criação, última atualização)
 - Data de criação: 23/11/2025
@@ -36,7 +37,7 @@ Planejamento de Trabalho de Conclusão de Curso (TCC) focado em medição e expe
 O design de APIs em arquiteturas distribuídas é um desafio crítico na engenharia de software moderna. Duas abordagens principais emergiram: **API-First**, na qual a especificação da API é definida antes da implementação e **Code-First**, no qual a API é gerada a partir do código implementado. Apesar da crescente adoção dessas abordagens, há uma escassez de evidências empíricas comparativas sobre suas vantagens, desvantagens e impacto em diferentes contextos organizacionais e técnicos. Este experimento busca preencher essa lacuna através de um estudo comparativo baseado em survey com profissionais que trabalham ou já trabalharam em arquiteturas distribuídas, permitindo identificar padrões, trade-offs e fatores de sucesso de cada abordagem.
 
 #### 2.2 Contexto organizacional e técnico
-O experimento será conduzido no contexto acadêmico de um TCC, mas com foco em profissionais da indústria que atuam ou já atuaram em projetos com arquiteturas distribuídas. O estudo abrangerá diferentes tipos de organizações (startups, empresas de médio e grande porte), domínios diversos (e-commerce, fintech, SaaS, etc.) e diferentes tecnologias (REST, GraphQL, gRPC, etc.). O processo de desenvolvimento pode variar entre os participantes (ágil, DevOps, tradicional), mas todos devem ter experiência prática com design e implementação de APIs em sistemas distribuídos.
+O experimento será conduzido no contexto acadêmico de um TCC, mas com foco em profissionais da indústria que atuam ou já atuaram em projetos com arquiteturas distribuídas. O estudo abrangerá diferentes tipos de organizações (startups, empresas de médio e grande porte). O processo de desenvolvimento pode variar entre os participantes (ágil, DevOps, tradicional), mas todos devem ter experiência prática com design e implementação de APIs em sistemas distribuídos.
 
 #### 2.3 Trabalhos e evidências prévias (internos e externos)
 - **Literatura externa**: Estudos sobre API design patterns, arquiteturas de microsserviços, e comparações conceituais entre API-First e Code-First (principalmente em blogs técnicos e documentação de ferramentas)
@@ -55,7 +56,7 @@ O experimento será conduzido no contexto acadêmico de um TCC, mas com foco em 
 ### 3. Objetivos e questões (Goal / Question / Metric)
 
 #### 3.1 Objetivo geral (Goal template)
-Analisar as abordagens API-First e Code-First para design de APIs com o propósito de identificar e comparar suas vantagens, desvantagens e impacto em diferentes dimensões (produtividade, qualidade, manutenibilidade, colaboração) do ponto de vista de profissionais que trabalham em arquiteturas distribuídas no contexto de projetos de software reais em diferentes organizações e domínios.
+Analisar as abordagens API-First e Code-First para design de APIs com o propósito de identificar e comparar suas vantagens, desvantagens e impacto em diferentes dimensões (produtividade, qualidade, manutenibilidade, colaboração) do ponto de vista de profissionais que trabalham em arquiteturas distribuídas no contexto de projetos de software reais em diferentes organizações.
 
 #### 3.2 Objetivos específicos
 
@@ -65,7 +66,7 @@ Analisar as abordagens API-First e Code-First para design de APIs com o propósi
 
 **O3**: Avaliar o impacto de cada abordagem na colaboração entre equipes, comunicação entre stakeholders, e na qualidade da documentação e especificação das APIs.
 
-**O4**: Analisar fatores contextuais (tipo de organização, tamanho da equipe, domínio do projeto, tecnologias utilizadas) que influenciam a escolha e o sucesso de cada abordagem.
+**O4**: Analisar fatores contextuais (tipo de organização, tamanho da equipe) que influenciam a escolha e o sucesso de cada abordagem.
 
 #### 3.3 Questões de pesquisa / de negócio
 
@@ -89,9 +90,7 @@ Analisar as abordagens API-First e Code-First para design de APIs com o propósi
 
 **Q4.1**: Quais fatores organizacionais (tipo de empresa, tamanho da equipe) influenciam a escolha entre API-First e Code-First?
 
-**Q4.2**: Quais fatores técnicos (tecnologias utilizadas, domínio do projeto) influenciam o sucesso de cada abordagem?
-
-**Q4.3**: Existe correlação entre a experiência dos profissionais e a preferência por uma das abordagens?
+**Q4.2**: Existe correlação entre a experiência dos profissionais e a preferência por uma das abordagens?
 
 #### 3.4 Métricas associadas (GQM)
 
@@ -110,7 +109,6 @@ A tabela abaixo apresenta o mapeamento entre Objetivos, Questões e Métricas (G
 | O3 | Q3.3 | M20, M21 |
 | O4 | Q4.1 | M22, M23 |
 | O4 | Q4.2 | M24, M25 |
-| O4 | Q4.3 | M26, M27 |
 
 **Tabela de Métricas:**
 
@@ -139,10 +137,8 @@ A tabela abaixo apresenta o mapeamento entre Objetivos, Questões e Métricas (G
 | M21 | Taxa de Sucesso de Integrações | Proporção de tentativas de integração que são bem-sucedidas na primeira tentativa | Percentual (%) |
 | M22 | Distribuição por Tipo de Organização | Proporção de participantes de cada tipo de organização (startup, média, grande) que usa cada abordagem | Percentual (%) |
 | M23 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento nos projetos que usam cada abordagem | Quantidade (número de pessoas) |
-| M24 | Distribuição por Tecnologia | Proporção de uso de cada abordagem por tipo de tecnologia (REST, GraphQL, gRPC, etc.) | Percentual (%) |
-| M25 | Distribuição por Domínio | Proporção de uso de cada abordagem por domínio do projeto (e-commerce, fintech, SaaS, etc.) | Percentual (%) |
-| M26 | Anos de Experiência Média | Anos médios de experiência profissional dos participantes que preferem cada abordagem | Tempo (anos) |
-| M27 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem, estratificada por nível de experiência | Percentual (%) |
+| M24 | Anos de Experiência Média | Anos médios de experiência profissional dos participantes que preferem cada abordagem | Tempo (anos) |
+| M25 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem, estratificada por nível de experiência | Percentual (%) |
 
 ---
 
@@ -508,54 +504,396 @@ Nesses casos, o experimento pode ser ajustado (ex: reduzir escopo de questões) 
 ### 7. Modelo conceitual e hipóteses
 
 #### 7.1 Modelo conceitual do experimento
-Explique, em texto ou esquema, como você acredita que os fatores influenciam as respostas (por exemplo, “técnica A reduz defeitos em relação a B”).
+
+O modelo conceitual deste experimento postula que a escolha entre as abordagens **API-First** e **Code-First** para design de APIs em arquiteturas distribuídas influencia múltiplas dimensões de resultado através de diferentes mecanismos e fatores contextuais.
+
+**Modelo de influência direta:**
+- A abordagem de design (API-First vs. Code-First) atua como fator principal que influencia diretamente:
+  - **Produtividade**: API-First pode reduzir tempo de desenvolvimento através de desenvolvimento paralelo e contratos claros, enquanto Code-First pode acelerar prototipação inicial
+  - **Qualidade**: API-First pode melhorar qualidade através de especificação prévia e validação antecipada, enquanto Code-First pode ter maior risco de inconsistências entre especificação e implementação
+  - **Colaboração**: API-First pode facilitar colaboração entre equipes através de contratos explícitos, enquanto Code-First pode exigir mais comunicação ad-hoc
+  - **Manutenibilidade**: API-First pode melhorar manutenibilidade através de documentação gerada e contratos versionados, enquanto Code-First pode ter documentação desatualizada
+
+**Modelo de influência contextual:**
+- Fatores contextuais moderam a relação entre abordagem e resultados:
+  - **Tipo de organização**: Startups podem se beneficiar mais de Code-First (velocidade), enquanto grandes organizações podem preferir API-First (governança)
+  - **Tamanho da equipe**: Equipes maiores podem se beneficiar mais de API-First (coordenação), enquanto equipes pequenas podem preferir Code-First (simplicidade)
+  - **Experiência dos profissionais**: Profissionais mais experientes podem extrair mais benefícios de API-First devido à compreensão de arquiteturas complexas
+
+**Modelo de medição:**
+- As dimensões de resultado são medidas através de:
+  - Percepções subjetivas dos profissionais (escalas Likert)
+  - Métricas objetivas relatadas (tempo, frequência, percentuais)
+  - Identificação qualitativa de vantagens e desvantagens
+
 
 #### 7.2 Hipóteses formais (H0, H1)
-Formule explicitamente as hipóteses nulas e alternativas para cada questão principal, incluindo a direção esperada do efeito quando fizer sentido.
+
+As hipóteses são formuladas para as principais questões de pesquisa, considerando comparações entre profissionais que utilizaram API-First e aqueles que utilizaram apenas Code-First.
+
+**Hipóteses relacionadas ao Objetivo O1 (Vantagens e Produtividade):**
+
+**H1.1**: Profissionais que utilizaram API-First percebem mais vantagens em relação à produtividade do que profissionais que utilizaram apenas Code-First.
+- **H0.1**: Não há diferença na percepção de vantagens relacionadas à produtividade entre os grupos
+- **H1.1**: Profissionais que utilizaram API-First percebem significativamente mais vantagens relacionadas à produtividade (M4, M5, M6 maiores)
+
+**H1.2**: Profissionais que utilizaram API-First relatam maior qualidade percebida do código do que profissionais que utilizaram apenas Code-First.
+- **H0.2**: Não há diferença na qualidade percebida do código entre os grupos
+- **H1.2**: Profissionais que utilizaram API-First relatam significativamente maior qualidade percebida (M7, M8 maiores)
+
+**Hipóteses relacionadas ao Objetivo O2 (Desvantagens e Complexidade):**
+
+**H2.1**: Profissionais que utilizaram API-First percebem mais desvantagens relacionadas à complexidade do que profissionais que utilizaram apenas Code-First.
+- **H0.3**: Não há diferença na percepção de desvantagens relacionadas à complexidade entre os grupos
+- **H1.3**: Profissionais que utilizaram API-First percebem significativamente mais desvantagens relacionadas à complexidade (M12, M13 maiores)
+
+**H2.2**: Profissionais que utilizaram API-First relatam maior tempo de curva de aprendizado do que profissionais que utilizaram apenas Code-First.
+- **H0.4**: Não há diferença no tempo de curva de aprendizado entre os grupos
+- **H1.4**: Profissionais que utilizaram API-First relatam significativamente maior tempo de curva de aprendizado (M15 maior)
+
+**Hipóteses relacionadas ao Objetivo O3 (Colaboração e Documentação):**
+
+**H3.1**: Profissionais que utilizaram API-First percebem maior nível de colaboração entre equipes do que profissionais que utilizaram apenas Code-First.
+- **H0.5**: Não há diferença no nível de colaboração percebida entre os grupos
+- **H1.5**: Profissionais que utilizaram API-First percebem significativamente maior nível de colaboração (M16 maior, M17 menor)
+
+**H3.2**: Profissionais que utilizaram API-First relatam maior qualidade e completude da documentação do que profissionais que utilizaram apenas Code-First.
+- **H0.6**: Não há diferença na qualidade e completude da documentação entre os grupos
+- **H1.6**: Profissionais que utilizaram API-First relatam significativamente maior qualidade e completude da documentação (M18, M19 maiores)
+
+**Hipóteses relacionadas ao Objetivo O4 (Fatores Contextuais):**
+
+**H4.1**: O tipo de organização influencia a preferência entre API-First e Code-First.
+- **H0.7**: Não há associação entre tipo de organização e preferência de abordagem
+- **H1.7**: Existe associação significativa entre tipo de organização e preferência de abordagem (M22 mostra distribuições diferentes)
+
+**H4.2**: A experiência dos profissionais influencia a preferência entre API-First e Code-First.
+- **H0.8**: Não há associação entre experiência profissional e preferência de abordagem
+- **H1.8**: Existe associação significativa entre experiência profissional e preferência de abordagem (M24, M25 mostram diferenças)
 
 #### 7.3 Nível de significância e considerações de poder
-Defina o nível de significância (por exemplo, α = 0,05) e comente o que se espera em termos de poder estatístico, relacionando-o ao tamanho de amostra planejado.
+
+**Nível de significância (α):**
+- **α = 0,05**: Será utilizado o nível de significância padrão de 5% para testes estatísticos
+
+**Poder estatístico (1 - β):**
+- **Tamanho de efeito esperado**: Baseado na literatura e natureza do estudo, espera-se efeitos de tamanho médio (Cohen's d ≈ 0,5) para comparações entre grupos
+- **Tamanho de amostra mínimo**: Para detectar efeitos médios com poder de 80% e α = 0,05 em testes t de duas amostras, são necessários aproximadamente 64 participantes por grupo (128 no total). No entanto, considerando as restrições práticas do estudo, será aceito um tamanho mínimo de 50 participantes no total (25 por grupo), o que reduz o poder para aproximadamente 60-65% para efeitos médios
 
 ---
 
 ### 8. Variáveis, fatores, tratamentos e objetos de estudo
 
 #### 8.1 Objetos de estudo
-Descreva o que será efetivamente manipulado ou analisado (módulos de código, requisitos, tarefas, casos de teste, issues, etc.).
+
+Os objetos de estudo neste experimento são as experiências e percepções dos profissionais que trabalharam com design de APIs em arquiteturas distribuídas. Especificamente:
+
+- **Experiências profissionais relatadas**: Projetos reais nos quais os participantes trabalharam utilizando abordagens API-First ou Code-First
+- **Percepções e avaliações subjetivas**: Opiniões, avaliações e julgamentos dos participantes sobre vantagens, desvantagens e impacto das abordagens
+- **Métricas autorrelatadas**: Dados quantitativos fornecidos pelos participantes sobre tempo, frequência, percentuais e outras medidas relacionadas às suas experiências
+- **Fatores contextuais**: Características dos projetos, organizações e contextos técnicos nos quais as abordagens foram utilizadas
+
 
 #### 8.2 Sujeitos / participantes (visão geral)
-Caracterize em alto nível quem serão os participantes (desenvolvedores, testadores, estudantes, etc.), sem ainda entrar em detalhes de seleção.
+
+Os participantes deste estudo são profissionais da indústria de software que possuem experiência prática em design e implementação de APIs em arquiteturas distribuídas. Especificamente:
+
+- **Perfil principal**: Desenvolvedores de software, arquitetos de software, tech leads e engenheiros de software
+- **Experiência mínima**: Profissionais com pelo menos 1 ano de experiência trabalhando com arquiteturas distribuídas
+- **Contexto de trabalho**: Profissionais que trabalham ou trabalharam em projetos que utilizam arquiteturas distribuídas (microsserviços, SOA, sistemas orientados a eventos)
+- **Conhecimento necessário**: Compreensão prática das diferenças entre API-First e Code-First (ou capacidade de identificar qual abordagem utilizaram)
+- **Diversidade**: Participantes de diferentes tipos de organizações (startups, médio porte, grandes empresas)
+
+Os participantes serão divididos em dois grupos principais baseados em sua experiência:
+- **Grupo 1**: Profissionais que já utilizaram a abordagem API-First em pelo menos um projeto
+- **Grupo 2**: Profissionais que nunca utilizaram API-First (ou utilizaram apenas Code-First)
 
 #### 8.3 Variáveis independentes (fatores) e seus níveis
-Liste os fatores que serão manipulados (por exemplo, técnica, ferramenta, processo) e indique os níveis de cada um (A/B, X/Y, alto/baixo).
+
+**Fator principal (manipulado através de seleção de grupos):**
+
+| Fator | Níveis | Descrição |
+|-------|--------|-----------|
+| **Abordagem de Design** | API-First | Participantes que utilizaram API-First em pelo menos um projeto |
+| | Code-First | Participantes que nunca utilizaram o modelo API-First |
+
+**Fatores contextuais (variáveis de agrupamento/estratificação):**
+
+| Fator | Níveis | Descrição |
+|-------|--------|-----------|
+| **Tipo de Organização** | Startup | Empresas em estágio inicial ou de pequeno porte |
+| | Médio Porte | Empresas de médio porte |
+| | Grande Porte | Grandes corporações |
+| **Tamanho da Equipe** | Pequena (1-5 pessoas) | Equipes pequenas |
+| | Média (6-15 pessoas) | Equipes de tamanho médio |
+| | Grande (16+ pessoas) | Equipes grandes |
+| **Anos de Experiência** | 1-3 anos | Profissionais iniciantes na carreira |
+| | 4-7 anos | Profissionais com a carreira intermediária |
+| | 8+ anos | Profissionais avançados na carreira |
 
 #### 8.4 Tratamentos (condições experimentais)
-Descreva claramente cada condição de experimento (grupo controle, tratamento 1, tratamento 2, etc.) e o que distingue uma da outra.
+
+Este estudo utiliza um desenho observacional comparativo com dois grupos principais baseados na experiência dos participantes:
+
+**Tratamento 1 - Grupo API-First:**
+- **Descrição**: Participantes que já utilizaram a abordagem API-First em pelo menos um projeto profissional
+- **Critério de inclusão**: Resposta afirmativa à pergunta sobre experiência com API-First e capacidade de descrever essa experiência
+- **O que distingue**: Experiência prática com design de API onde a especificação foi criada antes da implementação
+- **Número esperado**: Mínimo de 20 participantes, idealmente 30-40
+
+**Tratamento 2 - Grupo Code-First (Grupo de Comparação):**
+- **Descrição**: Participantes que nunca utilizaram API-First ou utilizaram apenas Code-First (onde a API é gerada a partir do código)
+- **Critério de inclusão**: Resposta negativa à pergunta sobre experiência com API-First OU experiência apenas com Code-First
+- **O que distingue**: Experiência prática apenas com abordagem onde a API é implementada diretamente no código
+- **Número esperado**: Mínimo de 20 participantes, idealmente 30-40
 
 #### 8.5 Variáveis dependentes (respostas)
-Informe as medidas de resultado que você observará (por exemplo, número de defeitos, esforço em horas, tempo de conclusão, satisfação).
+
+As variáveis dependentes são medidas através de respostas ao questionário e incluem métricas quantitativas e qualitativas. A tabela abaixo apresenta todas as variáveis dependentes organizadas por dimensão:
+
+**Tabela de Variáveis Dependentes:**
+
+| ID | Nome da Variável | Descrição | Tipo | Escala/Unidade |
+|----|-----------------|-----------|------|----------------|
+| **Dimensão: Vantagens e Produtividade** |
+| M1 | Número de Vantagens Identificadas | Quantidade total de vantagens distintas mencionadas | Quantitativa | Número inteiro |
+| M2 | Frequência de Menção de Vantagens | Quantas vezes cada vantagem foi mencionada | Quantitativa | Número inteiro |
+| M3 | Score Médio de Importância das Vantagens | Média das avaliações de importância | Quantitativa | Escala Likert (1-5) |
+| M4 | Tempo Médio de Desenvolvimento de API | Tempo médio para desenvolver uma API completa | Quantitativa | Horas ou dias |
+| M5 | Produtividade Percebida | Autoavaliação sobre produtividade | Quantitativa | Escala Likert (1-5) |
+| M6 | Taxa de Conclusão de Tarefas | Proporção de tarefas concluídas no prazo | Quantitativa | Percentual (%) |
+| M7 | Densidade de Defeitos | Número de defeitos por API ou por KLOC | Quantitativa | Quantidade por API |
+| M8 | Qualidade Percebida do Código | Autoavaliação sobre qualidade do código | Quantitativa | Escala Likert (1-5) |
+| **Dimensão: Desvantagens e Complexidade** |
+| M9 | Número de Desvantagens Identificadas | Quantidade total de desvantagens distintas mencionadas | Quantitativa | Número inteiro |
+| M10 | Frequência de Menção de Desvantagens | Quantas vezes cada desvantagem foi mencionada | Quantitativa | Número inteiro |
+| M11 | Score Médio de Severidade das Desvantagens | Média das avaliações de severidade | Quantitativa | Escala Likert (1-5) |
+| M12 | Complexidade Percebida do Processo | Autoavaliação sobre complexidade | Quantitativa | Escala Likert (1-5) |
+| M13 | Número de Ferramentas Necessárias | Quantidade média de ferramentas a aprender | Quantitativa | Número inteiro |
+| M14 | Tempo Médio de Manutenção | Tempo médio gasto em manutenção | Quantitativa | Horas/dias por mês |
+| M15 | Tempo de Curva de Aprendizado | Tempo para se tornar produtivo | Quantitativa | Semanas ou meses |
+| **Dimensão: Colaboração e Documentação** |
+| M16 | Nível de Colaboração Percebida | Autoavaliação sobre colaboração entre equipes | Quantitativa | Escala Likert (1-5) |
+| M17 | Frequência de Comunicação entre Equipes | Número médio de interações necessárias | Quantitativa | Número de interações |
+| M18 | Completude da Documentação | Percentual de APIs com documentação completa | Quantitativa | Percentual (%) |
+| M19 | Qualidade Percebida da Documentação | Autoavaliação sobre qualidade da documentação | Quantitativa | Escala Likert (1-5) |
+| M20 | Tempo Médio de Integração | Tempo necessário para integrar novo serviço | Quantitativa | Horas ou dias |
+| M21 | Taxa de Sucesso de Integrações | Proporção de integrações bem-sucedidas na primeira tentativa | Quantitativa | Percentual (%) |
+| **Dimensão: Fatores Contextuais** |
+| M22 | Distribuição por Tipo de Organização | Proporção de participantes por tipo de organização | Quantitativa | Percentual (%) |
+| M23 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento | Quantitativa | Número de pessoas |
+| M24 | Anos de Experiência Média | Anos médios de experiência profissional | Quantitativa | Anos |
+| M25 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem | Quantitativa | Percentual (%) |
+| **Dimensão: Qualitativa** |
+| VQ1 | Lista de Vantagens Identificadas | Lista qualitativa de vantagens mencionadas | Qualitativa | Texto livre |
+| VQ2 | Lista de Desvantagens Identificadas | Lista qualitativa de desvantagens mencionadas | Qualitativa | Texto livre |
+| VQ3 | Comentários e Observações | Comentários adicionais dos participantes | Qualitativa | Texto livre |
 
 #### 8.6 Variáveis de controle / bloqueio
-Liste fatores que você não está estudando diretamente, mas que serão mantidos constantes ou usados para formar blocos (por exemplo, experiência, tipo de tarefa).
+
+As seguintes variáveis serão controladas ou utilizadas para estratificação/bloqueio, mas não são o foco principal do estudo:
+
+| Variável de Controle | Método de Controle | Justificativa |
+|---------------------|-------------------|---------------|
+| **Experiência Profissional** | Estratificação em blocos (iniciante, intermediário, avançado) | Controlar efeito da experiência nas percepções |
+| **Tipo de Organização** | Análise estratificada por tipo | Identificar se resultados variam por contexto organizacional |
+| **Tamanho da Equipe** | Análise estratificada por tamanho | Controlar efeito do tamanho da equipe na colaboração |
+| **Tempo desde a experiência** | Pergunta sobre recência da experiência | Controlar viés de memória (priorizar experiências recentes) |
+| **Idioma do questionário** | Fixo em português | Garantir compreensão uniforme |
+| **Formato do questionário** | Mesmo questionário para todos | Garantir consistência na coleta |
+
+**Estratégia de bloqueio:**
+- Análises serão realizadas tanto no nível agregado quanto estratificadas por variáveis de controle relevantes
+- Comparações entre grupos serão ajustadas ou estratificadas quando necessário para controlar variáveis de confusão
 
 #### 8.7 Possíveis variáveis de confusão conhecidas
-Identifique fatores que podem distorcer os resultados (como diferenças de contexto, motivação ou carga de trabalho) e que você pretende monitorar.
+
+Variáveis que podem distorcer os resultados e que serão monitoradas:
+
+| Variável de Confusão | Impacto Potencial | Estratégia de Monitoramento/Mitigação |
+|---------------------|------------------|--------------------------------------|
+| **Viés de memória e recall** | Participantes podem lembrar mais de experiências positivas ou negativas recentes | Pergunta sobre recência da experiência; foco em projetos específicos quando possível |
+| **Viés de autosseleção** | Participantes mais experientes ou engajados podem estar mais propensos a participar | Análise de características demográficas da amostra; comparação com população-alvo quando possível |
+| **Compreensão das definições** | Diferentes interpretações de "API-First" e "Code-First" | Definições claras no questionário; perguntas de verificação de compreensão |
+| **Viés de desejabilidade social** | Participantes podem responder de forma socialmente desejável | Anonimato garantido; perguntas diretas e objetivas |
+| **Experiência mista** | Participantes podem ter experiência com ambas as abordagens | Identificação de participantes com experiência mista; análise separada ou exclusão |
+| **Contexto organizacional específico** | Características específicas da organização podem influenciar mais que a abordagem | Coleta de dados sobre contexto organizacional; análise estratificada |
+| **Motivação e engajamento** | Participantes com maior motivação podem ter experiências diferentes | Análise de qualidade das respostas; identificação de respostas apressadas |
+| **Viés geográfico/cultural** | Diferenças culturais ou regionais podem influenciar percepções | Coleta de dados demográficos geográficos; discussão de limitações de generalização |
+| **Maturidade do projeto** | Projetos em diferentes estágios podem ter necessidades diferentes | Pergunta sobre estágio do projeto; análise considerando maturidade |
+| **Pressão de tempo e recursos** | Restrições de tempo podem influenciar escolha e percepção da abordagem | Pergunta sobre restrições de recursos; análise considerando contexto de pressão |
+| **Viés de confirmação** | Participantes podem buscar confirmar suas escolhas anteriores | Perguntas sobre vantagens e desvantagens de ambas as abordagens; análise balanceada |
 
 ---
 
 ### 9. Desenho experimental
 
 #### 9.1 Tipo de desenho (completamente randomizado, blocos, fatorial, etc.)
-Indique qual tipo de desenho será utilizado e justifique brevemente por que ele é adequado ao problema e às restrições.
+
+**Tipo de desenho**: **Estudo observacional comparativo (quase-experimental) com grupos não equivalentes**
+
+Este estudo utiliza um desenho observacional baseado em survey, onde os participantes são agrupados naturalmente baseados em sua experiência prévia (API-First vs. Code-First), sem randomização experimental. O desenho pode ser caracterizado como:
+
+- **Estudo transversal**: Coleta de dados em um único ponto no tempo sobre experiências passadas
+- **Desenho de grupos comparativos**: Comparação entre dois grupos baseados em experiência prévia
+- **Desenho quase-experimental**: Não há randomização, mas há comparação sistemática entre grupos
+
+**Justificativa da escolha:**
+
+1. **Natureza do fenômeno**: A escolha entre API-First e Code-First em projetos reais não pode ser manipulada experimentalmente de forma ética ou prática, pois envolve decisões organizacionais e de projeto que já foram tomadas
+
+2. **Contexto real**: O estudo busca capturar experiências em contextos reais de desenvolvimento, onde múltiplos fatores contextuais influenciam os resultados, tornando um experimento controlado artificial
+
+3. **Viabilidade**: Um experimento controlado exigiria recrutar equipes completas, alocar projetos reais e manipular abordagens, o que é inviável dentro do escopo de um TCC
+
+4. **Validade ecológica**: Estudos observacionais baseados em experiências reais têm maior validade ecológica para generalização para contextos organizacionais reais
+
+5. **Ética e praticidade**: Não é ético ou prático forçar organizações a mudar suas abordagens estabelecidas para fins de pesquisa
+
+**Limitações reconhecidas:**
+- Ausência de randomização pode introduzir viés de seleção
+- Grupos podem não ser equivalentes em todas as dimensões
+- Relação causal não pode ser estabelecida com certeza absoluta
+- Viés de memória pode afetar relatos sobre experiências passadas
+
+Essas limitações serão mitigadas através de:
+- Análise de características demográficas e contextuais dos grupos
+- Estratificação por variáveis de controle
+- Transparência sobre limitações metodológicas
+- Foco em associações e padrões, com discussão cuidadosa de causalidade
 
 #### 9.2 Randomização e alocação
-Explique o que será randomizado (sujeitos, tarefas, ordem de tratamentos) e como a randomização será feita na prática (ferramentas, procedimentos).
+
+**Randomização**: **Não aplicável** (estudo observacional)
+
+Como este é um estudo observacional baseado em survey, não há randomização experimental de participantes para tratamentos. Os participantes são alocados naturalmente aos grupos baseados em sua experiência prévia:
+
+- **Grupo API-First**: Participantes que já utilizaram API-First
+- **Grupo Code-First**: Participantes que nunca utilizaram API-First
+
+**Alocação aos grupos:**
+
+A alocação ocorre através de **autoclassificação** baseada em respostas ao questionário:
+
+1. **Pergunta de triagem**: "Você já utilizou a abordagem API-First em algum projeto profissional?"
+   - Resposta "Sim" → Grupo API-First
+   - Resposta "Não" → Grupo Code-First
+
+2. **Validação**: Perguntas adicionais verificam a compreensão e experiência real:
+   - Descrição da experiência com a abordagem
+   - Identificação de características da abordagem utilizada
+   - Exclusão de participantes que não conseguem descrever adequadamente sua experiência
+
+**Randomização de elementos do questionário:**
+
+Para reduzir viés de ordem e efeitos de fadiga, os seguintes elementos serão randomizados ou balanceados:
+
+- **Ordem das perguntas sobre vantagens/desvantagens**: Apresentação alternada de perguntas sobre API-First e Code-First
+- **Ordem das opções em questões de múltipla escolha**: Quando aplicável, ordem das opções será variada
+- **Ordem das escalas**: Direção das escalas (positiva/negativa) será balanceada
+
+**Ferramentas para randomização:**
+- Funcionalidades de randomização da plataforma de survey (ex: Google Forms, Typeform)
+- Scripts de randomização para versões do questionário, se necessário
 
 #### 9.3 Balanceamento e contrabalanço
-Descreva como você garantirá que os grupos fiquem comparáveis (balanceamento) e como lidará com efeitos de ordem ou aprendizagem (contrabalanço).
+
+**Balanceamento entre grupos:**
+
+Como não há randomização experimental, o balanceamento será verificado e, quando possível, ajustado através de:
+
+1. **Análise de características demográficas**:
+   - Comparação de distribuições de idade, experiência, tipo de organização, tamanho de equipe entre grupos
+   - Identificação de desequilíbrios significativos
+
+2. **Estratificação e matching**:
+   - Se possível, matching de participantes por características relevantes (experiência, tipo de organização)
+   - Análises estratificadas por variáveis de controle
+
+3. **Recrutamento direcionado**:
+   - Estratégias de recrutamento específicas para garantir representação adequada em ambos os grupos
+   - Monitoramento do balanceamento durante a coleta de dados
+
+4. **Análises ajustadas**:
+   - Uso de modelos estatísticos que ajustam para variáveis de confusão
+   - Análises de sensibilidade considerando diferentes composições de grupos
+
+**Critérios de balanceamento aceitável:**
+- Diferenças não significativas (p > 0,10) em características demográficas principais entre grupos
+- Proporção mínima de 40:60 entre grupos (idealmente 50:50)
+- Representação similar de tipos de organização em ambos os grupos
+
+**Contrabalanço (efeitos de ordem):**
+
+Como cada participante responde apenas uma vez ao questionário (não há múltiplas sessões), não há efeitos de ordem entre tratamentos. No entanto, serão aplicadas estratégias de contrabalanço para elementos internos do questionário:
+
+1. **Ordem de apresentação de questões**:
+   - Versões alternadas do questionário com ordem diferente de seções
+   - Randomização da ordem de perguntas sobre vantagens/desvantagens
+
+2. **Direção das escalas**:
+   - Balanceamento de escalas positivas e negativas
+   - Evitar viés de resposta por direção da escala
+
+3. **Ordem de opções**:
+   - Variação na ordem de opções de múltipla escolha quando aplicável
+
+**Efeitos de aprendizagem**: Não aplicável, pois não há múltiplas sessões ou exposição sequencial a diferentes condições.
 
 #### 9.4 Número de grupos e sessões
-Informe quantos grupos existirão e quantas sessões ou rodadas cada sujeito ou grupo irá executar, com uma breve justificativa.
+
+**Número de grupos**: **2 grupos principais**
+
+1. **Grupo API-First**: Participantes com experiência em API-First
+2. **Grupo Code-First**: Participantes sem experiência em API-First (apenas Code-First)
+
+**Subgrupos para análises estratificadas** (não são grupos experimentais separados, mas estratificações para análise):
+
+- Por tipo de organização (3 níveis: Startup, Médio Porte, Grande Porte)
+- Por tamanho de equipe (3 níveis: Pequena, Média, Grande)
+- Por experiência profissional (3 níveis: Júnior, Pleno, Sênior)
+
+**Número de sessões**: **1 sessão por participante**
+
+Cada participante preenche o questionário uma única vez, estimado em 15-20 minutos. Não há múltiplas sessões ou rodadas experimentais.
+
+**Justificativa:**
+
+1. **Natureza do estudo**: Estudo observacional sobre experiências passadas, não requer múltiplas exposições
+2. **Viabilidade**: Múltiplas sessões seriam inviáveis devido a:
+   - Dificuldade de recrutamento e retenção de participantes
+   - Carga de tempo para participantes voluntários
+   - Complexidade logística de coordenação
+3. **Validade**: Uma sessão é suficiente para capturar percepções e experiências dos participantes
+4. **Ética**: Minimiza carga sobre participantes voluntários
+
+**Tamanho planejado dos grupos:**
+
+- **Total de participantes**: Mínimo de 50, idealmente 60-80
+- **Grupo API-First**: Mínimo de 20, idealmente 30-40
+- **Grupo Code-First**: Mínimo de 20, idealmente 30-40
+
+**Considerações para análises estratificadas:**
+
+Análises por subgrupos terão tamanhos de amostra menores, limitando o poder estatístico. Análises estratificadas serão interpretadas com cautela e focarão em padrões qualitativos quando o tamanho da amostra for insuficiente para inferência estatística robusta.
+
+**Tabela de Fatores, Tratamentos e Combinações:**
+
+| Fator Principal | Níveis/Tratamentos | Descrição | Critério de Alocação |
+|----------------|-------------------|-----------|---------------------|
+| **Abordagem de Design** | API-First | Participantes com experiência em API-First | Resposta "Sim" à pergunta sobre experiência com API-First + validação através de descrição da experiência |
+| | Code-First | Participantes sem experiência em API-First (apenas Code-First) | Resposta "Não" à pergunta sobre experiência com API-First OU experiência apenas com Code-First |
+
+**Combinações de Fatores (para análises estratificadas):**
+
+| Combinação | Abordagem | Tipo de Org. | Tamanho Equipe | Experiência |
+|-----------|-----------|--------------|----------------|-------------|
+| 1 | API-First | Startup | Pequena | Júnior |
+| 2 | API-First | Startup | Pequena | Pleno |
+| 3 | API-First | Médio Porte | Média | Sênior |
+| 4 | Code-First | Grande Porte | Grande | Pleno |
+| ... | ... | ... | ... | ... |
+
 
 ---
 
