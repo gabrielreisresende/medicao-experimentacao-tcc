@@ -11,11 +11,11 @@ gabrielreisresende-medicao-experimentacao-tcc
 #### 1.3 Versão do documento e histórico de revisão
 - v1.0 (23/11/2025): Inclusão da identificação básica, contexto e problema do projeto de pesquisa.
 - v1.1 (23/11/2025): Escopo, Objetivo, Stakeholders/Impacto, Riscos de alto nível, premissas e critérios de sucesso
-- v1.2 (23/11/2025): Modelo conceitual e hipóteses (Etapa 7), Variáveis, fatores, tratamentos e objetos de estudo (Etapa 8), Desenho experimental (Etapa 9)
+- v1.2 (25/11/2025): Modelo conceitual e hipóteses (Etapa 7), Variáveis, fatores, tratamentos e objetos de estudo (Etapa 8), Desenho experimental (Etapa 9)
 
 #### 1.4 Datas (criação, última atualização)
 - Data de criação: 23/11/2025
-- Última atualização: 23/11/2025
+- Última atualização: 25/11/2025
 
 #### 1.5 Autores (nome, área, contato)
 - **Autor:** Gabriel Lourenço Reis Resende 
@@ -99,16 +99,16 @@ A tabela abaixo apresenta o mapeamento entre Objetivos, Questões e Métricas (G
 | Objetivo | Questão | Métricas |
 |----------|---------|----------|
 | O1 | Q1.1 | M1, M2, M3 |
-| O1 | Q1.2 | M4, M5, M6 |
-| O1 | Q1.3 | M7, M8 |
-| O2 | Q2.1 | M9, M10, M11 |
-| O2 | Q2.2 | M12, M13 |
-| O2 | Q2.3 | M14, M15 |
-| O3 | Q3.1 | M16, M17 |
-| O3 | Q3.2 | M18, M19 |
-| O3 | Q3.3 | M20, M21 |
-| O4 | Q4.1 | M22, M23 |
-| O4 | Q4.2 | M24, M25 |
+| O1 | Q1.2 | M4 |
+| O1 | Q1.3 | M5 |
+| O2 | Q2.1 | M6, M7, M8 |
+| O2 | Q2.2 | M9, M10 |
+| O2 | Q2.3 | M11, M12 |
+| O3 | Q3.1 | M13, M14 |
+| O3 | Q3.2 | M15, M16 |
+| O3 | Q3.3 | M17, M18 |
+| O4 | Q4.1 | M19, M20 |
+| O4 | Q4.2 | M21, M22 |
 
 **Tabela de Métricas:**
 
@@ -117,28 +117,25 @@ A tabela abaixo apresenta o mapeamento entre Objetivos, Questões e Métricas (G
 | M1 | Número de Vantagens Identificadas | Quantidade total de vantagens distintas mencionadas pelos participantes para cada abordagem | Quantidade (número inteiro) |
 | M2 | Frequência de Menção de Vantagens | Quantas vezes cada vantagem específica foi mencionada pelos participantes | Quantidade (número inteiro) |
 | M3 | Score Médio de Importância das Vantagens | Média das avaliações de importância (escala Likert) atribuídas às vantagens identificadas | Escala (1-5 ou 1-10) |
-| M4 | Tempo Médio de Desenvolvimento de API | Tempo médio gasto para desenvolver uma API completa (do design à implementação) | Tempo (horas ou dias) |
-| M5 | Produtividade Percebida | Autoavaliação dos desenvolvedores sobre sua produtividade usando cada abordagem | Escala (1-5 ou 1-10) |
-| M6 | Taxa de Conclusão de Tarefas | Proporção de tarefas relacionadas a APIs concluídas dentro do prazo estimado | Percentual (%) |
-| M7 | Densidade de Defeitos | Número de defeitos encontrados por unidade de código ou por API desenvolvida | Quantidade por API ou por KLOC |
-| M8 | Qualidade Percebida do Código | Autoavaliação dos desenvolvedores sobre a qualidade do código gerado | Escala (1-5 ou 1-10) |
-| M9 | Número de Desvantagens Identificadas | Quantidade total de desvantagens distintas mencionadas pelos participantes para cada abordagem | Quantidade (número inteiro) |
-| M10 | Frequência de Menção de Desvantagens | Quantas vezes cada desvantagem específica foi mencionada pelos participantes | Quantidade (número inteiro) |
-| M11 | Score Médio de Severidade das Desvantagens | Média das avaliações de severidade (escala Likert) atribuídas às desvantagens identificadas | Escala (1-5 ou 1-10) |
-| M12 | Complexidade Percebida do Processo | Autoavaliação dos desenvolvedores sobre a complexidade do processo de desenvolvimento | Escala (1-5 ou 1-10) |
-| M13 | Número de Ferramentas Necessárias | Quantidade média de ferramentas e tecnologias que precisam ser aprendidas/dominadas | Quantidade (número inteiro) |
-| M14 | Tempo Médio de Manutenção | Tempo médio gasto em atividades de manutenção e evolução de APIs existentes | Tempo (horas ou dias por mês) |
-| M15 | Tempo de Curva de Aprendizado | Tempo necessário para um desenvolvedor se tornar produtivo com a abordagem | Tempo (semanas ou meses) |
-| M16 | Nível de Colaboração Percebida | Autoavaliação sobre a facilidade e qualidade da colaboração entre equipes | Escala (1-5 ou 1-10) |
-| M17 | Frequência de Comunicação entre Equipes | Número médio de interações necessárias entre equipes frontend e backend durante o desenvolvimento | Quantidade (número de interações) |
-| M18 | Completude da Documentação | Percentual de APIs que possuem documentação completa e atualizada | Percentual (%) |
-| M19 | Qualidade Percebida da Documentação | Autoavaliação sobre a qualidade, clareza e utilidade da documentação gerada | Escala (1-5 ou 1-10) |
-| M20 | Tempo Médio de Integração | Tempo médio necessário para integrar um novo serviço ou consumir uma API existente | Tempo (horas ou dias) |
-| M21 | Taxa de Sucesso de Integrações | Proporção de tentativas de integração que são bem-sucedidas na primeira tentativa | Percentual (%) |
-| M22 | Distribuição por Tipo de Organização | Proporção de participantes de cada tipo de organização (startup, média, grande) que usa cada abordagem | Percentual (%) |
-| M23 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento nos projetos que usam cada abordagem | Quantidade (número de pessoas) |
-| M24 | Anos de Experiência Média | Anos médios de experiência profissional dos participantes que preferem cada abordagem | Tempo (anos) |
-| M25 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem, estratificada por nível de experiência | Percentual (%) |
+| M4 | Produtividade Percebida | Autoavaliação dos desenvolvedores sobre sua produtividade usando cada abordagem | Escala (1-5 ou 1-10) |
+| M5 | Qualidade Percebida do Código | Autoavaliação dos desenvolvedores sobre a qualidade do código gerado | Escala (1-5 ou 1-10) |
+| M6 | Número de Desvantagens Identificadas | Quantidade total de desvantagens distintas mencionadas pelos participantes para cada abordagem | Quantidade (número inteiro) |
+| M7 | Frequência de Menção de Desvantagens | Quantas vezes cada desvantagem específica foi mencionada pelos participantes | Quantidade (número inteiro) |
+| M8 | Score Médio de Severidade das Desvantagens | Média das avaliações de severidade (escala Likert) atribuídas às desvantagens identificadas | Escala (1-5 ou 1-10) |
+| M9 | Complexidade Percebida do Processo | Autoavaliação dos desenvolvedores sobre a complexidade do processo de desenvolvimento | Escala (1-5 ou 1-10) |
+| M10 | Número de Ferramentas Necessárias | Quantidade média de ferramentas e tecnologias que precisam ser aprendidas/dominadas | Quantidade (número inteiro) |
+| M11 | Tempo Médio de Manutenção | Tempo médio gasto em atividades de manutenção e evolução de APIs existentes | Tempo (horas ou dias por mês) |
+| M12 | Tempo de Curva de Aprendizado | Tempo necessário para um desenvolvedor se tornar produtivo com a abordagem | Tempo (semanas ou meses) |
+| M13 | Nível de Colaboração Percebida | Autoavaliação sobre a facilidade e qualidade da colaboração entre equipes | Escala (1-5 ou 1-10) |
+| M14 | Frequência de Comunicação entre Equipes | Número médio de interações necessárias entre equipes frontend e backend durante o desenvolvimento | Quantidade (número de interações) |
+| M15 | Completude da Documentação | Percentual de APIs que possuem documentação completa e atualizada | Percentual (%) |
+| M16 | Qualidade Percebida da Documentação | Autoavaliação sobre a qualidade, clareza e utilidade da documentação gerada | Escala (1-5 ou 1-10) |
+| M17 | Tempo Médio de Integração | Tempo médio necessário para integrar um novo serviço ou consumir uma API existente | Tempo (horas ou dias) |
+| M18 | Taxa de Sucesso de Integrações | Proporção de tentativas de integração que são bem-sucedidas na primeira tentativa | Percentual (%) |
+| M19 | Distribuição por Tipo de Organização | Proporção de participantes de cada tipo de organização (startup, média, grande) que usa cada abordagem | Percentual (%) |
+| M20 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento nos projetos que usam cada abordagem | Quantidade (número de pessoas) |
+| M21 | Anos de Experiência Média | Anos médios de experiência profissional dos participantes que preferem cada abordagem | Tempo (anos) |
+| M22 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem, estratificada por nível de experiência | Percentual (%) |
 
 ---
 
@@ -535,41 +532,41 @@ As hipóteses são formuladas para as principais questões de pesquisa, consider
 
 **H1.1**: Profissionais que utilizaram API-First percebem mais vantagens em relação à produtividade do que profissionais que utilizaram apenas Code-First.
 - **H0.1**: Não há diferença na percepção de vantagens relacionadas à produtividade entre os grupos
-- **H1.1**: Profissionais que utilizaram API-First percebem significativamente mais vantagens relacionadas à produtividade (M4, M5, M6 maiores)
+- **H1.1**: Profissionais que utilizaram API-First percebem significativamente mais vantagens relacionadas à produtividade (M4 maior)
 
 **H1.2**: Profissionais que utilizaram API-First relatam maior qualidade percebida do código do que profissionais que utilizaram apenas Code-First.
 - **H0.2**: Não há diferença na qualidade percebida do código entre os grupos
-- **H1.2**: Profissionais que utilizaram API-First relatam significativamente maior qualidade percebida (M7, M8 maiores)
+- **H1.2**: Profissionais que utilizaram API-First relatam significativamente maior qualidade percebida (M5 maior)
 
 **Hipóteses relacionadas ao Objetivo O2 (Desvantagens e Complexidade):**
 
 **H2.1**: Profissionais que utilizaram API-First percebem mais desvantagens relacionadas à complexidade do que profissionais que utilizaram apenas Code-First.
 - **H0.3**: Não há diferença na percepção de desvantagens relacionadas à complexidade entre os grupos
-- **H1.3**: Profissionais que utilizaram API-First percebem significativamente mais desvantagens relacionadas à complexidade (M12, M13 maiores)
+- **H1.3**: Profissionais que utilizaram API-First percebem significativamente mais desvantagens relacionadas à complexidade (M9, M10 maiores)
 
 **H2.2**: Profissionais que utilizaram API-First relatam maior tempo de curva de aprendizado do que profissionais que utilizaram apenas Code-First.
 - **H0.4**: Não há diferença no tempo de curva de aprendizado entre os grupos
-- **H1.4**: Profissionais que utilizaram API-First relatam significativamente maior tempo de curva de aprendizado (M15 maior)
+- **H1.4**: Profissionais que utilizaram API-First relatam significativamente maior tempo de curva de aprendizado (M12 maior)
 
 **Hipóteses relacionadas ao Objetivo O3 (Colaboração e Documentação):**
 
 **H3.1**: Profissionais que utilizaram API-First percebem maior nível de colaboração entre equipes do que profissionais que utilizaram apenas Code-First.
 - **H0.5**: Não há diferença no nível de colaboração percebida entre os grupos
-- **H1.5**: Profissionais que utilizaram API-First percebem significativamente maior nível de colaboração (M16 maior, M17 menor)
+- **H1.5**: Profissionais que utilizaram API-First percebem significativamente maior nível de colaboração (M13 maior, M14 menor)
 
 **H3.2**: Profissionais que utilizaram API-First relatam maior qualidade e completude da documentação do que profissionais que utilizaram apenas Code-First.
 - **H0.6**: Não há diferença na qualidade e completude da documentação entre os grupos
-- **H1.6**: Profissionais que utilizaram API-First relatam significativamente maior qualidade e completude da documentação (M18, M19 maiores)
+- **H1.6**: Profissionais que utilizaram API-First relatam significativamente maior qualidade e completude da documentação (M15, M16 maiores)
 
 **Hipóteses relacionadas ao Objetivo O4 (Fatores Contextuais):**
 
 **H4.1**: O tipo de organização influencia a preferência entre API-First e Code-First.
 - **H0.7**: Não há associação entre tipo de organização e preferência de abordagem
-- **H1.7**: Existe associação significativa entre tipo de organização e preferência de abordagem (M22 mostra distribuições diferentes)
+- **H1.7**: Existe associação significativa entre tipo de organização e preferência de abordagem (M19 mostra distribuições diferentes)
 
 **H4.2**: A experiência dos profissionais influencia a preferência entre API-First e Code-First.
 - **H0.8**: Não há associação entre experiência profissional e preferência de abordagem
-- **H1.8**: Existe associação significativa entre experiência profissional e preferência de abordagem (M24, M25 mostram diferenças)
+- **H1.8**: Existe associação significativa entre experiência profissional e preferência de abordagem (M21, M22 mostram diferenças)
 
 #### 7.3 Nível de significância e considerações de poder
 
@@ -627,9 +624,9 @@ Os participantes serão divididos em dois grupos principais baseados em sua expe
 | **Tamanho da Equipe** | Pequena (1-5 pessoas) | Equipes pequenas |
 | | Média (6-15 pessoas) | Equipes de tamanho médio |
 | | Grande (16+ pessoas) | Equipes grandes |
-| **Anos de Experiência** | 1-3 anos | Profissionais iniciantes na carreira |
-| | 4-7 anos | Profissionais com a carreira intermediária |
-| | 8+ anos | Profissionais avançados na carreira |
+| **Anos de Experiência** | Junior | Profissionais iniciantes na carreira |
+| | Pleno | Profissionais intermediários na carreira |
+| | Senior | Profissionais avançados na carreira |
 
 #### 8.4 Tratamentos (condições experimentais)
 
@@ -659,31 +656,28 @@ As variáveis dependentes são medidas através de respostas ao questionário e 
 | M1 | Número de Vantagens Identificadas | Quantidade total de vantagens distintas mencionadas | Quantitativa | Número inteiro |
 | M2 | Frequência de Menção de Vantagens | Quantas vezes cada vantagem foi mencionada | Quantitativa | Número inteiro |
 | M3 | Score Médio de Importância das Vantagens | Média das avaliações de importância | Quantitativa | Escala Likert (1-5) |
-| M4 | Tempo Médio de Desenvolvimento de API | Tempo médio para desenvolver uma API completa | Quantitativa | Horas ou dias |
-| M5 | Produtividade Percebida | Autoavaliação sobre produtividade | Quantitativa | Escala Likert (1-5) |
-| M6 | Taxa de Conclusão de Tarefas | Proporção de tarefas concluídas no prazo | Quantitativa | Percentual (%) |
-| M7 | Densidade de Defeitos | Número de defeitos por API ou por KLOC | Quantitativa | Quantidade por API |
-| M8 | Qualidade Percebida do Código | Autoavaliação sobre qualidade do código | Quantitativa | Escala Likert (1-5) |
+| M4 | Produtividade Percebida | Autoavaliação sobre produtividade | Quantitativa | Escala Likert (1-5) |
+| M5 | Qualidade Percebida do Código | Autoavaliação sobre qualidade do código | Quantitativa | Escala Likert (1-5) |
 | **Dimensão: Desvantagens e Complexidade** |
-| M9 | Número de Desvantagens Identificadas | Quantidade total de desvantagens distintas mencionadas | Quantitativa | Número inteiro |
-| M10 | Frequência de Menção de Desvantagens | Quantas vezes cada desvantagem foi mencionada | Quantitativa | Número inteiro |
-| M11 | Score Médio de Severidade das Desvantagens | Média das avaliações de severidade | Quantitativa | Escala Likert (1-5) |
-| M12 | Complexidade Percebida do Processo | Autoavaliação sobre complexidade | Quantitativa | Escala Likert (1-5) |
-| M13 | Número de Ferramentas Necessárias | Quantidade média de ferramentas a aprender | Quantitativa | Número inteiro |
-| M14 | Tempo Médio de Manutenção | Tempo médio gasto em manutenção | Quantitativa | Horas/dias por mês |
-| M15 | Tempo de Curva de Aprendizado | Tempo para se tornar produtivo | Quantitativa | Semanas ou meses |
+| M6 | Número de Desvantagens Identificadas | Quantidade total de desvantagens distintas mencionadas | Quantitativa | Número inteiro |
+| M7 | Frequência de Menção de Desvantagens | Quantas vezes cada desvantagem foi mencionada | Quantitativa | Número inteiro |
+| M8 | Score Médio de Severidade das Desvantagens | Média das avaliações de severidade | Quantitativa | Escala Likert (1-5) |
+| M9 | Complexidade Percebida do Processo | Autoavaliação sobre complexidade | Quantitativa | Escala Likert (1-5) |
+| M10 | Número de Ferramentas Necessárias | Quantidade média de ferramentas a aprender | Quantitativa | Número inteiro |
+| M11 | Tempo Médio de Manutenção | Tempo médio gasto em manutenção | Quantitativa | Horas/dias por mês |
+| M12 | Tempo de Curva de Aprendizado | Tempo para se tornar produtivo | Quantitativa | Semanas ou meses |
 | **Dimensão: Colaboração e Documentação** |
-| M16 | Nível de Colaboração Percebida | Autoavaliação sobre colaboração entre equipes | Quantitativa | Escala Likert (1-5) |
-| M17 | Frequência de Comunicação entre Equipes | Número médio de interações necessárias | Quantitativa | Número de interações |
-| M18 | Completude da Documentação | Percentual de APIs com documentação completa | Quantitativa | Percentual (%) |
-| M19 | Qualidade Percebida da Documentação | Autoavaliação sobre qualidade da documentação | Quantitativa | Escala Likert (1-5) |
-| M20 | Tempo Médio de Integração | Tempo necessário para integrar novo serviço | Quantitativa | Horas ou dias |
-| M21 | Taxa de Sucesso de Integrações | Proporção de integrações bem-sucedidas na primeira tentativa | Quantitativa | Percentual (%) |
+| M13 | Nível de Colaboração Percebida | Autoavaliação sobre colaboração entre equipes | Quantitativa | Escala Likert (1-5) |
+| M14 | Frequência de Comunicação entre Equipes | Número médio de interações necessárias | Quantitativa | Número de interações |
+| M15 | Completude da Documentação | Percentual de APIs com documentação completa | Quantitativa | Percentual (%) |
+| M16 | Qualidade Percebida da Documentação | Autoavaliação sobre qualidade da documentação | Quantitativa | Escala Likert (1-5) |
+| M17 | Tempo Médio de Integração | Tempo necessário para integrar novo serviço | Quantitativa | Horas ou dias |
+| M18 | Taxa de Sucesso de Integrações | Proporção de integrações bem-sucedidas na primeira tentativa | Quantitativa | Percentual (%) |
 | **Dimensão: Fatores Contextuais** |
-| M22 | Distribuição por Tipo de Organização | Proporção de participantes por tipo de organização | Quantitativa | Percentual (%) |
-| M23 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento | Quantitativa | Número de pessoas |
-| M24 | Anos de Experiência Média | Anos médios de experiência profissional | Quantitativa | Anos |
-| M25 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem | Quantitativa | Percentual (%) |
+| M19 | Distribuição por Tipo de Organização | Proporção de participantes por tipo de organização | Quantitativa | Percentual (%) |
+| M20 | Distribuição por Tamanho de Equipe | Tamanho médio da equipe de desenvolvimento | Quantitativa | Número de pessoas |
+| M21 | Anos de Experiência Média | Anos médios de experiência profissional | Quantitativa | Anos |
+| M22 | Preferência por Abordagem | Proporção de participantes que preferem cada abordagem | Quantitativa | Percentual (%) |
 | **Dimensão: Qualitativa** |
 | VQ1 | Lista de Vantagens Identificadas | Lista qualitativa de vantagens mencionadas | Qualitativa | Texto livre |
 | VQ2 | Lista de Desvantagens Identificadas | Lista qualitativa de desvantagens mencionadas | Qualitativa | Texto livre |
