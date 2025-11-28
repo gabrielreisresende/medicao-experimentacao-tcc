@@ -12,7 +12,8 @@ gabrielreisresende-medicao-experimentacao-tcc
 - v1.0 (23/11/2025): Inclusão da identificação básica, contexto e problema do projeto de pesquisa.
 - v1.1 (23/11/2025): Escopo, Objetivo, Stakeholders/Impacto, Riscos de alto nível, premissas e critérios de sucesso
 - v1.2 (25/11/2025): Modelo conceitual e hipóteses (Etapa 7), Variáveis, fatores, tratamentos e objetos de estudo (Etapa 8), Desenho experimental (Etapa 9)
-
+- v1.3 (27/11/2025) População, sujeitos e amostragem; Instrumentação e protocolo operacional; Plano de análise de dados
+ 
 #### 1.4 Datas (criação, última atualização)
 - Data de criação: 23/11/2025
 - Última atualização: 25/11/2025
@@ -894,54 +895,982 @@ Análises por subgrupos terão tamanhos de amostra menores, limitando o poder es
 ### 10. População, sujeitos e amostragem
 
 #### 10.1 População-alvo
-Descreva qual é a população real que você deseja representar com o experimento (por exemplo, “desenvolvedores Java de times de produto web”).
+
+A população-alvo deste experimento compreende profissionais da indústria de software que trabalham ou trabalharam em projetos com arquiteturas distribuídas, especificamente:
+
+- Desenvolvedores de software, arquitetos de software, tech leads e engenheiros de software que possuem experiência prática em design e implementação de APIs
+- Profissionais que atuam ou atuaram em organizações de diferentes portes (startups, empresas de médio porte e grandes corporações)
+- Profissionais que trabalham ou trabalharam em projetos que utilizam arquiteturas distribuídas, incluindo:
+  - Sistemas baseados em microsserviços
+  - Arquiteturas orientadas a serviços (SOA)
+  - Sistemas orientados a eventos
+  - Outras arquiteturas distribuídas modernas
+- Profissionais com experiência mínima de 1 ano trabalhando com arquiteturas distribuídas
+- Profissionais que têm ou tiveram experiência prática com pelo menos uma das abordagens** (API-First ou Code-First) em projetos reais
+
+**Características demográficas da população-alvo:**
+- **Geográfico**: Inicialmente focado em profissionais que dominam português (principalmente Brasil), mas não limitado geograficamente
+- **Setor**: Indústria de software em geral (produtos, serviços, consultoria, etc.)
+- **Nível de experiência**: Desde profissionais júnior (com pelo menos 1 ano de experiência) até profissionais sênior
+- **Contexto organizacional**: Diferentes tipos de organizações, desde startups até grandes corporações
 
 #### 10.2 Critérios de inclusão de sujeitos
-Especifique os requisitos mínimos para um participante ser elegível (experiência, conhecimento, papel, disponibilidade, etc.).
+
+Para ser elegível para participar do estudo, o participante deve atender a **todos** os seguintes critérios:
+
+1. **Experiência profissional mínima**:
+   - Pelo menos 1 ano de experiência trabalhando com arquiteturas distribuídas
+   - Experiência prática em design e/ou implementação de APIs
+
+2. **Experiência com abordagens de design de API**:
+   - Ter trabalhado em pelo menos um projeto profissional utilizando API-First OU Code-First
+   - Capacidade de identificar e descrever qual abordagem foi utilizada
+
+3. **Papel profissional relevante**:
+   - Desenvolvedor de software, arquitetos de software, tech lead, engenheiro de software, ou papel similar
+   - Participação ativa em projetos de desenvolvimento de software
+
+4. **Compreensão das abordagens**:
+   - Capacidade de compreender as definições de API-First e Code-First fornecidas no questionário
+   - Capacidade de responder perguntas sobre suas experiências com as abordagens
+
+5. **Disponibilidade e consentimento**:
+   - Disponibilidade para preencher o questionário completo (estimado em 15-20 minutos)
+   - Consentimento informado para participação no estudo
+   - Acesso à internet e capacidade de acessar a plataforma de survey
+
+6. **Idioma**:
+   - Domínio suficiente do português para compreender e responder ao questionário
 
 #### 10.3 Critérios de exclusão de sujeitos
-Liste condições que impedem participação (conflitos de interesse, falta de skills essenciais, restrições legais ou éticas).
+
+Os seguintes critérios **impedem** a participação no estudo:
+
+1. **Falta de experiência relevante**:
+   - Menos de 1 ano de experiência com arquiteturas distribuídas
+   - Nenhuma experiência prática em design ou implementação de APIs
+   - Apenas experiência teórica ou acadêmica, sem experiência profissional prática
+
+2. **Incapacidade de identificar abordagem utilizada**:
+   - Participantes que não conseguem identificar qual abordagem (API-First ou Code-First) utilizaram em seus projetos
+   - Participantes que não conseguem descrever adequadamente sua experiência após receberem as definições
+
+3. **Conflitos de interesse**:
+   - Participantes que trabalham diretamente com o pesquisador em projetos relacionados
+   - Participantes que têm relação profissional ou pessoal que possa comprometer a objetividade das respostas
+
+4. **Restrições legais ou éticas**:
+   - Menores de idade (sem consentimento de responsável legal, se aplicável)
+   - Participantes que não podem fornecer consentimento informado válido
+
+5. **Respostas inválidas ou inconsistentes**:
+   - Participantes que fornecem respostas claramente inconsistentes ou inválidas
+   - Participantes que não completam seções críticas do questionário
+   - Respostas que indicam falta de compreensão das perguntas ou das abordagens
+
+6. **Participação duplicada**:
+   - Participantes que já responderam ao questionário anteriormente (identificados através de controles técnicos ou análise de respostas)
 
 #### 10.4 Tamanho da amostra planejado (por grupo)
-Defina quantos participantes você pretende ter no total e em cada grupo, relacionando a decisão com poder, recursos e contexto.
+
+**Tamanho total da amostra:**
+- **Mínimo**: 50 participantes válidos
+- **Ideal**: 60-80 participantes válidos
+- **Máximo viável**: 100 participantes (considerando restrições de tempo e recursos)
+
+**Tamanho por grupo:**
+- **Grupo API-First**: 
+  - Mínimo: 20 participantes
+  - Ideal: 30-40 participantes
+- **Grupo Code-First**: 
+  - Mínimo: 20 participantes
+  - Ideal: 30-40 participantes
+
+**Justificativa do tamanho da amostra:**
+
+1. **Poder estatístico**:
+   - Para detectar efeitos médios (Cohen's d ≈ 0,5) com poder de 80% e α = 0,05 em testes t de duas amostras, seriam necessários aproximadamente 64 participantes por grupo (128 no total)
+   - Considerando restrições práticas do estudo (TCC, recursos limitados, amostra de conveniência), o tamanho mínimo de 50 participantes (25 por grupo) reduz o poder para aproximadamente 60-65% para efeitos médios
+   - Este poder é considerado aceitável para um estudo exploratório e comparativo
+
+2. **Análises estratificadas**:
+   - O tamanho ideal (60-80 participantes) permite análises estratificadas por variáveis de controle (tipo de organização, tamanho de equipe, experiência) com tamanhos de subgrupos razoáveis
+   - Análises estratificadas terão poder estatístico limitado, mas permitirão identificação de padrões qualitativos
+
+3. **Recursos e viabilidade**:
+   - O tamanho mínimo de 50 participantes é viável considerando:
+     - Canais de recrutamento disponíveis (redes sociais, fóruns, grupos profissionais)
+     - Tempo disponível para coleta de dados
+     - Ausência de incentivos financeiros
+     - Natureza voluntária da participação
+
+4. **Critérios de sucesso**:
+   - O tamanho mínimo atende aos critérios de sucesso definidos na seção 6.2:
+     - Pelo menos 50 participantes válidos no total
+     - Pelo menos 20 participantes em cada grupo
+
+5. **Balanceamento**:
+   - Será buscado balanceamento entre grupos (proporção ideal de 50:50, aceitável de 40:60)
+   - Se houver desbalanceamento significativo, estratégias de recrutamento direcionadas serão aplicadas
+
+**Plano de recrutamento incremental:**
+- **Fase 1**: Recrutamento inicial até atingir 50 participantes
+- **Fase 2**: Se houver desbalanceamento ou baixa qualidade, recrutamento adicional até 60-80 participantes
+- **Fase 3**: Recrutamento adicional apenas se necessário para análises específicas ou se houver oportunidade
 
 #### 10.5 Método de seleção / recrutamento
-Explique como os participantes serão escolhidos (amostra de conveniência, sorteio, convite aberto, turma de disciplina, time específico).
+
+**Tipo de amostragem**: **Amostra de conveniência (convenience sampling)** com elementos de **amostra por bola de neve (snowball sampling)**
+
+**Justificativa:**
+- Não é viável obter uma amostra probabilística verdadeiramente aleatória da população-alvo devido a:
+  - Ausência de lista completa e acessível da população
+  - Recursos limitados para recrutamento sistemático
+  - Natureza do estudo (survey voluntário sem incentivos)
+- Amostra de conveniência é comum e aceitável em estudos de survey na área de engenharia de software
+- Limitações de generalização serão claramente documentadas
+
+**Estratégias de recrutamento:**
+
+1. **Canais de recrutamento primários**:
+   - **Redes sociais profissionais**: LinkedIn (posts em grupos de desenvolvedores, arquitetos de software)
+   - **Fóruns e comunidades técnicas**: Reddit (r/softwaredevelopment, r/programming), Stack Overflow, Dev.to
+   - **Grupos de WhatsApp/Telegram**: Grupos de desenvolvedores, arquitetos de software, comunidades técnicas
+   - **Comunidades acadêmicas e profissionais**: Grupos de ex-alunos, comunidades de PUC Minas, grupos de profissionais de software
+
+2. **Canais de recrutamento secundários**:
+   - **Amostra por bola de neve**: Solicitação aos participantes iniciais para compartilhar o survey com colegas elegíveis
+   - **Parcerias com comunidades**: Contato com organizadores de meetups, comunidades técnicas, grupos de estudo
+   - **Divulgação em eventos**: Se houver oportunidade, divulgação em eventos de tecnologia (presenciais ou online)
+
+3. **Mensagens de recrutamento**:
+   - Mensagem clara sobre o propósito do estudo
+   - Tempo estimado de preenchimento (15-20 minutos)
+   - Benefícios de participação (acesso aos resultados, contribuição para pesquisa)
+   - Garantia de anonimato e confidencialidade
+   - Link direto para o questionário
+
+4. **Estratégias para balanceamento**:
+   - Monitoramento contínuo da distribuição entre grupos durante a coleta
+   - Mensagens de recrutamento direcionadas se houver desbalanceamento:
+     - Se Grupo API-First estiver sub-representado: ênfase em recrutar profissionais com experiência em API-First
+     - Se Grupo Code-First estiver sub-representado: ênfase em recrutar profissionais sem experiência em API-First
+
+5. **Controle de qualidade**:
+   - Verificação de critérios de elegibilidade através de perguntas de triagem no início do questionário
+   - Exclusão automática de participantes que não atendem critérios mínimos
+   - Análise de respostas para identificar participação duplicada ou inválida
+
+**Cronograma de recrutamento:**
+- **Semana 1-2**: Divulgação inicial em canais primários
+- **Semana 3-4**: Divulgação em canais secundários e amostra por bola de neve
+- **Semana 5-6**: Recrutamento direcionado se necessário para balanceamento
+- **Semana 7+**: Recrutamento adicional apenas se necessário para atingir tamanho mínimo
 
 #### 10.6 Treinamento e preparação dos sujeitos
-Descreva qual treinamento ou material preparatório será fornecido para nivelar entendimento e reduzir vieses por falta de conhecimento.
+
+**Estratégia de preparação:**
+
+Como este é um estudo observacional baseado em survey sobre experiências passadas, não há necessidade de treinamento extensivo. No entanto, será fornecido material preparatório para garantir compreensão adequada das abordagens e reduzir viés por falta de conhecimento.
+
+**Materiais de preparação fornecidos no questionário:**
+
+1. **Seção introdutória com definições claras**:
+   - **Definição de API-First**: 
+     - "Abordagem onde a especificação da API (OpenAPI/Swagger, GraphQL Schema, Protocol Buffers) é criada antes da implementação, servindo como contrato entre equipes e permitindo desenvolvimento paralelo. A especificação é o artefato principal e a implementação segue a especificação."
+   - **Definição de Code-First**: 
+     - "Abordagem onde a API é implementada diretamente no código e a documentação/especificação é gerada automaticamente a partir do código. O código é o artefato principal e a especificação é derivada do código."
+   - **Exemplos práticos** de cada abordagem
+   - **Diferenças principais** entre as abordagens
+
+2. **Perguntas de verificação de compreensão**:
+   - Após as definições, perguntas que verificam se o participante compreendeu as diferenças
+   - Exemplos de cenários para que o participante identifique qual abordagem está sendo descrita
+   - Se o participante não conseguir responder corretamente, será direcionado para releitura das definições ou excluído se não houver compreensão
+
+3. **Instruções claras sobre o preenchimento**:
+   - Instruções sobre como responder cada tipo de pergunta (escalas Likert, questões abertas, múltipla escolha)
+   - Explicação sobre a importância de respostas honestas e baseadas em experiências reais
+   - Estimativa de tempo de preenchimento
+
+4. **Contextualização do estudo**:
+   - Explicação do propósito do estudo
+   - Garantia de anonimato e confidencialidade
+   - Informação sobre como os dados serão utilizados
+
+**Não será fornecido**:
+- Treinamento formal sobre as abordagens (assume-se que participantes já têm experiência)
+- Material de estudo extensivo (o estudo busca percepções baseadas em experiências reais, não conhecimento teórico)
+- Sessões de treinamento presenciais ou online
+
+**Justificativa:**
+- O estudo busca capturar percepções e experiências reais dos participantes, não conhecimento adquirido através de treinamento
+- Fornecer treinamento poderia introduzir viés, influenciando as percepções dos participantes
+- As definições fornecidas servem apenas para garantir que todos compreendam os termos, não para ensinar as abordagens
+- Participantes já devem ter experiência prática, então apenas precisam de clarificação terminológica
 
 ---
 
 ### 11. Instrumentação e protocolo operacional
 
 #### 11.1 Instrumentos de coleta (questionários, logs, planilhas, etc.)
-Liste todos os instrumentos que serão usados para coletar dados (arquivos, formulários, scripts, ferramentas), com uma breve descrição do papel de cada um.
+
+**1. Questionário Online (Instrumento Principal)**
+
+- **Ferramenta**: Google Forms, Typeform ou SurveyMonkey (ferramenta gratuita ou de baixo custo)
+- **Formato**: Questionário web estruturado com múltiplas seções
+- **Papel**: Coleta de dados primários sobre experiências, percepções e métricas dos participantes
+- **Estrutura prevista**:
+  - Seção 1: Consentimento informado e informações sobre o estudo
+  - Seção 2: Definições de API-First e Code-First
+  - Seção 3: Perguntas de triagem e classificação em grupos
+  - Seção 4: Dados demográficos e contextuais (tipo de organização, tamanho de equipe, experiência)
+  - Seção 5: Experiências e percepções sobre a abordagem utilizada
+  - Seção 6: Comparações e avaliações (escalas Likert, questões abertas)
+  - Seção 7: Fatores contextuais e preferências
+  - Seção 8: Comentários adicionais (opcional)
+- **Características técnicas**:
+  - Respostas anônimas (sem coleta de identificadores pessoais)
+  - Exportação de dados em formato CSV/Excel
+  - Validação de respostas obrigatórias
+  - Lógica condicional para direcionamento baseado em respostas
+
+**2. Planilha de Dados (Artefato de Análise)**
+
+- **Ferramenta**: Microsoft Excel ou Google Sheets
+- **Formato**: Planilha estruturada com colunas para cada variável
+- **Papel**: Armazenamento e organização dos dados coletados para análise
+- **Estrutura**:
+  - Uma linha por participante
+  - Colunas para cada variável dependente e independente
+  - Colunas para identificadores de grupo
+  - Colunas para dados demográficos
+  - Colunas para respostas qualitativas (texto)
+- **Convenções**:
+  - Codificação numérica para variáveis categóricas
+  - Valores ausentes marcados como "NA" ou vazios
+  - Preservação de respostas originais em texto para validação
+
+**3. Log de Coleta de Dados**
+
+- **Ferramenta**: Documento de texto ou planilha
+- **Formato**: Registro estruturado de atividades de coleta
+- **Papel**: Rastreabilidade e controle de qualidade da coleta
+- **Informações registradas**:
+  - Data e hora de início da coleta
+  - Canais de recrutamento utilizados
+  - Número de respostas recebidas por dia/semana
+  - Distribuição entre grupos ao longo do tempo
+  - Problemas técnicos ou questões identificadas
+  - Ajustes realizados durante a coleta
+
+**4. Scripts de Análise de Dados (Futuro)**
+
+- **Ferramenta**: Python (com pandas, numpy, scipy, matplotlib) ou R
+- **Formato**: Scripts executáveis para análise estatística
+- **Papel**: Análise automatizada e reprodutível dos dados
+- **Conteúdo previsto**:
+  - Importação e limpeza de dados
+  - Análises estatísticas descritivas
+  - Testes estatísticos (t-teste, qui-quadrado, etc.)
+  - Visualizações (gráficos, tabelas)
+  - Análises qualitativas (codificação de respostas abertas)
+
+**5. Documento de Consentimento Informado**
+
+- **Ferramenta**: Integrado no questionário online
+- **Formato**: Texto com checkbox de aceite
+- **Papel**: Registro de consentimento dos participantes
+- **Conteúdo**:
+  - Objetivo do estudo
+  - Procedimentos
+  - Riscos e benefícios
+  - Confidencialidade e anonimato
+  - Direito de retirada
+  - Contato do pesquisador
 
 #### 11.2 Materiais de suporte (instruções, guias)
-Descreva as instruções escritas, guias rápidos, slides ou outros materiais que serão fornecidos a participantes e administradores do experimento.
+
+**Para Participantes:**
+
+1. **Página de Introdução do Questionário**:
+   - Título do estudo
+   - Breve descrição do objetivo
+   - Tempo estimado de preenchimento (15-20 minutos)
+   - Garantia de anonimato
+   - Informações de contato do pesquisador
+
+2. **Seção de Definições**:
+   - Definições claras e concisas de API-First e Code-First
+   - Exemplos práticos de cada abordagem
+   - Tabela comparativa destacando diferenças principais
+   - Ilustrações ou diagramas (se aplicável)
+
+3. **Instruções de Preenchimento**:
+   - Como responder escalas Likert (explicação da escala 1-5)
+   - Como responder questões abertas (exemplos de respostas esperadas)
+   - Indicação de questões obrigatórias vs. opcionais
+   - Instruções sobre como navegar entre seções
+
+4. **Perguntas de Verificação de Compreensão**:
+   - Questões que verificam se o participante compreendeu as definições
+   - Feedback imediato sobre respostas incorretas
+   - Opção de reler definições antes de continuar
+
+**Para Administradores do Experimento (Pesquisador):**
+
+1. **Guia de Operação do Survey**:
+   - Instruções sobre como configurar o questionário na plataforma escolhida
+   - Checklist de configurações (anonimato, validações, lógica condicional)
+   - Instruções sobre exportação de dados
+   - Procedimentos de backup de dados
+
+2. **Guia de Recrutamento**:
+   - Templates de mensagens para diferentes canais
+   - Calendário de divulgação
+   - Estratégias para balanceamento de grupos
+   - Procedimentos para follow-up
+
+3. **Guia de Controle de Qualidade**:
+   - Critérios para identificar respostas inválidas
+   - Procedimentos para exclusão de participantes
+   - Checklist de validação de dados
+   - Procedimentos para lidar com problemas técnicos
+
+4. **Protocolo de Resolução de Problemas**:
+   - Problemas técnicos comuns e soluções
+   - Como lidar com questões éticas durante a coleta
+   - Contatos para suporte técnico da plataforma
+   - Procedimentos de comunicação com participantes
 
 #### 11.3 Procedimento experimental (protocolo – visão passo a passo)
-Escreva, em ordem, o que acontecerá na operação (do convite ao encerramento), de modo que alguém consiga executar o experimento seguindo esse roteiro.
+
+**FASE 1: PREPARAÇÃO (Antes da Coleta)**
+
+1. **Desenvolvimento do Questionário**:
+   - Criar estrutura do questionário baseada no plano experimental
+   - Incluir todas as seções definidas (consentimento, definições, triagem, coleta de dados)
+   - Configurar lógica condicional para direcionamento baseado em respostas
+   - Configurar validações de respostas obrigatórias
+   - Testar navegação e funcionalidades
+
+2. **Revisão e Validação**:
+   - Revisão do questionário pelo orientador
+   - Teste piloto com 3-5 participantes (ver seção 11.4)
+   - Ajustes baseados em feedback do piloto
+   - Validação final do questionário
+
+3. **Configuração Técnica**:
+   - Configurar anonimato na plataforma
+   - Configurar exportação de dados
+   - Testar em diferentes navegadores e dispositivos
+   - Configurar backup automático de respostas
+
+4. **Aprovação Ética**:
+   - Submissão ao comitê de ética (se necessário)
+   - Aguardar aprovação antes de iniciar coleta
+
+5. **Preparação de Materiais de Recrutamento**:
+   - Preparar mensagens de recrutamento para diferentes canais
+   - Preparar calendário de divulgação
+   - Identificar canais de recrutamento
+
+**FASE 2: COLETA DE DADOS**
+
+6. **Início da Coleta**:
+   - Publicar questionário online (tornar acessível)
+   - Registrar data e hora de início
+   - Iniciar log de coleta de dados
+
+7. **Divulgação Inicial (Semana 1-2)**:
+   - Publicar mensagem de recrutamento em canais primários:
+     - LinkedIn (posts em grupos relevantes)
+     - Reddit (subreddits de desenvolvimento)
+     - Grupos de WhatsApp/Telegram
+     - Comunidades técnicas online
+   - Monitorar respostas recebidas
+   - Registrar no log de coleta
+
+8. **Divulgação Secundária (Semana 3-4)**:
+   - Solicitar aos participantes iniciais compartilhamento (snowball sampling)
+   - Divulgação em canais secundários
+   - Parcerias com comunidades técnicas
+   - Continuar monitoramento de respostas
+
+9. **Monitoramento Contínuo**:
+   - Verificar diariamente número de respostas recebidas
+   - Verificar distribuição entre grupos (API-First vs. Code-First)
+   - Identificar problemas técnicos ou questões
+   - Exportar backup de dados regularmente (semanalmente)
+
+10. **Recrutamento Direcionado (Se Necessário - Semana 5-6)**:
+    - Se houver desbalanceamento entre grupos, ajustar estratégia de recrutamento
+    - Mensagens direcionadas para grupo sub-representado
+    - Continuar monitoramento
+
+11. **Validação de Respostas (Contínuo)**:
+    - Revisar respostas recebidas para identificar:
+      - Respostas incompletas
+      - Respostas inconsistentes
+      - Participantes que não atendem critérios de inclusão
+    - Excluir respostas inválidas conforme critérios definidos
+    - Registrar exclusões no log
+
+12. **Decisão sobre Encerramento**:
+    - Quando atingir tamanho mínimo (50 participantes) e balanceamento aceitável:
+      - Avaliar se é necessário continuar recrutamento
+      - Se sim, continuar até tamanho ideal (60-80)
+      - Se não, proceder para encerramento
+
+**FASE 3: ENCERRAMENTO DA COLETA**
+
+13. **Encerramento da Coleta**:
+    - Fechar questionário para novas respostas (ou definir data limite)
+    - Exportar dados finais em formato CSV/Excel
+    - Fazer backup final dos dados
+    - Registrar data e hora de encerramento no log
+
+14. **Validação Final dos Dados**:
+    - Revisar todas as respostas coletadas
+    - Aplicar critérios de exclusão finais
+    - Identificar e remover duplicatas (se houver)
+    - Verificar completude dos dados
+    - Registrar número final de participantes válidos
+
+15. **Organização dos Dados**:
+    - Organizar dados em planilha estruturada
+    - Codificar variáveis categóricas
+    - Criar variáveis derivadas se necessário
+    - Documentar estrutura dos dados
+
+16. **Comunicação com Participantes (Opcional)**:
+    - Agradecer participantes (se houver mecanismo de contato)
+    - Informar sobre próximos passos (análise, resultados)
+    - Oferecer acesso aos resultados finais (se prometido)
+
+**FASE 4: PÓS-COLETA**
+
+17. **Análise de Dados**:
+    - Executar análises estatísticas planejadas
+    - Realizar análises qualitativas de respostas abertas
+    - Gerar visualizações e relatórios
+
+18. **Documentação**:
+    - Documentar processo de coleta
+    - Registrar problemas encontrados e soluções
+    - Documentar decisões sobre exclusão de participantes
+    - Preparar relatório de coleta
 
 #### 11.4 Plano de piloto (se haverá piloto, escopo e critérios de ajuste)
-Indique se um piloto será realizado, com que participantes e objetivos, e defina que tipo de ajuste do protocolo poderá ser feito com base nesse piloto.
+
+**Sim, será realizado um piloto antes da coleta principal.**
+
+**Objetivos do Piloto:**
+
+1. **Validar compreensão das perguntas**:
+   - Verificar se os participantes compreendem as definições de API-First e Code-First
+   - Identificar perguntas ambíguas ou confusas
+   - Verificar se as instruções são claras
+
+2. **Avaliar tempo de preenchimento**:
+   - Medir tempo real de preenchimento
+   - Verificar se a estimativa de 15-20 minutos é realista
+   - Identificar seções que podem ser simplificadas
+
+3. **Testar funcionalidades técnicas**:
+   - Verificar funcionamento da lógica condicional
+   - Testar validações de respostas
+   - Verificar exportação de dados
+   - Testar em diferentes navegadores e dispositivos
+
+4. **Identificar problemas de navegação**:
+   - Verificar se o fluxo do questionário é intuitivo
+   - Identificar pontos de confusão ou abandono
+   - Verificar se as instruções são suficientes
+
+5. **Validar critérios de triagem**:
+   - Verificar se as perguntas de triagem classificam corretamente os participantes
+   - Identificar se há participantes que não se encaixam claramente em nenhum grupo
+
+**Escopo do Piloto:**
+
+- **Número de participantes**: 5-8 participantes
+- **Seleção de participantes**:
+  - Pelo menos 3 participantes com experiência em API-First
+  - Pelo menos 3 participantes com experiência apenas em Code-First
+  - Diversidade em experiência profissional (júnior, pleno, sênior)
+  - Participantes que não serão incluídos na coleta principal (para evitar viés)
+- **Duração**: 1-2 semanas
+- **Formato**: Mesmo questionário que será usado na coleta principal
+
+**Critérios de Ajuste do Protocolo:**
+
+**Ajustes obrigatórios (devem ser feitos antes da coleta principal):**
+
+1. **Problemas críticos de compreensão**:
+   - Se mais de 50% dos participantes do piloto não compreenderem as definições → Revisar e simplificar definições
+   - Se mais de 30% não conseguirem responder perguntas de verificação → Adicionar mais exemplos ou reformular
+
+2. **Problemas técnicos críticos**:
+   - Falhas na lógica condicional → Corrigir configuração
+   - Problemas de exportação de dados → Trocar plataforma ou corrigir configuração
+   - Incompatibilidade com navegadores comuns → Ajustar ou trocar plataforma
+
+3. **Tempo de preenchimento excessivo**:
+   - Se tempo médio > 30 minutos → Simplificar questionário, remover questões não essenciais
+   - Se houver abandono significativo → Identificar seções problemáticas e simplificar
+
+4. **Problemas de triagem**:
+   - Se participantes não conseguirem se classificar → Reformular perguntas de triagem
+   - Se classificação for ambígua → Adicionar perguntas de validação
+
+**Ajustes recomendados (devem ser considerados):**
+
+1. **Melhorias de clareza**:
+   - Reformular perguntas identificadas como ambíguas
+   - Adicionar exemplos onde necessário
+   - Melhorar instruções de preenchimento
+
+2. **Otimizações de navegação**:
+   - Reorganizar ordem de seções se necessário
+   - Adicionar indicadores de progresso
+   - Melhorar transições entre seções
+
+3. **Ajustes de conteúdo**:
+   - Adicionar ou remover opções em questões de múltipla escolha
+   - Ajustar escalas se necessário
+   - Adicionar questões opcionais baseadas em feedback
+
+**Processo de Ajuste:**
+
+1. **Coleta de feedback do piloto**:
+   - Solicitar feedback qualitativo dos participantes do piloto
+   - Perguntas sobre: clareza, tempo, dificuldades, sugestões
+   - Análise de padrões de resposta e abandono
+
+2. **Revisão com orientador**:
+   - Apresentar resultados do piloto
+   - Discutir ajustes necessários
+   - Obter aprovação para mudanças
+
+3. **Implementação de ajustes**:
+   - Fazer ajustes no questionário
+   - Testar ajustes antes de iniciar coleta principal
+   - Documentar mudanças realizadas
+
+4. **Validação final**:
+   - Se ajustes forem significativos, considerar segundo piloto menor (2-3 participantes)
+   - Caso contrário, proceder para coleta principal
+
+**Critérios de sucesso do piloto:**
+
+O piloto será considerado bem-sucedido se:
+- Pelo menos 80% dos participantes conseguirem completar o questionário
+- Tempo médio de preenchimento estiver entre 15-25 minutos
+- Pelo menos 80% dos participantes compreenderem as definições (respostas corretas nas perguntas de verificação)
+- Não houver problemas técnicos críticos
+- Classificação em grupos for clara para pelo menos 80% dos participantes
 
 ---
 
 ### 12. Plano de análise de dados (pré-execução)
 
 #### 12.1 Estratégia geral de análise (como responderá às questões)
-Explique, em alto nível, como os dados coletados serão usados para responder cada questão de pesquisa ou de negócio.
+
+A estratégia de análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada por objetivos e questões de pesquisa. A análise será conduzida em etapas, começando com análises descritivas, seguidas de análises inferenciais e análises qualitativas.
+
+**Estratégia por Objetivo:**
+
+**O1: Identificar e comparar vantagens percebidas (Q1.1, Q1.2, Q1.3)**
+
+- **Q1.1 (Vantagens percebidas)**:
+  - **Análise qualitativa**: Codificação temática das respostas abertas sobre vantagens mencionadas por cada grupo
+  - **Análise quantitativa**: Contagem de frequência de menção de cada vantagem (M2), número total de vantagens distintas (M1)
+  - **Comparação**: Comparar distribuição de vantagens entre grupos (API-First vs. Code-First)
+  - **Análise quantitativa**: Score médio de importância das vantagens (M3) por grupo, usando teste t ou Mann-Whitney
+
+- **Q1.2 (Impacto na produtividade)**:
+  - **Análise quantitativa**: Comparar produtividade percebida (M4) entre grupos usando teste t de duas amostras ou teste de Mann-Whitney
+  - **Análise descritiva**: Calcular médias, medianas, desvios padrão por grupo
+  - **Análise qualitativa**: Analisar comentários sobre produtividade nas respostas abertas
+
+- **Q1.3 (Impacto na qualidade do código)**:
+  - **Análise quantitativa**: Comparar qualidade percebida do código (M5) entre grupos usando teste t ou Mann-Whitney
+  - **Análise descritiva**: Estatísticas descritivas por grupo
+  - **Análise qualitativa**: Identificar padrões qualitativos sobre qualidade mencionados nas respostas abertas
+
+**O2: Identificar e comparar desvantagens percebidas (Q2.1, Q2.2, Q2.3)**
+
+- **Q2.1 (Desvantagens percebidas)**:
+  - **Análise qualitativa**: Codificação temática das desvantagens mencionadas por cada grupo
+  - **Análise quantitativa**: Frequência de menção (M7), número total de desvantagens (M6)
+  - **Comparação**: Comparar distribuição de desvantagens entre grupos
+  - **Análise quantitativa**: Score médio de severidade (M8) por grupo
+
+- **Q2.2 (Impacto na complexidade)**:
+  - **Análise quantitativa**: Comparar complexidade percebida (M9) e número de ferramentas (M10) entre grupos
+  - **Testes estatísticos**: Teste t ou Mann-Whitney para M9, comparação de médias para M10
+
+- **Q2.3 (Custos de manutenção e curva de aprendizado)**:
+  - **Análise quantitativa**: Comparar tempo médio de manutenção (M11) e tempo de curva de aprendizado (M12) entre grupos
+  - **Testes estatísticos**: Teste t ou Mann-Whitney
+  - **Análise descritiva**: Estatísticas descritivas, identificação de outliers
+
+**O3: Avaliar impacto na colaboração e documentação (Q3.1, Q3.2, Q3.3)**
+
+- **Q3.1 (Colaboração entre equipes)**:
+  - **Análise quantitativa**: Comparar nível de colaboração percebida (M13) e frequência de comunicação (M14) entre grupos
+  - **Testes estatísticos**: Teste t ou Mann-Whitney para M13, comparação de médias para M14
+  - **Análise qualitativa**: Identificar padrões sobre colaboração nas respostas abertas
+
+- **Q3.2 (Qualidade da documentação)**:
+  - **Análise quantitativa**: Comparar completude (M15) e qualidade percebida (M16) da documentação entre grupos
+  - **Testes estatísticos**: Teste t ou Mann-Whitney
+  - **Análise qualitativa**: Analisar comentários sobre documentação
+
+- **Q3.3 (Facilidade de integração)**:
+  - **Análise quantitativa**: Comparar tempo médio de integração (M17) e taxa de sucesso (M18) entre grupos
+  - **Testes estatísticos**: Teste t ou Mann-Whitney para M17, teste de proporções para M18
+
+**O4: Analisar fatores contextuais (Q4.1, Q4.2)**
+
+- **Q4.1 (Fatores organizacionais)**:
+  - **Análise quantitativa**: Análise de associação entre tipo de organização (M19) e tamanho de equipe (M20) com preferência de abordagem
+  - **Testes estatísticos**: Teste qui-quadrado de independência, análise de tabelas de contingência
+  - **Análise descritiva**: Distribuições percentuais por tipo de organização e tamanho de equipe
+
+- **Q4.2 (Experiência dos profissionais)**:
+  - **Análise quantitativa**: Comparar anos de experiência média (M21) e preferência por abordagem (M22) estratificada por nível de experiência
+  - **Testes estatísticos**: Análise de variância (ANOVA) ou Kruskal-Wallis para comparar M21 entre grupos de experiência, teste qui-quadrado para M22
+  - **Análise descritiva**: Distribuições de preferência por nível de experiência
+
+**Análises Adicionais:**
+
+- **Análises estratificadas**: Repetir análises principais estratificando por variáveis de controle (tipo de organização, tamanho de equipe, experiência)
+- **Análises exploratórias**: Identificar padrões não previstos, correlações entre variáveis
+- **Síntese qualitativa**: Integrar insights qualitativos com resultados quantitativos
 
 #### 12.2 Métodos estatísticos planejados
-Liste os principais testes ou técnicas estatísticas que pretende usar (por exemplo, t-teste, ANOVA, testes não paramétricos, regressão).
+
+**Análises Descritivas:**
+
+1. **Estatísticas descritivas para variáveis quantitativas**:
+   - Média, mediana, desvio padrão, mínimo, máximo
+   - Quartis e intervalo interquartil (IQR)
+   - Gráficos: histogramas, boxplots, gráficos de barras
+
+2. **Estatísticas descritivas para variáveis categóricas**:
+   - Frequências absolutas e relativas (percentuais)
+   - Gráficos: gráficos de barras, gráficos de pizza
+
+3. **Análise de distribuições**:
+   - Testes de normalidade: Shapiro-Wilk ou Kolmogorov-Smirnov
+   - Inspeção visual através de Q-Q plots
+   - Determinação de uso de testes paramétricos vs. não paramétricos
+
+**Testes de Hipóteses para Comparações entre Grupos:**
+
+1. **Comparação de médias (variáveis contínuas)**:
+   - **Teste t de Student para duas amostras independentes**:
+     - Quando: dados normalmente distribuídos, variâncias homogêneas
+     - Variáveis: M4, M5, M9, M11, M12, M13, M16, M17, M21
+   - **Teste de Mann-Whitney U (não paramétrico)**:
+     - Quando: dados não normalmente distribuídos ou amostras pequenas
+     - Alternativa não paramétrica ao teste t
+   - **Teste de Levene**: Verificação de homogeneidade de variâncias antes do teste t
+
+2. **Comparação de proporções (variáveis categóricas)**:
+   - **Teste qui-quadrado de independência**:
+     - Quando: testar associação entre variáveis categóricas
+     - Variáveis: M19 (tipo de organização vs. abordagem), M22 (preferência vs. experiência)
+   - **Teste exato de Fisher**:
+     - Quando: amostras pequenas (esperado < 5 em células da tabela)
+
+3. **Comparação de múltiplos grupos**:
+   - **ANOVA de um fator**:
+     - Quando: comparar médias entre 3+ grupos (ex: por tipo de organização)
+     - Variáveis: M4, M5, M9, etc. estratificadas por variáveis categóricas
+   - **Teste de Kruskal-Wallis**:
+     - Quando: alternativa não paramétrica à ANOVA
+   - **Teste post-hoc** (se ANOVA significativa):
+     - Teste de Tukey HSD ou Bonferroni para comparações múltiplas
+
+4. **Análise de frequências**:
+   - **Análise de frequência de menção**: Contagem e comparação de frequências de vantagens/desvantagens mencionadas
+   - **Teste qui-quadrado de aderência**: Comparar distribuições observadas vs. esperadas
+
+**Análises de Associação e Correlação:**
+
+1. **Correlação**:
+   - **Correlação de Pearson**: Para variáveis contínuas normalmente distribuídas
+   - **Correlação de Spearman**: Para variáveis ordinais ou não normalmente distribuídas
+   - Identificar correlações entre variáveis dependentes
+
+2. **Análise de tabelas de contingência**:
+   - Tabelas cruzadas para variáveis categóricas
+   - Cálculo de medidas de associação (V de Cramér, coeficiente de contingência)
+
+**Análises Ajustadas (se necessário):**
+
+1. **Análise de covariância (ANCOVA)**:
+   - Se necessário ajustar comparações entre grupos para variáveis de confusão contínuas
+   - Exemplo: ajustar comparação de M4 (produtividade) por anos de experiência
+
+2. **Modelos de regressão** (análise exploratória):
+   - Regressão linear múltipla: Explorar relações entre múltiplas variáveis independentes e dependentes
+   - Regressão logística: Se necessário modelar preferência binária (API-First vs. Code-First)
+
+**Considerações Estatísticas:**
+
+- **Nível de significância**: α = 0,05 para todos os testes
+- **Ajuste para comparações múltiplas**: 
+  - Correção de Bonferroni ou FDR (False Discovery Rate) se múltiplos testes forem realizados
+  - Considerar ajuste especialmente para análises estratificadas
+- **Poder estatístico**: Documentar poder observado para testes não significativos
+- **Tamanho de efeito**: 
+  - Calcular tamanhos de efeito (Cohen's d para testes t, eta² para ANOVA, V de Cramér para qui-quadrado)
+  - Interpretar significância prática além de significância estatística
+
+**Ferramentas Estatísticas:**
+
+- **Software**: Python (pandas, scipy, statsmodels) ou R
+- **Visualizações**: matplotlib/seaborn (Python) ou ggplot2 (R)
+- **Relatórios**: Jupyter Notebooks ou R Markdown para documentação reprodutível
 
 #### 12.3 Tratamento de dados faltantes e outliers
-Defina previamente as regras para lidar com dados ausentes e valores extremos, evitando decisões oportunistas após ver os resultados.
+
+**Tratamento de Dados Faltantes (Missing Data):**
+
+**Identificação de dados faltantes:**
+- Verificar sistematicamente todas as variáveis para valores ausentes
+- Classificar tipos de dados faltantes:
+  - **MCAR (Missing Completely At Random)**: Ausência aleatória, não relacionada a variáveis observadas ou não observadas
+  - **MAR (Missing At Random)**: Ausência relacionada a variáveis observadas, mas não à variável ausente em si
+  - **MNAR (Missing Not At Random)**: Ausência relacionada ao valor da variável ausente
+
+**Regras para tratamento:**
+
+1. **Dados faltantes em questões obrigatórias**:
+   - Se questão era obrigatória mas está faltando → Investigar problema técnico
+   - Se > 5% de respostas obrigatórias estão faltando → Investigar problema sistemático
+   - **Ação**: Excluir participante se questões críticas de triagem estiverem faltando
+
+2. **Dados faltantes em questões opcionais**:
+   - **Variáveis quantitativas**: 
+     - Se < 10% faltantes: Usar exclusão por caso (listwise deletion) para análises específicas
+     - Se 10-30% faltantes: Considerar imputação (média, mediana, ou modelo) ou análise de sensibilidade
+     - Se > 30% faltantes: Excluir variável da análise ou tratar como variável separada
+   - **Variáveis qualitativas (texto aberto)**:
+     - Tratar como "não fornecido" ou categoria separada
+     - Não imputar respostas qualitativas
+
+3. **Métodos de imputação (se aplicável)**:
+   - **Imputação simples**: Média ou mediana para variáveis contínuas, moda para categóricas
+   - **Imputação por grupo**: Imputar usando estatísticas do grupo (API-First vs. Code-First)
+   - **Análise de sensibilidade**: Comparar resultados com e sem imputação
+
+4. **Documentação**:
+   - Registrar percentual de dados faltantes por variável
+   - Documentar método de tratamento escolhido
+   - Reportar impacto dos dados faltantes nas análises
+
+**Tratamento de Outliers:**
+
+**Identificação de outliers:**
+
+1. **Métodos estatísticos**:
+   - **Método IQR (Interquartile Range)**: Valores fora de Q1 - 1.5×IQR ou Q3 + 1.5×IQR
+   - **Método Z-score**: Valores com |z| > 3 (ou |z| > 2.5 para amostras pequenas)
+   - **Método de distância de Mahalanobis**: Para múltiplas variáveis (se aplicável)
+
+2. **Métodos visuais**:
+   - Boxplots para identificar outliers visuais
+   - Scatter plots para identificar padrões anômalos
+   - Histogramas para identificar distribuições com caudas longas
+
+**Regras para tratamento de outliers:**
+
+1. **Investigação inicial**:
+   - Verificar se outlier é erro de entrada de dados (ex: 1000 horas em vez de 10 horas)
+   - Verificar se outlier é valor válido mas extremo (ex: experiência muito alta)
+   - Verificar consistência com outras respostas do mesmo participante
+
+2. **Decisão sobre tratamento**:
+
+   **Manter outlier se**:
+   - É valor válido e representa experiência real legítima
+   - Não é claramente um erro
+   - Remoção alteraria significativamente resultados (análise de sensibilidade)
+
+   **Corrigir outlier se**:
+   - É claramente um erro de entrada (ex: digitação incorreta)
+   - Pode ser corrigido com base em outras respostas do participante
+   - **Ação**: Corrigir valor ou marcar como faltante se correção não for possível
+
+   **Excluir outlier se**:
+   - É erro não corrigível e afeta análises críticas
+   - Representa < 2% dos dados e é claramente inválido
+   - **Ação**: Excluir apenas para análises específicas, manter em conjunto completo
+
+3. **Análise de sensibilidade**:
+   - Realizar análises principais com e sem outliers
+   - Comparar resultados para avaliar impacto
+   - Documentar se conclusões mudam
+
+4. **Tratamento específico por tipo de variável**:
+
+   **Variáveis de tempo (M11, M12, M17)**:
+   - Valores extremamente altos (ex: > 3 desvios padrão da média) → Investigar se são erros
+   - Se válidos, manter mas documentar
+   - Considerar transformação logarítmica se distribuição for muito assimétrica
+
+   **Escalas Likert (M3, M4, M5, M8, M9, M13, M16)**:
+   - Valores fora da escala (ex: 0 ou 6 em escala 1-5) → Corrigir ou excluir
+   - Valores extremos dentro da escala são válidos → Manter
+
+   **Percentuais (M15, M18)**:
+   - Valores > 100% ou < 0% → Corrigir ou excluir
+   - Valores extremos mas válidos (ex: 0% ou 100%) → Manter
+
+5. **Documentação**:
+   - Listar todos os outliers identificados
+   - Documentar decisão sobre cada outlier (manter, corrigir, excluir)
+   - Reportar impacto nas análises
+
+**Validação de Dados:**
+
+1. **Verificação de consistência**:
+   - Verificar respostas inconsistentes (ex: participante diz nunca ter usado API-First mas descreve experiência com API-First)
+   - Verificar valores impossíveis (ex: anos de experiência maior que idade)
+   - Verificar padrões suspeitos (ex: mesma resposta para todas as questões)
+
+2. **Critérios de exclusão de participantes**:
+   - Respostas claramente inconsistentes ou inválidas
+   - > 50% de dados faltantes em questões críticas
+   - Padrões de resposta indicando falta de engajamento (ex: mesma resposta para todas as escalas)
+
+3. **Documentação de exclusões**:
+   - Registrar número de participantes excluídos e razões
+   - Reportar no documento final
 
 #### 12.4 Plano de análise para dados qualitativos (se houver)
-Descreva como você tratará dados qualitativos (entrevistas, comentários, observações), especificando a técnica de análise (codificação, categorias, etc.).
+
+**Dados Qualitativos Coletados:**
+
+1. **VQ1 - Lista de Vantagens Identificadas**: Respostas abertas sobre vantagens de cada abordagem
+2. **VQ2 - Lista de Desvantagens Identificadas**: Respostas abertas sobre desvantagens de cada abordagem
+3. **VQ3 - Comentários e Observações**: Comentários adicionais dos participantes
+
+**Estratégia de Análise Qualitativa:**
+
+**Abordagem**: **Análise de conteúdo temática** (Thematic Content Analysis) com elementos de análise de frequência
+
+**Fase 1: Preparação dos Dados**
+
+1. **Organização**:
+   - Compilar todas as respostas abertas em documentos de texto
+   - Separar por grupo (API-First vs. Code-First) e por tipo de resposta (vantagens, desvantagens, comentários)
+   - Remover identificadores pessoais (se houver)
+   - Preservar contexto (qual pergunta gerou a resposta)
+
+2. **Limpeza inicial**:
+   - Remover respostas vazias ou inválidas (ex: "não sei", "n/a")
+   - Padronizar formatação básica (capitalização, pontuação)
+   - Manter originalidade das respostas
+
+**Fase 2: Codificação (Coding)**
+
+1. **Codificação aberta (Open Coding)**:
+   - Leitura cuidadosa de todas as respostas
+   - Identificação de unidades de significado (frases, parágrafos relacionados a um conceito)
+   - Criação de códigos iniciais (labels descritivos) para cada unidade de significado
+   - Exemplo de códigos iniciais: "desenvolvimento paralelo", "documentação automática", "complexidade inicial"
+
+2. **Codificação axial (Axial Coding)**:
+   - Agrupar códigos relacionados em categorias temáticas
+   - Identificar relações entre códigos
+   - Exemplo: códigos "desenvolvimento paralelo", "contrato claro", "menos retrabalho" → categoria "Vantagens de Colaboração"
+
+3. **Codificação seletiva (Selective Coding)**:
+   - Identificar temas centrais que emergem das categorias
+   - Integrar categorias em temas principais
+   - Exemplo: tema "Facilitação de Colaboração" integra categorias relacionadas a trabalho em equipe
+
+**Fase 3: Análise Temática**
+
+1. **Identificação de temas**:
+   - Temas principais: Padrões recorrentes de significado relacionados aos objetivos de pesquisa
+   - Temas secundários: Padrões menos frequentes mas relevantes
+   - Temas emergentes: Padrões não previstos que surgem dos dados
+
+2. **Estruturação de temas**:
+   - Organizar temas hierarquicamente (tema principal → sub-temas → categorias → códigos)
+   - Criar definições claras para cada tema
+   - Identificar exemplos representativos (quotations) para cada tema
+
+3. **Validação de temas**:
+   - Verificar se temas capturam adequadamente os dados
+   - Verificar se há sobreposição ou redundância entre temas
+   - Refinar temas conforme necessário
+
+**Fase 4: Análise Quantitativa de Dados Qualitativos**
+
+1. **Frequência de menção**:
+   - Contar quantas vezes cada tema/categoria é mencionado
+   - Calcular frequências absolutas e relativas por grupo
+   - Identificar temas mais e menos frequentes
+
+2. **Comparação entre grupos**:
+   - Comparar distribuição de temas entre grupo API-First e Code-First
+   - Identificar temas exclusivos de cada grupo
+   - Identificar temas comuns mas com frequências diferentes
+
+3. **Análise de importância**:
+   - Se houver avaliação de importância nas respostas, integrar com análise temática
+   - Identificar temas mencionados como mais importantes
+
+**Fase 5: Síntese e Integração**
+
+1. **Integração qualitativa-quantitativa**:
+   - Relacionar temas qualitativos com resultados quantitativos
+   - Usar insights qualitativos para interpretar resultados quantitativos
+   - Identificar convergências e divergências
+
+2. **Identificação de padrões**:
+   - Padrões principais: Temas que aparecem consistentemente
+   - Padrões contextuais: Temas que variam por tipo de organização, tamanho de equipe, etc.
+   - Padrões contraditórios: Temas onde há opiniões divergentes
+
+3. **Geração de insights**:
+   - Síntese dos principais achados qualitativos
+   - Identificação de recomendações práticas
+   - Identificação de áreas para pesquisa futura
+
+**Ferramentas e Validação:**
+
+1. **Ferramentas**:
+   - **Codificação manual**: Excel ou planilhas para organização inicial
+   - **Software de análise qualitativa** (opcional): NVivo, Atlas.ti, ou MAXQDA se disponível
+   - **Alternativa**: Codificação manual com suporte de planilhas e documentos de texto
+
+2. **Validação e Confiabilidade**:
+   - **Validação pelo pesquisador**: Revisão de códigos e temas pelo pesquisador principal
+   - **Validação pelo orientador**: Revisão de uma amostra de códigos e temas pelo orientador
+   - **Triangulação**: Comparar resultados qualitativos com resultados quantitativos
+   - **Documentação**: Manter registro detalhado do processo de codificação e decisões
+
+3. **Apresentação dos Resultados**:
+   - Tabelas de frequência de temas por grupo
+   - Citações representativas (quotations) para ilustrar cada tema
+   - Diagramas ou mapas conceituais mostrando relações entre temas
+   - Narrativa descritiva integrando temas e padrões
+
+**Critérios de Qualidade:**
+
+- **Credibilidade**: Temas são apoiados por evidências nos dados (citações)
+- **Transferibilidade**: Temas são descritos com contexto suficiente para aplicação em outros contextos
+- **Dependabilidade**: Processo de análise é documentado e reprodutível
+- **Confirmabilidade**: Resultados são baseados nos dados, não em preconceitos do pesquisador
 
 ---
 
