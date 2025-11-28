@@ -1477,400 +1477,122 @@ O piloto será considerado bem-sucedido se:
 
 #### 12.1 Estratégia geral de análise (como responderá às questões)
 
-A estratégia de análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada por objetivos e questões de pesquisa. A análise será conduzida em etapas, começando com análises descritivas, seguidas de análises inferenciais e análises qualitativas.
+A análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada por objetivos de pesquisa. O processo será: (1) análises descritivas, (2) comparações estatísticas entre grupos, (3) análises qualitativas de respostas abertas.
 
-**Estratégia por Objetivo:**
+**Resumo por Objetivo:**
 
-**O1: Identificar e comparar vantagens percebidas (Q1.1, Q1.2, Q1.3)**
-
-- **Q1.1 (Vantagens percebidas)**:
-  - **Análise qualitativa**: Codificação temática das respostas abertas sobre vantagens mencionadas por cada grupo
-  - **Análise quantitativa**: Contagem de frequência de menção de cada vantagem (M2), número total de vantagens distintas (M1)
-  - **Comparação**: Comparar distribuição de vantagens entre grupos (API-First vs. Code-First)
-  - **Análise quantitativa**: Score médio de importância das vantagens (M3) por grupo, usando teste t ou Mann-Whitney
-
-- **Q1.2 (Impacto na produtividade)**:
-  - **Análise quantitativa**: Comparar produtividade percebida (M4) entre grupos usando teste t de duas amostras ou teste de Mann-Whitney
-  - **Análise descritiva**: Calcular médias, medianas, desvios padrão por grupo
-  - **Análise qualitativa**: Analisar comentários sobre produtividade nas respostas abertas
-
-- **Q1.3 (Impacto na qualidade do código)**:
-  - **Análise quantitativa**: Comparar qualidade percebida do código (M5) entre grupos usando teste t ou Mann-Whitney
-  - **Análise descritiva**: Estatísticas descritivas por grupo
-  - **Análise qualitativa**: Identificar padrões qualitativos sobre qualidade mencionados nas respostas abertas
-
-**O2: Identificar e comparar desvantagens percebidas (Q2.1, Q2.2, Q2.3)**
-
-- **Q2.1 (Desvantagens percebidas)**:
-  - **Análise qualitativa**: Codificação temática das desvantagens mencionadas por cada grupo
-  - **Análise quantitativa**: Frequência de menção (M7), número total de desvantagens (M6)
-  - **Comparação**: Comparar distribuição de desvantagens entre grupos
-  - **Análise quantitativa**: Score médio de severidade (M8) por grupo
-
-- **Q2.2 (Impacto na complexidade)**:
-  - **Análise quantitativa**: Comparar complexidade percebida (M9) e número de ferramentas (M10) entre grupos
-  - **Testes estatísticos**: Teste t ou Mann-Whitney para M9, comparação de médias para M10
-
-- **Q2.3 (Custos de manutenção e curva de aprendizado)**:
-  - **Análise quantitativa**: Comparar tempo médio de manutenção (M11) e tempo de curva de aprendizado (M12) entre grupos
-  - **Testes estatísticos**: Teste t ou Mann-Whitney
-  - **Análise descritiva**: Estatísticas descritivas, identificação de outliers
-
-**O3: Avaliar impacto na colaboração e documentação (Q3.1, Q3.2, Q3.3)**
-
-- **Q3.1 (Colaboração entre equipes)**:
-  - **Análise quantitativa**: Comparar nível de colaboração percebida (M13) e frequência de comunicação (M14) entre grupos
-  - **Testes estatísticos**: Teste t ou Mann-Whitney para M13, comparação de médias para M14
-  - **Análise qualitativa**: Identificar padrões sobre colaboração nas respostas abertas
-
-- **Q3.2 (Qualidade da documentação)**:
-  - **Análise quantitativa**: Comparar completude (M15) e qualidade percebida (M16) da documentação entre grupos
-  - **Testes estatísticos**: Teste t ou Mann-Whitney
-  - **Análise qualitativa**: Analisar comentários sobre documentação
-
-- **Q3.3 (Facilidade de integração)**:
-  - **Análise quantitativa**: Comparar tempo médio de integração (M17) e taxa de sucesso (M18) entre grupos
-  - **Testes estatísticos**: Teste t ou Mann-Whitney para M17, teste de proporções para M18
-
-**O4: Analisar fatores contextuais (Q4.1, Q4.2)**
-
-- **Q4.1 (Fatores organizacionais)**:
-  - **Análise quantitativa**: Análise de associação entre tipo de organização (M19) e tamanho de equipe (M20) com preferência de abordagem
-  - **Testes estatísticos**: Teste qui-quadrado de independência, análise de tabelas de contingência
-  - **Análise descritiva**: Distribuições percentuais por tipo de organização e tamanho de equipe
-
-- **Q4.2 (Experiência dos profissionais)**:
-  - **Análise quantitativa**: Comparar anos de experiência média (M21) e preferência por abordagem (M22) estratificada por nível de experiência
-  - **Testes estatísticos**: Análise de variância (ANOVA) ou Kruskal-Wallis para comparar M21 entre grupos de experiência, teste qui-quadrado para M22
-  - **Análise descritiva**: Distribuições de preferência por nível de experiência
+- **O1 (Vantagens)**: Comparar vantagens, produtividade e qualidade percebidas entre grupos usando testes estatísticos e análise de respostas abertas
+- **O2 (Desvantagens)**: Comparar desvantagens, complexidade, tempo de manutenção e curva de aprendizado entre grupos
+- **O3 (Colaboração e Documentação)**: Comparar colaboração, qualidade da documentação e facilidade de integração entre grupos
+- **O4 (Fatores Contextuais)**: Analisar associação entre tipo de organização, tamanho de equipe e experiência profissional com preferência de abordagem
 
 **Análises Adicionais:**
-
-- **Análises estratificadas**: Repetir análises principais estratificando por variáveis de controle (tipo de organização, tamanho de equipe, experiência)
-- **Análises exploratórias**: Identificar padrões não previstos, correlações entre variáveis
-- **Síntese qualitativa**: Integrar insights qualitativos com resultados quantitativos
+- Análises estratificadas por variáveis de controle (tipo de organização, tamanho de equipe, experiência)
+- Integração de insights qualitativos com resultados quantitativos
 
 #### 12.2 Métodos estatísticos planejados
 
 **Análises Descritivas:**
+- Estatísticas básicas: médias, medianas, desvios padrão para variáveis quantitativas
+- Frequências e percentuais para variáveis categóricas
+- Gráficos: histogramas, boxplots, gráficos de barras
+- Verificação de normalidade dos dados para escolha de testes apropriados
 
-1. **Estatísticas descritivas para variáveis quantitativas**:
-   - Média, mediana, desvio padrão, mínimo, máximo
-   - Quartis e intervalo interquartil (IQR)
-   - Gráficos: histogramas, boxplots, gráficos de barras
+**Testes Estatísticos Principais:**
 
-2. **Estatísticas descritivas para variáveis categóricas**:
-   - Frequências absolutas e relativas (percentuais)
-   - Gráficos: gráficos de barras, gráficos de pizza
+1. **Comparação entre grupos (API-First vs. Code-First)**:
+   - **Teste t de Student**: Para variáveis contínuas normalmente distribuídas (ex: produtividade, qualidade)
+   - **Teste de Mann-Whitney**: Alternativa não paramétrica quando dados não são normais
+   - Aplicado às métricas: M4, M5, M9, M11, M12, M13, M16, M17
 
-3. **Análise de distribuições**:
-   - Testes de normalidade: Shapiro-Wilk ou Kolmogorov-Smirnov
-   - Inspeção visual através de Q-Q plots
-   - Determinação de uso de testes paramétricos vs. não paramétricos
-
-**Testes de Hipóteses para Comparações entre Grupos:**
-
-1. **Comparação de médias (variáveis contínuas)**:
-   - **Teste t de Student para duas amostras independentes**:
-     - Quando: dados normalmente distribuídos, variâncias homogêneas
-     - Variáveis: M4, M5, M9, M11, M12, M13, M16, M17, M21
-   - **Teste de Mann-Whitney U (não paramétrico)**:
-     - Quando: dados não normalmente distribuídos ou amostras pequenas
-     - Alternativa não paramétrica ao teste t
-   - **Teste de Levene**: Verificação de homogeneidade de variâncias antes do teste t
-
-2. **Comparação de proporções (variáveis categóricas)**:
-   - **Teste qui-quadrado de independência**:
-     - Quando: testar associação entre variáveis categóricas
-     - Variáveis: M19 (tipo de organização vs. abordagem), M22 (preferência vs. experiência)
-   - **Teste exato de Fisher**:
-     - Quando: amostras pequenas (esperado < 5 em células da tabela)
+2. **Análise de associação**:
+   - **Teste qui-quadrado**: Para verificar associação entre variáveis categóricas (ex: tipo de organização vs. abordagem)
+   - Aplicado às métricas: M19, M22
 
 3. **Comparação de múltiplos grupos**:
-   - **ANOVA de um fator**:
-     - Quando: comparar médias entre 3+ grupos (ex: por tipo de organização)
-     - Variáveis: M4, M5, M9, etc. estratificadas por variáveis categóricas
-   - **Teste de Kruskal-Wallis**:
-     - Quando: alternativa não paramétrica à ANOVA
-   - **Teste post-hoc** (se ANOVA significativa):
-     - Teste de Tukey HSD ou Bonferroni para comparações múltiplas
+   - **ANOVA**: Para comparar médias entre 3+ grupos (ex: por tipo de organização)
+   - **Kruskal-Wallis**: Alternativa não paramétrica à ANOVA
 
-4. **Análise de frequências**:
-   - **Análise de frequência de menção**: Contagem e comparação de frequências de vantagens/desvantagens mencionadas
-   - **Teste qui-quadrado de aderência**: Comparar distribuições observadas vs. esperadas
+**Configurações:**
+- Nível de significância: α = 0,05
+- Ajuste para múltiplas comparações quando necessário (correção de Bonferroni)
+- Cálculo de tamanhos de efeito para interpretar significância prática
 
-**Análises de Associação e Correlação:**
-
-1. **Correlação**:
-   - **Correlação de Pearson**: Para variáveis contínuas normalmente distribuídas
-   - **Correlação de Spearman**: Para variáveis ordinais ou não normalmente distribuídas
-   - Identificar correlações entre variáveis dependentes
-
-2. **Análise de tabelas de contingência**:
-   - Tabelas cruzadas para variáveis categóricas
-   - Cálculo de medidas de associação (V de Cramér, coeficiente de contingência)
-
-**Análises Ajustadas (se necessário):**
-
-1. **Análise de covariância (ANCOVA)**:
-   - Se necessário ajustar comparações entre grupos para variáveis de confusão contínuas
-   - Exemplo: ajustar comparação de M4 (produtividade) por anos de experiência
-
-2. **Modelos de regressão** (análise exploratória):
-   - Regressão linear múltipla: Explorar relações entre múltiplas variáveis independentes e dependentes
-   - Regressão logística: Se necessário modelar preferência binária (API-First vs. Code-First)
-
-**Considerações Estatísticas:**
-
-- **Nível de significância**: α = 0,05 para todos os testes
-- **Ajuste para comparações múltiplas**: 
-  - Correção de Bonferroni ou FDR (False Discovery Rate) se múltiplos testes forem realizados
-  - Considerar ajuste especialmente para análises estratificadas
-- **Poder estatístico**: Documentar poder observado para testes não significativos
-- **Tamanho de efeito**: 
-  - Calcular tamanhos de efeito (Cohen's d para testes t, eta² para ANOVA, V de Cramér para qui-quadrado)
-  - Interpretar significância prática além de significância estatística
-
-**Ferramentas Estatísticas:**
-
-- **Software**: Python (pandas, scipy, statsmodels) ou R
-- **Visualizações**: matplotlib/seaborn (Python) ou ggplot2 (R)
-- **Relatórios**: Jupyter Notebooks ou R Markdown para documentação reprodutível
+**Ferramentas:**
+- Software: Python (pandas, scipy) ou R
+- Visualizações: matplotlib/seaborn ou ggplot2
 
 #### 12.3 Tratamento de dados faltantes e outliers
 
-**Tratamento de Dados Faltantes (Missing Data):**
+**Dados Faltantes:**
 
-**Identificação de dados faltantes:**
-- Verificar sistematicamente todas as variáveis para valores ausentes
-- Classificar tipos de dados faltantes:
-  - **MCAR (Missing Completely At Random)**: Ausência aleatória, não relacionada a variáveis observadas ou não observadas
-  - **MAR (Missing At Random)**: Ausência relacionada a variáveis observadas, mas não à variável ausente em si
-  - **MNAR (Missing Not At Random)**: Ausência relacionada ao valor da variável ausente
+**Regras básicas:**
+- **Questões obrigatórias faltantes**: Investigar problema técnico; excluir participante se questões críticas estiverem faltando
+- **Questões opcionais faltantes**:
+  - Se < 10% faltantes: Excluir da análise específica
+  - Se 10-30% faltantes: Considerar imputação (média/mediana) ou análise de sensibilidade
+  - Se > 30% faltantes: Excluir variável da análise
+- **Respostas qualitativas**: Tratar como "não fornecido", não imputar
+- Documentar percentual de dados faltantes e método de tratamento
 
-**Regras para tratamento:**
+**Outliers:**
 
-1. **Dados faltantes em questões obrigatórias**:
-   - Se questão era obrigatória mas está faltando → Investigar problema técnico
-   - Se > 5% de respostas obrigatórias estão faltando → Investigar problema sistemático
-   - **Ação**: Excluir participante se questões críticas de triagem estiverem faltando
-
-2. **Dados faltantes em questões opcionais**:
-   - **Variáveis quantitativas**: 
-     - Se < 10% faltantes: Usar exclusão por caso (listwise deletion) para análises específicas
-     - Se 10-30% faltantes: Considerar imputação (média, mediana, ou modelo) ou análise de sensibilidade
-     - Se > 30% faltantes: Excluir variável da análise ou tratar como variável separada
-   - **Variáveis qualitativas (texto aberto)**:
-     - Tratar como "não fornecido" ou categoria separada
-     - Não imputar respostas qualitativas
-
-3. **Métodos de imputação (se aplicável)**:
-   - **Imputação simples**: Média ou mediana para variáveis contínuas, moda para categóricas
-   - **Imputação por grupo**: Imputar usando estatísticas do grupo (API-First vs. Code-First)
-   - **Análise de sensibilidade**: Comparar resultados com e sem imputação
-
-4. **Documentação**:
-   - Registrar percentual de dados faltantes por variável
-   - Documentar método de tratamento escolhido
-   - Reportar impacto dos dados faltantes nas análises
-
-**Tratamento de Outliers:**
-
-**Identificação de outliers:**
-
-1. **Métodos estatísticos**:
-   - **Método IQR (Interquartile Range)**: Valores fora de Q1 - 1.5×IQR ou Q3 + 1.5×IQR
-   - **Método Z-score**: Valores com |z| > 3 (ou |z| > 2.5 para amostras pequenas)
-   - **Método de distância de Mahalanobis**: Para múltiplas variáveis (se aplicável)
-
-2. **Métodos visuais**:
-   - Boxplots para identificar outliers visuais
-   - Scatter plots para identificar padrões anômalos
-   - Histogramas para identificar distribuições com caudas longas
-
-**Regras para tratamento de outliers:**
-
-1. **Investigação inicial**:
-   - Verificar se outlier é erro de entrada de dados (ex: 1000 horas em vez de 10 horas)
-   - Verificar se outlier é valor válido mas extremo (ex: experiência muito alta)
-   - Verificar consistência com outras respostas do mesmo participante
-
-2. **Decisão sobre tratamento**:
-
-   **Manter outlier se**:
-   - É valor válido e representa experiência real legítima
-   - Não é claramente um erro
-   - Remoção alteraria significativamente resultados (análise de sensibilidade)
-
-   **Corrigir outlier se**:
-   - É claramente um erro de entrada (ex: digitação incorreta)
-   - Pode ser corrigido com base em outras respostas do participante
-   - **Ação**: Corrigir valor ou marcar como faltante se correção não for possível
-
-   **Excluir outlier se**:
-   - É erro não corrigível e afeta análises críticas
-   - Representa < 2% dos dados e é claramente inválido
-   - **Ação**: Excluir apenas para análises específicas, manter em conjunto completo
-
-3. **Análise de sensibilidade**:
-   - Realizar análises principais com e sem outliers
-   - Comparar resultados para avaliar impacto
-   - Documentar se conclusões mudam
-
-4. **Tratamento específico por tipo de variável**:
-
-   **Variáveis de tempo (M11, M12, M17)**:
-   - Valores extremamente altos (ex: > 3 desvios padrão da média) → Investigar se são erros
-   - Se válidos, manter mas documentar
-   - Considerar transformação logarítmica se distribuição for muito assimétrica
-
-   **Escalas Likert (M3, M4, M5, M8, M9, M13, M16)**:
-   - Valores fora da escala (ex: 0 ou 6 em escala 1-5) → Corrigir ou excluir
-   - Valores extremos dentro da escala são válidos → Manter
-
-   **Percentuais (M15, M18)**:
-   - Valores > 100% ou < 0% → Corrigir ou excluir
-   - Valores extremos mas válidos (ex: 0% ou 100%) → Manter
-
-5. **Documentação**:
-   - Listar todos os outliers identificados
-   - Documentar decisão sobre cada outlier (manter, corrigir, excluir)
-   - Reportar impacto nas análises
+**Tratamento:**
+- **Manter**: Se for valor válido representando experiência real legítima
+- **Corrigir**: Se for claramente erro de digitação (ex: 1000 em vez de 10)
+- **Excluir**: Se for erro não corrigível e afetar análises críticas (< 2% dos dados)
+- Realizar análise de sensibilidade (com e sem outliers) para avaliar impacto
 
 **Validação de Dados:**
-
-1. **Verificação de consistência**:
-   - Verificar respostas inconsistentes (ex: participante diz nunca ter usado API-First mas descreve experiência com API-First)
-   - Verificar valores impossíveis (ex: anos de experiência maior que idade)
-   - Verificar padrões suspeitos (ex: mesma resposta para todas as questões)
-
-2. **Critérios de exclusão de participantes**:
-   - Respostas claramente inconsistentes ou inválidas
-   - > 50% de dados faltantes em questões críticas
-   - Padrões de resposta indicando falta de engajamento (ex: mesma resposta para todas as escalas)
-
-3. **Documentação de exclusões**:
-   - Registrar número de participantes excluídos e razões
-   - Reportar no documento final
+- Verificar respostas inconsistentes (ex: diz nunca ter usado API-First mas descreve experiência)
+- Verificar valores impossíveis (ex: anos de experiência maior que idade)
+- Excluir participantes com > 50% de dados faltantes em questões críticas ou padrões de resposta suspeitos
+- Documentar todas as exclusões e razões
 
 #### 12.4 Plano de análise para dados qualitativos (se houver)
 
-**Dados Qualitativos Coletados:**
+**Dados Qualitativos:**
+- VQ1: Lista de vantagens identificadas (respostas abertas)
+- VQ2: Lista de desvantagens identificadas (respostas abertas)
+- VQ3: Comentários e observações adicionais
 
-1. **VQ1 - Lista de Vantagens Identificadas**: Respostas abertas sobre vantagens de cada abordagem
-2. **VQ2 - Lista de Desvantagens Identificadas**: Respostas abertas sobre desvantagens de cada abordagem
-3. **VQ3 - Comentários e Observações**: Comentários adicionais dos participantes
+**Estratégia de Análise:**
 
-**Estratégia de Análise Qualitativa:**
+**Abordagem**: Análise de conteúdo temática com análise de frequência
 
-**Abordagem**: **Análise de conteúdo temática** (Thematic Content Analysis) com elementos de análise de frequência
+**Processo:**
 
-**Fase 1: Preparação dos Dados**
+1. **Preparação**: Organizar respostas por grupo (API-First vs. Code-First) e tipo (vantagens, desvantagens, comentários)
 
-1. **Organização**:
-   - Compilar todas as respostas abertas em documentos de texto
-   - Separar por grupo (API-First vs. Code-First) e por tipo de resposta (vantagens, desvantagens, comentários)
-   - Remover identificadores pessoais (se houver)
-   - Preservar contexto (qual pergunta gerou a resposta)
-
-2. **Limpeza inicial**:
-   - Remover respostas vazias ou inválidas (ex: "não sei", "n/a")
-   - Padronizar formatação básica (capitalização, pontuação)
-   - Manter originalidade das respostas
-
-**Fase 2: Codificação (Coding)**
-
-1. **Codificação aberta (Open Coding)**:
-   - Leitura cuidadosa de todas as respostas
-   - Identificação de unidades de significado (frases, parágrafos relacionados a um conceito)
-   - Criação de códigos iniciais (labels descritivos) para cada unidade de significado
-   - Exemplo de códigos iniciais: "desenvolvimento paralelo", "documentação automática", "complexidade inicial"
-
-2. **Codificação axial (Axial Coding)**:
+2. **Codificação**:
+   - Identificar unidades de significado nas respostas
+   - Criar códigos descritivos (ex: "desenvolvimento paralelo", "complexidade inicial")
    - Agrupar códigos relacionados em categorias temáticas
-   - Identificar relações entre códigos
-   - Exemplo: códigos "desenvolvimento paralelo", "contrato claro", "menos retrabalho" → categoria "Vantagens de Colaboração"
+   - Identificar temas principais que emergem das categorias
 
-3. **Codificação seletiva (Selective Coding)**:
-   - Identificar temas centrais que emergem das categorias
-   - Integrar categorias em temas principais
-   - Exemplo: tema "Facilitação de Colaboração" integra categorias relacionadas a trabalho em equipe
+3. **Análise**:
+   - Contar frequência de menção de cada tema por grupo
+   - Comparar distribuição de temas entre grupos
+   - Identificar temas exclusivos de cada grupo e temas comuns
 
-**Fase 3: Análise Temática**
-
-1. **Identificação de temas**:
-   - Temas principais: Padrões recorrentes de significado relacionados aos objetivos de pesquisa
-   - Temas secundários: Padrões menos frequentes mas relevantes
-   - Temas emergentes: Padrões não previstos que surgem dos dados
-
-2. **Estruturação de temas**:
-   - Organizar temas hierarquicamente (tema principal → sub-temas → categorias → códigos)
-   - Criar definições claras para cada tema
-   - Identificar exemplos representativos (quotations) para cada tema
-
-3. **Validação de temas**:
-   - Verificar se temas capturam adequadamente os dados
-   - Verificar se há sobreposição ou redundância entre temas
-   - Refinar temas conforme necessário
-
-**Fase 4: Análise Quantitativa de Dados Qualitativos**
-
-1. **Frequência de menção**:
-   - Contar quantas vezes cada tema/categoria é mencionado
-   - Calcular frequências absolutas e relativas por grupo
-   - Identificar temas mais e menos frequentes
-
-2. **Comparação entre grupos**:
-   - Comparar distribuição de temas entre grupo API-First e Code-First
-   - Identificar temas exclusivos de cada grupo
-   - Identificar temas comuns mas com frequências diferentes
-
-3. **Análise de importância**:
-   - Se houver avaliação de importância nas respostas, integrar com análise temática
-   - Identificar temas mencionados como mais importantes
-
-**Fase 5: Síntese e Integração**
-
-1. **Integração qualitativa-quantitativa**:
+4. **Integração**:
    - Relacionar temas qualitativos com resultados quantitativos
    - Usar insights qualitativos para interpretar resultados quantitativos
-   - Identificar convergências e divergências
+   - Identificar padrões principais e contraditórios
 
-2. **Identificação de padrões**:
-   - Padrões principais: Temas que aparecem consistentemente
-   - Padrões contextuais: Temas que variam por tipo de organização, tamanho de equipe, etc.
-   - Padrões contraditórios: Temas onde há opiniões divergentes
+**Ferramentas:**
+- Codificação manual usando Excel/planilhas
+- Software de análise qualitativa (NVivo, Atlas.ti) se disponível
 
-3. **Geração de insights**:
-   - Síntese dos principais achados qualitativos
-   - Identificação de recomendações práticas
-   - Identificação de áreas para pesquisa futura
+**Validação:**
+- Revisão de códigos e temas pelo pesquisador e orientador
+- Comparação com resultados quantitativos (triangulação)
+- Documentação do processo de codificação
 
-**Ferramentas e Validação:**
-
-1. **Ferramentas**:
-   - **Codificação manual**: Excel ou planilhas para organização inicial
-   - **Software de análise qualitativa** (opcional): NVivo, Atlas.ti, ou MAXQDA se disponível
-   - **Alternativa**: Codificação manual com suporte de planilhas e documentos de texto
-
-2. **Validação e Confiabilidade**:
-   - **Validação pelo pesquisador**: Revisão de códigos e temas pelo pesquisador principal
-   - **Validação pelo orientador**: Revisão de uma amostra de códigos e temas pelo orientador
-   - **Triangulação**: Comparar resultados qualitativos com resultados quantitativos
-   - **Documentação**: Manter registro detalhado do processo de codificação e decisões
-
-3. **Apresentação dos Resultados**:
-   - Tabelas de frequência de temas por grupo
-   - Citações representativas (quotations) para ilustrar cada tema
-   - Diagramas ou mapas conceituais mostrando relações entre temas
-   - Narrativa descritiva integrando temas e padrões
-
-**Critérios de Qualidade:**
-
-- **Credibilidade**: Temas são apoiados por evidências nos dados (citações)
-- **Transferibilidade**: Temas são descritos com contexto suficiente para aplicação em outros contextos
-- **Dependabilidade**: Processo de análise é documentado e reprodutível
-- **Confirmabilidade**: Resultados são baseados nos dados, não em preconceitos do pesquisador
+**Apresentação:**
+- Tabelas de frequência de temas por grupo
+- Citações representativas para ilustrar cada tema
+- Narrativa integrando temas e padrões
 
 ---
 
