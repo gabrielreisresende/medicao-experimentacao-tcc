@@ -14,6 +14,7 @@ gabrielreisresende-medicao-experimentacao-tcc
 - v1.2 (25/11/2025): Modelo conceitual e hipóteses (Etapa 7), Variáveis, fatores, tratamentos e objetos de estudo (Etapa 8), Desenho experimental (Etapa 9)
 - v1.3 (27/11/2025) População, sujeitos e amostragem; Instrumentação e protocolo operacional; Plano de análise de dados
 - v1.4 (02/12/2025) Ameaças a validade
+- v1.5 (05/12/2025) - Ajustes de legibilidade e formatações
  
 #### 1.4 Datas (criação, última atualização)
 - Data de criação: 23/11/2025
@@ -201,7 +202,6 @@ As seguintes limitações práticas impõem limites ao desenho do experimento:
 6. **Viés de autosseleção**: Participantes que optam por responder podem ter características diferentes daqueles que não respondem
 7. **Língua**: O survey será conduzido em português, limitando a participação a profissionais que dominam o idioma
 8. **Regras acadêmicas**: Necessidade de seguir normas e prazos estabelecidos pela instituição para TCCs
-9. **Aprovação ética**: Necessidade de aprovação do comitê de ética da instituição antes da coleta de dados
 
 #### 4.5 Limitações previstas
 
@@ -358,13 +358,7 @@ Os principais stakeholders do experimento incluem:
 
 **Riscos relacionados ao cronograma:**
 
-4. **Atrasos na aprovação ética**
-   - **Risco**: Demora na aprovação do comitê de ética pode atrasar o início da coleta de dados
-   - **Probabilidade**: Baixa-Média
-   - **Impacto**: Médio
-   - **Mitigação**: Submissão antecipada da documentação, acompanhamento regular do processo, planejamento de buffer de tempo
-
-5. **Prazo insuficiente para coleta e análise**
+4. **Prazo insuficiente para coleta e análise**
    - **Risco**: Tempo limitado do TCC pode não ser suficiente para coleta adequada de dados e análise completa
    - **Probabilidade**: Média
    - **Impacto**: Alto
@@ -372,13 +366,13 @@ Os principais stakeholders do experimento incluem:
 
 **Riscos técnicos:**
 
-6. **Falhas em ferramentas de survey**
+5. **Falhas em ferramentas de survey**
    - **Risco**: Problemas técnicos com a plataforma de survey (perda de dados, indisponibilidade)
    - **Probabilidade**: Baixa
    - **Impacto**: Alto
    - **Mitigação**: Escolha de ferramentas confiáveis, backup de dados, teste prévio da ferramenta, exportação regular de respostas
 
-7. **Problemas de acesso ou compatibilidade**
+6. **Problemas de acesso ou compatibilidade**
    - **Risco**: Participantes podem ter dificuldades para acessar o survey devido a problemas de navegação ou compatibilidade
    - **Probabilidade**: Baixa
    - **Impacto**: Baixo-Médio
@@ -386,13 +380,13 @@ Os principais stakeholders do experimento incluem:
 
 **Riscos metodológicos:**
 
-8. **Compreensão inadequada das abordagens**
+7. **Compreensão inadequada das abordagens**
    - **Risco**: Participantes podem não compreender corretamente as diferenças entre API-First e Code-First, mesmo com definições fornecidas
    - **Probabilidade**: Média
    - **Impacto**: Alto
    - **Mitigação**: Definições claras e exemplos no questionário, perguntas de verificação de compreensão, exclusão de respostas inconsistentes
 
-9. **Amostra desbalanceada entre grupos**
+8. **Amostra desbalanceada entre grupos**
    - **Risco**: Desequilíbrio significativo entre número de participantes que usaram API-First vs. Code-First, dificultando comparações
    - **Probabilidade**: Média
    - **Impacto**: Médio
@@ -400,13 +394,13 @@ Os principais stakeholders do experimento incluem:
 
 **Riscos de validade:**
 
-10. **Viés de memória e recall**
+11. **Viés de memória e recall**
     - **Risco**: Relatos sobre experiências passadas podem estar sujeitos a viés de memória
     - **Probabilidade**: Alta
     - **Impacto**: Médio
     - **Mitigação**: Foco em experiências recentes quando possível, perguntas sobre projetos específicos, transparência sobre limitações
 
-11. **Falta de representatividade geográfica ou organizacional**
+12. **Falta de representatividade geográfica ou organizacional**
     - **Risco**: Amostra concentrada em uma região ou tipo de organização, limitando generalização
     - **Probabilidade**: Média-Alta
     - **Impacto**: Médio
@@ -418,36 +412,33 @@ O experimento será considerado bem-sucedido e útil se os seguintes critérios 
 
 **Critérios de prontidão (go/no-go para início da coleta):**
 
-1. **Aprovação ética**: Comitê de ética da instituição aprovou o protocolo de pesquisa
-2. **Questionário validado**: Questionário revisado pelo orientador e testado em piloto (se aplicável)
-3. **Canais de recrutamento definidos**: Pelo menos 3 canais diferentes identificados para recrutamento de participantes
-4. **Ferramenta de survey funcional**: Plataforma de survey testada e pronta para coleta
-5. **Plano de análise definido**: Estratégia de análise de dados documentada e aprovada
+1. **Questionário validado**: Questionário revisado pelo orientador e testado em piloto (se aplicável)
+2. **Canais de recrutamento definidos**: Pelo menos 3 canais diferentes identificados para recrutamento de participantes
+3. **Ferramenta de survey funcional**: Plataforma de survey testada e pronta para coleta
+4. **Plano de análise definido**: Estratégia de análise de dados documentada e aprovada
 
 **Critérios de sucesso na coleta de dados:**
 
-6. **Tamanho mínimo de amostra**: Pelo menos 50 participantes válidos no total
-7. **Balanceamento mínimo**: Pelo menos 20 participantes em cada grupo (API-First e Code-First/nenhum)
-8. **Taxa de resposta completa**: Pelo menos 80% dos questionários iniciados são completados
-9. **Qualidade dos dados**: Menos de 10% de respostas inválidas ou inconsistentes
+5. **Tamanho mínimo de amostra**: Pelo menos 50 participantes válidos no total
+6. **Balanceamento mínimo**: Pelo menos 20 participantes em cada grupo (API-First e Code-First/nenhum)
+7. **Taxa de resposta completa**: Pelo menos 80% dos questionários iniciados são completados
+8. **Qualidade dos dados**: Menos de 10% de respostas inválidas ou inconsistentes
 
 **Critérios de sucesso na análise:**
-
-10. **Responder às questões de pesquisa**: Todas as 12 questões de pesquisa podem ser respondidas com os dados coletados
-11. **Análise estatística adequada**: Análises estatísticas apropriadas aplicadas conforme planejado
-12. **Insights identificados**: Pelo menos 3 insights principais ou padrões identificados sobre as abordagens
-13. **Fatores contextuais identificados**: Pelo menos 2 fatores contextuais que influenciam a escolha/sucesso são identificados
+9. **Responder às questões de pesquisa**: Todas as 12 questões de pesquisa podem ser respondidas com os dados coletados
+10. **Análise estatística adequada**: Análises estatísticas apropriadas aplicadas conforme planejado
+11. **Insights identificados**: Pelo menos 3 insights principais ou padrões identificados sobre as abordagens
+12. **Fatores contextuais identificados**: Pelo menos 2 fatores contextuais que influenciam a escolha/sucesso são identificados
 
 **Critérios de sucesso do trabalho:**
 
-14. **Documentação completa**: Todos os artefatos do experimento documentados (plano, questionário, dados, análise)
-15. **Resultados comunicados**: Resultados apresentados de forma clara no TCC
-16. **Contribuição científica**: Trabalho contribui com evidências empíricas para a área
-17. **Aprovação da banca**: TCC aprovado pela banca examinadora
+13. **Documentação completa**: Todos os artefatos do experimento documentados (plano, questionário, dados, análise)
+14. **Resultados comunicados**: Resultados apresentados de forma clara no TCC
+15. **Contribuição científica**: Trabalho contribui com evidências empíricas para a área
+16. **Aprovação da banca**: TCC aprovado pela banca examinadora
 
 **Critérios de no-go (não prosseguir):**
 
-- Aprovação ética negada sem possibilidade de ajuste
 - Impossibilidade de recrutar pelo menos 30 participantes após esforços significativos
 - Dados coletados revelam problemas metodológicos críticos que não podem ser corrigidos
 - Mudanças significativas no contexto que tornam o experimento irrelevante ou inviável
@@ -456,39 +447,27 @@ O experimento será considerado bem-sucedido e útil se os seguintes critérios 
 
 O experimento deve ser **adiado ou cancelado** antes de iniciar a coleta de dados se qualquer uma das seguintes situações ocorrer:
 
-1. **Reprovação ética sem possibilidade de ajuste**
-   - Se o comitê de ética reprovar o protocolo e não houver possibilidade de ajustes que resolvam as questões éticas levantadas
-   - **Ação**: Revisão completa do protocolo ou cancelamento do experimento
-
-2. **Falta de recursos críticos**
+1. **Falta de recursos críticos**
    - Indisponibilidade de ferramentas de survey ou recursos computacionais necessários
    - **Ação**: Busca de alternativas ou adiamento até disponibilidade de recursos
 
-3. **Mudanças significativas no contexto**
+2. **Mudanças significativas no contexto**
    - Mudanças no escopo do TCC, orientação ou requisitos acadêmicos que tornem o experimento inviável
    - **Ação**: Revisão do plano experimental ou redefinição do escopo
 
-4. **Problemas metodológicos críticos identificados**
+3. **Problemas metodológicos críticos identificados**
    - Identificação de problemas metodológicos fundamentais que comprometam a validade do estudo e não possam ser corrigidos
    - **Ação**: Revisão metodológica ou reformulação do experimento
 
-5. **Falta de viabilidade de recrutamento**
+4. **Falta de viabilidade de recrutamento**
    - Evidências claras de que não será possível recrutar número mínimo de participantes mesmo após esforços significativos
    - **Ação**: Revisão da estratégia de recrutamento ou ajuste do tamanho mínimo de amostra
 
-6. **Conflitos de interesse não resolvidos**
-   - Identificação de conflitos de interesse que comprometam a integridade do estudo
-   - **Ação**: Resolução dos conflitos ou cancelamento
-
-7. **Problemas de saúde ou pessoais do pesquisador**
-   - Situações que impeçam o pesquisador de conduzir adequadamente o experimento
-   - **Ação**: Adiamento ou transferência de responsabilidades (se viável)
 
 **Durante a coleta de dados**, o experimento deve ser **interrompido temporariamente** se:
 
-- Taxa de resposta extremamente baixa (< 5% após 2 semanas de divulgação)
+- Taxa de resposta extremamente baixa
 - Problemas técnicos críticos com a plataforma de survey que resultem em perda de dados
-- Identificação de problemas éticos durante a coleta que exijam revisão do protocolo
 
 **Após a coleta**, o experimento pode ser considerado **incompleto** (mas não cancelado) se:
 
@@ -496,7 +475,7 @@ O experimento deve ser **adiado ou cancelado** antes de iniciar a coleta de dado
 - Qualidade dos dados for insuficiente para análises válidas (> 30% de respostas inválidas)
 - Dados coletados não permitirem responder às questões de pesquisa principais
 
-Nesses casos, o experimento pode ser ajustado (ex: reduzir escopo de questões) ou os resultados podem ser apresentados com limitações claramente documentadas.
+Nesses casos, o experimento pode ser ajustado ou os resultados podem ser apresentados com limitações claramente documentadas.
 
 ---
 
@@ -572,12 +551,8 @@ As hipóteses são formuladas para as principais questões de pesquisa, consider
 
 #### 7.3 Nível de significância e considerações de poder
 
-**Nível de significância (α):**
-- **α = 0,05**: Será utilizado o nível de significância padrão de 5% para testes estatísticos
-
-**Poder estatístico (1 - β):**
-- **Tamanho de efeito esperado**: Baseado na literatura e natureza do estudo, espera-se efeitos de tamanho médio (Cohen's d ≈ 0,5) para comparações entre grupos
-- **Tamanho de amostra mínimo**: Para detectar efeitos médios com poder de 80% e α = 0,05 em testes t de duas amostras, são necessários aproximadamente 64 participantes por grupo (128 no total). No entanto, considerando as restrições práticas do estudo, será aceito um tamanho mínimo de 50 participantes no total (25 por grupo), o que reduz o poder para aproximadamente 60-65% para efeitos médios
+**Nível de significância (α):**  **α = 0,05** <br> Será utilizado o nível de significância padrão de 5% para testes estatísticos
+Como o experimento será conduzido no contexto de uma disciplina, o tamanho da amostra tende a ser reduzido. Consequentemente, o poder estatístico poderá ser limitado, o que dificulta a detecção de efeitos de pequena magnitude. Diante disso, a interpretação dos resultados considerará não apenas os testes de significância estatística, mas também os tamanhos de efeito e a coerência dos achados em relação ao modelo conceitual adotado e à literatura existente. Essa abordagem permite uma análise mais robusta, mesmo em cenários com restrições amostrais.
 
 ---
 
@@ -698,27 +673,17 @@ As seguintes variáveis serão controladas ou utilizadas para estratificação/b
 | **Idioma do questionário** | Fixo em português | Garantir compreensão uniforme |
 | **Formato do questionário** | Mesmo questionário para todos | Garantir consistência na coleta |
 
-**Estratégia de bloqueio:**
-- Análises serão realizadas tanto no nível agregado quanto estratificadas por variáveis de controle relevantes
-- Comparações entre grupos serão ajustadas ou estratificadas quando necessário para controlar variáveis de confusão
-
 #### 8.7 Possíveis variáveis de confusão conhecidas
 
 Variáveis que podem distorcer os resultados e que serão monitoradas:
 
 | Variável de Confusão | Impacto Potencial | Estratégia de Monitoramento/Mitigação |
 |---------------------|------------------|--------------------------------------|
-| **Viés de memória e recall** | Participantes podem lembrar mais de experiências positivas ou negativas recentes | Pergunta sobre recência da experiência; foco em projetos específicos quando possível |
 | **Viés de autosseleção** | Participantes mais experientes ou engajados podem estar mais propensos a participar | Análise de características demográficas da amostra; comparação com população-alvo quando possível |
 | **Compreensão das definições** | Diferentes interpretações de "API-First" e "Code-First" | Definições claras no questionário; perguntas de verificação de compreensão |
-| **Viés de desejabilidade social** | Participantes podem responder de forma socialmente desejável | Anonimato garantido; perguntas diretas e objetivas |
-| **Experiência mista** | Participantes podem ter experiência com ambas as abordagens | Identificação de participantes com experiência mista; análise separada ou exclusão |
 | **Contexto organizacional específico** | Características específicas da organização podem influenciar mais que a abordagem | Coleta de dados sobre contexto organizacional; análise estratificada |
 | **Motivação e engajamento** | Participantes com maior motivação podem ter experiências diferentes | Análise de qualidade das respostas; identificação de respostas apressadas |
-| **Viés geográfico/cultural** | Diferenças culturais ou regionais podem influenciar percepções | Coleta de dados demográficos geográficos; discussão de limitações de generalização |
 | **Maturidade do projeto** | Projetos em diferentes estágios podem ter necessidades diferentes | Pergunta sobre estágio do projeto; análise considerando maturidade |
-| **Pressão de tempo e recursos** | Restrições de tempo podem influenciar escolha e percepção da abordagem | Pergunta sobre restrições de recursos; análise considerando contexto de pressão |
-| **Viés de confirmação** | Participantes podem buscar confirmar suas escolhas anteriores | Perguntas sobre vantagens e desvantagens de ambas as abordagens; análise balanceada |
 
 ---
 
@@ -734,29 +699,6 @@ Este estudo utiliza um desenho observacional baseado em survey, onde os particip
 - **Desenho de grupos comparativos**: Comparação entre dois grupos baseados em experiência prévia
 - **Desenho quase-experimental**: Não há randomização, mas há comparação sistemática entre grupos
 
-**Justificativa da escolha:**
-
-1. **Natureza do fenômeno**: A escolha entre API-First e Code-First em projetos reais não pode ser manipulada experimentalmente de forma ética ou prática, pois envolve decisões organizacionais e de projeto que já foram tomadas
-
-2. **Contexto real**: O estudo busca capturar experiências em contextos reais de desenvolvimento, onde múltiplos fatores contextuais influenciam os resultados, tornando um experimento controlado artificial
-
-3. **Viabilidade**: Um experimento controlado exigiria recrutar equipes completas, alocar projetos reais e manipular abordagens, o que é inviável dentro do escopo de um TCC
-
-4. **Validade ecológica**: Estudos observacionais baseados em experiências reais têm maior validade ecológica para generalização para contextos organizacionais reais
-
-5. **Ética e praticidade**: Não é ético ou prático forçar organizações a mudar suas abordagens estabelecidas para fins de pesquisa
-
-**Limitações reconhecidas:**
-- Ausência de randomização pode introduzir viés de seleção
-- Grupos podem não ser equivalentes em todas as dimensões
-- Relação causal não pode ser estabelecida com certeza absoluta
-- Viés de memória pode afetar relatos sobre experiências passadas
-
-Essas limitações serão mitigadas através de:
-- Análise de características demográficas e contextuais dos grupos
-- Estratificação por variáveis de controle
-- Transparência sobre limitações metodológicas
-- Foco em associações e padrões, com discussão cuidadosa de causalidade
 
 #### 9.2 Randomização e alocação
 
@@ -771,26 +713,8 @@ Como este é um estudo observacional baseado em survey, não há randomização 
 
 A alocação ocorre através de **autoclassificação** baseada em respostas ao questionário:
 
-1. **Pergunta de triagem**: "Você já utilizou a abordagem API-First em algum projeto profissional?"
+**Pergunta de triagem**: "Você já utilizou a abordagem API-First em algum projeto profissional?"
    - Resposta "Sim" → Grupo API-First
-   - Resposta "Não" → Grupo Code-First
-
-2. **Validação**: Perguntas adicionais verificam a compreensão e experiência real:
-   - Descrição da experiência com a abordagem
-   - Identificação de características da abordagem utilizada
-   - Exclusão de participantes que não conseguem descrever adequadamente sua experiência
-
-**Randomização de elementos do questionário:**
-
-Para reduzir viés de ordem e efeitos de fadiga, os seguintes elementos serão randomizados ou balanceados:
-
-- **Ordem das perguntas sobre vantagens/desvantagens**: Apresentação alternada de perguntas sobre API-First e Code-First
-- **Ordem das opções em questões de múltipla escolha**: Quando aplicável, ordem das opções será variada
-- **Ordem das escalas**: Direção das escalas (positiva/negativa) será balanceada
-
-**Ferramentas para randomização:**
-- Funcionalidades de randomização da plataforma de survey (ex: Google Forms, Typeform)
-- Scripts de randomização para versões do questionário, se necessário
 
 #### 9.3 Balanceamento e contrabalanço
 
@@ -802,39 +726,13 @@ Como não há randomização experimental, o balanceamento será verificado e, q
    - Comparação de distribuições de idade, experiência, tipo de organização, tamanho de equipe entre grupos
    - Identificação de desequilíbrios significativos
 
-2. **Estratificação e matching**:
-   - Se possível, matching de participantes por características relevantes (experiência, tipo de organização)
-   - Análises estratificadas por variáveis de controle
-
-3. **Recrutamento direcionado**:
+2. **Recrutamento direcionado**:
    - Estratégias de recrutamento específicas para garantir representação adequada em ambos os grupos
    - Monitoramento do balanceamento durante a coleta de dados
-
-4. **Análises ajustadas**:
-   - Uso de modelos estatísticos que ajustam para variáveis de confusão
-   - Análises de sensibilidade considerando diferentes composições de grupos
-
-**Critérios de balanceamento aceitável:**
-- Diferenças não significativas (p > 0,10) em características demográficas principais entre grupos
-- Proporção mínima de 40:60 entre grupos (idealmente 50:50)
-- Representação similar de tipos de organização em ambos os grupos
 
 **Contrabalanço (efeitos de ordem):**
 
 Como cada participante responde apenas uma vez ao questionário (não há múltiplas sessões), não há efeitos de ordem entre tratamentos. No entanto, serão aplicadas estratégias de contrabalanço para elementos internos do questionário:
-
-1. **Ordem de apresentação de questões**:
-   - Versões alternadas do questionário com ordem diferente de seções
-   - Randomização da ordem de perguntas sobre vantagens/desvantagens
-
-2. **Direção das escalas**:
-   - Balanceamento de escalas positivas e negativas
-   - Evitar viés de resposta por direção da escala
-
-3. **Ordem de opções**:
-   - Variação na ordem de opções de múltipla escolha quando aplicável
-
-**Efeitos de aprendizagem**: Não aplicável, pois não há múltiplas sessões ou exposição sequencial a diferentes condições.
 
 #### 9.4 Número de grupos e sessões
 
@@ -852,16 +750,6 @@ Como cada participante responde apenas uma vez ao questionário (não há múlti
 **Número de sessões**: **1 sessão por participante**
 
 Cada participante preenche o questionário uma única vez, estimado em 15-20 minutos. Não há múltiplas sessões ou rodadas experimentais.
-
-**Justificativa:**
-
-1. **Natureza do estudo**: Estudo observacional sobre experiências passadas, não requer múltiplas exposições
-2. **Viabilidade**: Múltiplas sessões seriam inviáveis devido a:
-   - Dificuldade de recrutamento e retenção de participantes
-   - Carga de tempo para participantes voluntários
-   - Complexidade logística de coordenação
-3. **Validade**: Uma sessão é suficiente para capturar percepções e experiências dos participantes
-4. **Ética**: Minimiza carga sobre participantes voluntários
 
 **Tamanho planejado dos grupos:**
 
@@ -909,12 +797,6 @@ A população-alvo deste experimento compreende profissionais da indústria de s
 - Profissionais com experiência mínima de 1 ano trabalhando com arquiteturas distribuídas
 - Profissionais que têm ou tiveram experiência prática com pelo menos uma das abordagens** (API-First ou Code-First) em projetos reais
 
-**Características demográficas da população-alvo:**
-- **Geográfico**: Inicialmente focado em profissionais que dominam português (principalmente Brasil), mas não limitado geograficamente
-- **Setor**: Indústria de software em geral (produtos, serviços, consultoria, etc.)
-- **Nível de experiência**: Desde profissionais júnior (com pelo menos 1 ano de experiência) até profissionais sênior
-- **Contexto organizacional**: Diferentes tipos de organizações, desde startups até grandes corporações
-
 #### 10.2 Critérios de inclusão de sujeitos
 
 Para ser elegível para participar do estudo, o participante deve atender a **todos** os seguintes critérios:
@@ -939,9 +821,6 @@ Para ser elegível para participar do estudo, o participante deve atender a **to
    - Disponibilidade para preencher o questionário completo (estimado em 15-20 minutos)
    - Consentimento informado para participação no estudo
    - Acesso à internet e capacidade de acessar a plataforma de survey
-
-6. **Idioma**:
-   - Domínio suficiente do português para compreender e responder ao questionário
 
 #### 10.3 Critérios de exclusão de sujeitos
 
@@ -987,49 +866,7 @@ Os seguintes critérios **impedem** a participação no estudo:
   - Mínimo: 20 participantes
   - Ideal: 30-40 participantes
 
-**Justificativa do tamanho da amostra:**
-
-1. **Poder estatístico**:
-   - Para detectar efeitos médios (Cohen's d ≈ 0,5) com poder de 80% e α = 0,05 em testes t de duas amostras, seriam necessários aproximadamente 64 participantes por grupo (128 no total)
-   - Considerando restrições práticas do estudo (TCC, recursos limitados, amostra de conveniência), o tamanho mínimo de 50 participantes (25 por grupo) reduz o poder para aproximadamente 60-65% para efeitos médios
-   - Este poder é considerado aceitável para um estudo exploratório e comparativo
-
-2. **Análises estratificadas**:
-   - O tamanho ideal (60-80 participantes) permite análises estratificadas por variáveis de controle (tipo de organização, tamanho de equipe, experiência) com tamanhos de subgrupos razoáveis
-   - Análises estratificadas terão poder estatístico limitado, mas permitirão identificação de padrões qualitativos
-
-3. **Recursos e viabilidade**:
-   - O tamanho mínimo de 50 participantes é viável considerando:
-     - Canais de recrutamento disponíveis (redes sociais, fóruns, grupos profissionais)
-     - Tempo disponível para coleta de dados
-     - Ausência de incentivos financeiros
-     - Natureza voluntária da participação
-
-4. **Critérios de sucesso**:
-   - O tamanho mínimo atende aos critérios de sucesso definidos na seção 6.2:
-     - Pelo menos 50 participantes válidos no total
-     - Pelo menos 20 participantes em cada grupo
-
-5. **Balanceamento**:
-   - Será buscado balanceamento entre grupos (proporção ideal de 50:50, aceitável de 40:60)
-   - Se houver desbalanceamento significativo, estratégias de recrutamento direcionadas serão aplicadas
-
-**Plano de recrutamento incremental:**
-- **Fase 1**: Recrutamento inicial até atingir 50 participantes
-- **Fase 2**: Se houver desbalanceamento ou baixa qualidade, recrutamento adicional até 60-80 participantes
-- **Fase 3**: Recrutamento adicional apenas se necessário para análises específicas ou se houver oportunidade
-
 #### 10.5 Método de seleção / recrutamento
-
-**Tipo de amostragem**: **Amostra de conveniência (convenience sampling)** com elementos de **amostra por bola de neve (snowball sampling)**
-
-**Justificativa:**
-- Não é viável obter uma amostra probabilística verdadeiramente aleatória da população-alvo devido a:
-  - Ausência de lista completa e acessível da população
-  - Recursos limitados para recrutamento sistemático
-  - Natureza do estudo (survey voluntário sem incentivos)
-- Amostra de conveniência é comum e aceitável em estudos de survey na área de engenharia de software
-- Limitações de generalização serão claramente documentadas
 
 **Estratégias de recrutamento:**
 
@@ -1051,22 +888,10 @@ Os seguintes critérios **impedem** a participação no estudo:
    - Garantia de anonimato e confidencialidade
    - Link direto para o questionário
 
-4. **Estratégias para balanceamento**:
-   - Monitoramento contínuo da distribuição entre grupos durante a coleta
-   - Mensagens de recrutamento direcionadas se houver desbalanceamento:
-     - Se Grupo API-First estiver sub-representado: ênfase em recrutar profissionais com experiência em API-First
-     - Se Grupo Code-First estiver sub-representado: ênfase em recrutar profissionais sem experiência em API-First
-
-5. **Controle de qualidade**:
+4. **Controle de qualidade**:
    - Verificação de critérios de elegibilidade através de perguntas de triagem no início do questionário
    - Exclusão automática de participantes que não atendem critérios mínimos
    - Análise de respostas para identificar participação duplicada ou inválida
-
-**Cronograma de recrutamento:**
-- **Semana 1-2**: Divulgação inicial em canais primários
-- **Semana 3-4**: Divulgação em canais secundários e amostra por bola de neve
-- **Semana 5-6**: Recrutamento direcionado se necessário para balanceamento
-- **Semana 7+**: Recrutamento adicional apenas se necessário para atingir tamanho mínimo
 
 #### 10.6 Treinamento e preparação dos sujeitos
 
@@ -1099,24 +924,13 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
    - Garantia de anonimato e confidencialidade
    - Informação sobre como os dados serão utilizados
 
-**Não será fornecido**:
-- Treinamento formal sobre as abordagens (assume-se que participantes já têm experiência)
-- Material de estudo extensivo (o estudo busca percepções baseadas em experiências reais, não conhecimento teórico)
-- Sessões de treinamento presenciais ou online
-
-**Justificativa:**
-- O estudo busca capturar percepções e experiências reais dos participantes, não conhecimento adquirido através de treinamento
-- Fornecer treinamento poderia introduzir viés, influenciando as percepções dos participantes
-- As definições fornecidas servem apenas para garantir que todos compreendam os termos, não para ensinar as abordagens
-- Participantes já devem ter experiência prática, então apenas precisam de clarificação terminológica
-
 ---
 
 ### 11. Instrumentação e protocolo operacional
 
 #### 11.1 Instrumentos de coleta (questionários, logs, planilhas, etc.)
 
-**1. Questionário Online (Instrumento Principal)**
+**Questionário Online (Instrumento Principal)**
 
 - **Ferramenta**: Google Forms, Typeform ou SurveyMonkey (ferramenta gratuita ou de baixo custo)
 - **Formato**: Questionário web estruturado com múltiplas seções
@@ -1135,60 +949,6 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
   - Exportação de dados em formato CSV/Excel
   - Validação de respostas obrigatórias
   - Lógica condicional para direcionamento baseado em respostas
-
-**2. Planilha de Dados (Artefato de Análise)**
-
-- **Ferramenta**: Microsoft Excel ou Google Sheets
-- **Formato**: Planilha estruturada com colunas para cada variável
-- **Papel**: Armazenamento e organização dos dados coletados para análise
-- **Estrutura**:
-  - Uma linha por participante
-  - Colunas para cada variável dependente e independente
-  - Colunas para identificadores de grupo
-  - Colunas para dados demográficos
-  - Colunas para respostas qualitativas (texto)
-- **Convenções**:
-  - Codificação numérica para variáveis categóricas
-  - Valores ausentes marcados como "NA" ou vazios
-  - Preservação de respostas originais em texto para validação
-
-**3. Log de Coleta de Dados**
-
-- **Ferramenta**: Documento de texto ou planilha
-- **Formato**: Registro estruturado de atividades de coleta
-- **Papel**: Rastreabilidade e controle de qualidade da coleta
-- **Informações registradas**:
-  - Data e hora de início da coleta
-  - Canais de recrutamento utilizados
-  - Número de respostas recebidas por dia/semana
-  - Distribuição entre grupos ao longo do tempo
-  - Problemas técnicos ou questões identificadas
-  - Ajustes realizados durante a coleta
-
-**4. Scripts de Análise de Dados (Futuro)**
-
-- **Ferramenta**: Python (com pandas, numpy, scipy, matplotlib) ou R
-- **Formato**: Scripts executáveis para análise estatística
-- **Papel**: Análise automatizada e reprodutível dos dados
-- **Conteúdo previsto**:
-  - Importação e limpeza de dados
-  - Análises estatísticas descritivas
-  - Testes estatísticos (t-teste, qui-quadrado, etc.)
-  - Visualizações (gráficos, tabelas)
-  - Análises qualitativas (codificação de respostas abertas)
-
-**5. Documento de Consentimento Informado**
-
-- **Ferramenta**: Integrado no questionário online
-- **Formato**: Texto com checkbox de aceite
-- **Papel**: Registro de consentimento dos participantes
-- **Conteúdo**:
-  - Objetivo do estudo
-  - Procedimentos
-  - Riscos e benefícios
-  - Confidencialidade e anonimato
-  - Direito de retirada
-  - Contato do pesquisador
 
 #### 11.2 Materiais de suporte (instruções, guias)
 
@@ -1218,32 +978,6 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
    - Feedback imediato sobre respostas incorretas
    - Opção de reler definições antes de continuar
 
-**Para Administradores do Experimento (Pesquisador):**
-
-1. **Guia de Operação do Survey**:
-   - Instruções sobre como configurar o questionário na plataforma escolhida
-   - Checklist de configurações (anonimato, validações, lógica condicional)
-   - Instruções sobre exportação de dados
-   - Procedimentos de backup de dados
-
-2. **Guia de Recrutamento**:
-   - Templates de mensagens para diferentes canais
-   - Calendário de divulgação
-   - Estratégias para balanceamento de grupos
-   - Procedimentos para follow-up
-
-3. **Guia de Controle de Qualidade**:
-   - Critérios para identificar respostas inválidas
-   - Procedimentos para exclusão de participantes
-   - Checklist de validação de dados
-   - Procedimentos para lidar com problemas técnicos
-
-4. **Protocolo de Resolução de Problemas**:
-   - Problemas técnicos comuns e soluções
-   - Como lidar com questões éticas durante a coleta
-   - Contatos para suporte técnico da plataforma
-   - Procedimentos de comunicação com participantes
-
 #### 11.3 Procedimento experimental (protocolo – visão passo a passo)
 
 **FASE 1: PREPARAÇÃO (Antes da Coleta)**
@@ -1265,13 +999,8 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
    - Configurar anonimato na plataforma
    - Configurar exportação de dados
    - Testar em diferentes navegadores e dispositivos
-   - Configurar backup automático de respostas
 
-4. **Aprovação Ética**:
-   - Submissão ao comitê de ética (se necessário)
-   - Aguardar aprovação antes de iniciar coleta
-
-5. **Preparação de Materiais de Recrutamento**:
+4. **Preparação de Materiais de Recrutamento**:
    - Preparar mensagens de recrutamento para diferentes canais
    - Preparar calendário de divulgação
    - Identificar canais de recrutamento
@@ -1279,84 +1008,33 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
 **FASE 2: COLETA DE DADOS**
 
 6. **Início da Coleta**:
-   - Publicar questionário online (tornar acessível)
-   - Registrar data e hora de início
-   - Iniciar log de coleta de dados
+   - Publicar questionário online
 
-7. **Divulgação Inicial (Semana 1-2)**:
-   - Publicar mensagem de recrutamento em canais primários:
-     - LinkedIn (posts em grupos relevantes)
-     - Reddit (subreddits de desenvolvimento)
-     - Grupos de WhatsApp/Telegram
-     - Comunidades técnicas online
-   - Monitorar respostas recebidas
-   - Registrar no log de coleta
+7. **Divulgação Inicial**:
+   - Publicar mensagens de recrutamento
 
-8. **Divulgação Secundária (Semana 3-4)**:
-   - Solicitar aos participantes iniciais compartilhamento (snowball sampling)
-   - Divulgação em canais secundários
-   - Parcerias com comunidades técnicas
-   - Continuar monitoramento de respostas
+8. **Validação de Respostas (Contínuo)**:
+    - Revisar respostas recebidas
 
-9. **Monitoramento Contínuo**:
-   - Verificar diariamente número de respostas recebidas
-   - Verificar distribuição entre grupos (API-First vs. Code-First)
-   - Identificar problemas técnicos ou questões
-   - Exportar backup de dados regularmente (semanalmente)
-
-10. **Recrutamento Direcionado (Se Necessário - Semana 5-6)**:
-    - Se houver desbalanceamento entre grupos, ajustar estratégia de recrutamento
-    - Mensagens direcionadas para grupo sub-representado
-    - Continuar monitoramento
-
-11. **Validação de Respostas (Contínuo)**:
-    - Revisar respostas recebidas para identificar:
-      - Respostas incompletas
-      - Respostas inconsistentes
-      - Participantes que não atendem critérios de inclusão
-    - Excluir respostas inválidas conforme critérios definidos
-    - Registrar exclusões no log
-
-12. **Decisão sobre Encerramento**:
-    - Quando atingir tamanho mínimo (50 participantes) e balanceamento aceitável:
-      - Avaliar se é necessário continuar recrutamento
-      - Se sim, continuar até tamanho ideal (60-80)
-      - Se não, proceder para encerramento
-
-**FASE 3: ENCERRAMENTO DA COLETA**
-
-13. **Encerramento da Coleta**:
-    - Fechar questionário para novas respostas (ou definir data limite)
+9. **Encerramento da Coleta**:
+    - Fechar questionário para novas respostas
     - Exportar dados finais em formato CSV/Excel
     - Fazer backup final dos dados
-    - Registrar data e hora de encerramento no log
 
-14. **Validação Final dos Dados**:
-    - Revisar todas as respostas coletadas
-    - Aplicar critérios de exclusão finais
-    - Identificar e remover duplicatas (se houver)
-    - Verificar completude dos dados
-    - Registrar número final de participantes válidos
-
-15. **Organização dos Dados**:
+10. **Organização dos Dados**:
     - Organizar dados em planilha estruturada
     - Codificar variáveis categóricas
     - Criar variáveis derivadas se necessário
     - Documentar estrutura dos dados
 
-16. **Comunicação com Participantes (Opcional)**:
-    - Agradecer participantes (se houver mecanismo de contato)
-    - Informar sobre próximos passos (análise, resultados)
-    - Oferecer acesso aos resultados finais (se prometido)
-
 **FASE 4: PÓS-COLETA**
 
-17. **Análise de Dados**:
+11. **Análise de Dados**:
     - Executar análises estatísticas planejadas
     - Realizar análises qualitativas de respostas abertas
     - Gerar visualizações e relatórios
 
-18. **Documentação**:
+12. **Documentação**:
     - Documentar processo de coleta
     - Registrar problemas encontrados e soluções
     - Documentar decisões sobre exclusão de participantes
@@ -1393,85 +1071,6 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
    - Verificar se as perguntas de triagem classificam corretamente os participantes
    - Identificar se há participantes que não se encaixam claramente em nenhum grupo
 
-**Escopo do Piloto:**
-
-- **Número de participantes**: 5-8 participantes
-- **Seleção de participantes**:
-  - Pelo menos 3 participantes com experiência em API-First
-  - Pelo menos 3 participantes com experiência apenas em Code-First
-  - Diversidade em experiência profissional (júnior, pleno, sênior)
-  - Participantes que não serão incluídos na coleta principal (para evitar viés)
-- **Duração**: 1-2 semanas
-- **Formato**: Mesmo questionário que será usado na coleta principal
-
-**Critérios de Ajuste do Protocolo:**
-
-**Ajustes obrigatórios (devem ser feitos antes da coleta principal):**
-
-1. **Problemas críticos de compreensão**:
-   - Se mais de 50% dos participantes do piloto não compreenderem as definições → Revisar e simplificar definições
-   - Se mais de 30% não conseguirem responder perguntas de verificação → Adicionar mais exemplos ou reformular
-
-2. **Problemas técnicos críticos**:
-   - Falhas na lógica condicional → Corrigir configuração
-   - Problemas de exportação de dados → Trocar plataforma ou corrigir configuração
-   - Incompatibilidade com navegadores comuns → Ajustar ou trocar plataforma
-
-3. **Tempo de preenchimento excessivo**:
-   - Se tempo médio > 30 minutos → Simplificar questionário, remover questões não essenciais
-   - Se houver abandono significativo → Identificar seções problemáticas e simplificar
-
-4. **Problemas de triagem**:
-   - Se participantes não conseguirem se classificar → Reformular perguntas de triagem
-   - Se classificação for ambígua → Adicionar perguntas de validação
-
-**Ajustes recomendados (devem ser considerados):**
-
-1. **Melhorias de clareza**:
-   - Reformular perguntas identificadas como ambíguas
-   - Adicionar exemplos onde necessário
-   - Melhorar instruções de preenchimento
-
-2. **Otimizações de navegação**:
-   - Reorganizar ordem de seções se necessário
-   - Adicionar indicadores de progresso
-   - Melhorar transições entre seções
-
-3. **Ajustes de conteúdo**:
-   - Adicionar ou remover opções em questões de múltipla escolha
-   - Ajustar escalas se necessário
-   - Adicionar questões opcionais baseadas em feedback
-
-**Processo de Ajuste:**
-
-1. **Coleta de feedback do piloto**:
-   - Solicitar feedback qualitativo dos participantes do piloto
-   - Perguntas sobre: clareza, tempo, dificuldades, sugestões
-   - Análise de padrões de resposta e abandono
-
-2. **Revisão com orientador**:
-   - Apresentar resultados do piloto
-   - Discutir ajustes necessários
-   - Obter aprovação para mudanças
-
-3. **Implementação de ajustes**:
-   - Fazer ajustes no questionário
-   - Testar ajustes antes de iniciar coleta principal
-   - Documentar mudanças realizadas
-
-4. **Validação final**:
-   - Se ajustes forem significativos, considerar segundo piloto menor (2-3 participantes)
-   - Caso contrário, proceder para coleta principal
-
-**Critérios de sucesso do piloto:**
-
-O piloto será considerado bem-sucedido se:
-- Pelo menos 80% dos participantes conseguirem completar o questionário
-- Tempo médio de preenchimento estiver entre 15-25 minutos
-- Pelo menos 80% dos participantes compreenderem as definições (respostas corretas nas perguntas de verificação)
-- Não houver problemas técnicos críticos
-- Classificação em grupos for clara para pelo menos 80% dos participantes
-
 ---
 
 ### 12. Plano de análise de dados (pré-execução)
@@ -1493,35 +1092,11 @@ A análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada
 
 #### 12.2 Métodos estatísticos planejados
 
-**Análises Descritivas:**
 - Estatísticas básicas: médias, medianas, desvios padrão para variáveis quantitativas
 - Frequências e percentuais para variáveis categóricas
 - Gráficos: histogramas, boxplots, gráficos de barras
 - Verificação de normalidade dos dados para escolha de testes apropriados
-
-**Testes Estatísticos Principais:**
-
-1. **Comparação entre grupos (API-First vs. Code-First)**:
-   - **Teste t de Student**: Para variáveis contínuas normalmente distribuídas (ex: produtividade, qualidade)
-   - **Teste de Mann-Whitney**: Alternativa não paramétrica quando dados não são normais
-   - Aplicado às métricas: M4, M5, M9, M11, M12, M13, M16, M17
-
-2. **Análise de associação**:
-   - **Teste qui-quadrado**: Para verificar associação entre variáveis categóricas (ex: tipo de organização vs. abordagem)
-   - Aplicado às métricas: M19, M22
-
-3. **Comparação de múltiplos grupos**:
-   - **ANOVA**: Para comparar médias entre 3+ grupos (ex: por tipo de organização)
-   - **Kruskal-Wallis**: Alternativa não paramétrica à ANOVA
-
-**Configurações:**
-- Nível de significância: α = 0,05
-- Ajuste para múltiplas comparações quando necessário (correção de Bonferroni)
-- Cálculo de tamanhos de efeito para interpretar significância prática
-
-**Ferramentas:**
-- Software: Python (pandas, scipy) ou R
-- Visualizações: matplotlib/seaborn ou ggplot2
+- Comparação entre grupos (API-First vs. Code-First)
 
 #### 12.3 Tratamento de dados faltantes e outliers
 
@@ -1529,26 +1104,8 @@ A análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada
 
 **Regras básicas:**
 - **Questões obrigatórias faltantes**: Investigar problema técnico; excluir participante se questões críticas estiverem faltando
-- **Questões opcionais faltantes**:
-  - Se < 10% faltantes: Excluir da análise específica
-  - Se 10-30% faltantes: Considerar imputação (média/mediana) ou análise de sensibilidade
-  - Se > 30% faltantes: Excluir variável da análise
 - **Respostas qualitativas**: Tratar como "não fornecido", não imputar
 - Documentar percentual de dados faltantes e método de tratamento
-
-**Outliers:**
-
-**Tratamento:**
-- **Manter**: Se for valor válido representando experiência real legítima
-- **Corrigir**: Se for claramente erro de digitação (ex: 1000 em vez de 10)
-- **Excluir**: Se for erro não corrigível e afetar análises críticas (< 2% dos dados)
-- Realizar análise de sensibilidade (com e sem outliers) para avaliar impacto
-
-**Validação de Dados:**
-- Verificar respostas inconsistentes (ex: diz nunca ter usado API-First mas descreve experiência)
-- Verificar valores impossíveis (ex: anos de experiência maior que idade)
-- Excluir participantes com > 50% de dados faltantes em questões críticas ou padrões de resposta suspeitos
-- Documentar todas as exclusões e razões
 
 #### 12.4 Plano de análise para dados qualitativos (se houver)
 
@@ -1561,39 +1118,7 @@ A análise seguirá uma abordagem mista (quantitativa e qualitativa), organizada
 
 **Abordagem**: Análise de conteúdo temática com análise de frequência
 
-**Processo:**
-
-1. **Preparação**: Organizar respostas por grupo (API-First vs. Code-First) e tipo (vantagens, desvantagens, comentários)
-
-2. **Codificação**:
-   - Identificar unidades de significado nas respostas
-   - Criar códigos descritivos (ex: "desenvolvimento paralelo", "complexidade inicial")
-   - Agrupar códigos relacionados em categorias temáticas
-   - Identificar temas principais que emergem das categorias
-
-3. **Análise**:
-   - Contar frequência de menção de cada tema por grupo
-   - Comparar distribuição de temas entre grupos
-   - Identificar temas exclusivos de cada grupo e temas comuns
-
-4. **Integração**:
-   - Relacionar temas qualitativos com resultados quantitativos
-   - Usar insights qualitativos para interpretar resultados quantitativos
-   - Identificar padrões principais e contraditórios
-
-**Ferramentas:**
-- Codificação manual usando Excel/planilhas
-- Software de análise qualitativa (NVivo, Atlas.ti) se disponível
-
-**Validação:**
-- Revisão de códigos e temas pelo pesquisador e orientador
-- Comparação com resultados quantitativos (triangulação)
-- Documentação do processo de codificação
-
-**Apresentação:**
-- Tabelas de frequência de temas por grupo
-- Citações representativas para ilustrar cada tema
-- Narrativa integrando temas e padrões
+**Apresentação:** Tabelas de frequência de temas por grupo
 
 ---
 
@@ -1606,40 +1131,8 @@ Ameaças que podem comprometer a robustez das conclusões estatísticas:
 **1. Baixo poder estatístico:**
 - **Ameaça**: Tamanho de amostra insuficiente pode não detectar diferenças reais entre grupos (erro tipo II)
 - **Mitigação**: 
-  - Planejamento de tamanho mínimo de amostra (50 participantes) com cálculo de poder a priori
   - Aceitação de poder reduzido (60-65%) para efeitos médios, mas documentação clara dessa limitação
   - Análises de sensibilidade considerando diferentes tamanhos de efeito
-  - Interpretação cautelosa de resultados não significativos (não concluir que não há diferença, mas que não foi detectada)
-
-**2. Violação de suposições estatísticas:**
-- **Ameaça**: Testes paramétricos assumem normalidade e homogeneidade de variâncias, que podem não ser atendidas
-- **Mitigação**:
-  - Verificação de normalidade através de testes (Shapiro-Wilk) e inspeção visual (histogramas, Q-Q plots)
-  - Uso de testes não paramétricos (Mann-Whitney, Kruskal-Wallis) quando suposições não são atendidas
-  - Transformações de dados quando apropriado (log, raiz quadrada)
-  - Uso de testes robustos que são menos sensíveis a violações de suposições
-
-**3. Erros de medida:**
-- **Ameaça**: Respostas auto-relatadas podem conter erros sistemáticos ou aleatórios
-- **Mitigação**:
-  - Uso de escalas validadas (Likert) quando possível
-  - Múltiplas perguntas para medir o mesmo constructo (triangulação)
-  - Perguntas de verificação de compreensão para reduzir erros de interpretação
-  - Validação de respostas inconsistentes e exclusão quando necessário
-
-**4. Múltiplas comparações:**
-- **Ameaça**: Realizar múltiplos testes aumenta probabilidade de falsos positivos (erro tipo I)
-- **Mitigação**:
-  - Correção de Bonferroni ou FDR (False Discovery Rate) quando múltiplas comparações são realizadas
-  - Priorização de análises principais vs. exploratórias
-  - Documentação clara de quais análises são confirmatórias vs. exploratórias
-
-**5. Dados faltantes e outliers:**
-- **Ameaça**: Dados faltantes ou outliers podem distorcer resultados
-- **Mitigação**:
-  - Estratégias claras de tratamento de dados faltantes (documentadas na seção 12.3)
-  - Análise de sensibilidade com e sem outliers
-  - Documentação de todas as exclusões e justificativas
 
 #### 13.2 Validade interna
 
@@ -1652,58 +1145,6 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
   - Estratificação por variáveis de controle (experiência, tipo de organização, tamanho de equipe)
   - Análises ajustadas usando modelos estatísticos que controlam para variáveis de confusão
   - Matching de participantes por características relevantes quando possível
-
-**2. História (History):**
-- **Ameaça**: Eventos externos (mudanças tecnológicas, tendências da indústria) podem influenciar percepções dos participantes sobre as abordagens
-- **Estratégia de controle**:
-  - Coleta de dados em período relativamente curto (6-8 semanas) para minimizar mudanças contextuais
-  - Perguntas sobre recência da experiência para controlar efeito de tempo
-  - Análise considerando período em que a experiência ocorreu
-  - Documentação de limitações relacionadas a mudanças no contexto tecnológico
-
-**3. Maturação (Maturation):**
-- **Ameaça**: Mudanças naturais nos participantes ao longo do tempo (aumento de experiência) podem influenciar percepções
-- **Estratégia de controle**:
-  - Estudo transversal (não longitudinal), então maturação não se aplica diretamente
-  - Controle de experiência profissional através de estratificação
-  - Perguntas sobre quando a experiência ocorreu para controlar efeito de tempo desde a experiência
-
-**4. Viés de memória e recall (Recall Bias):**
-- **Ameaça**: Participantes podem lembrar incorretamente ou de forma enviesada experiências passadas
-- **Estratégia de controle**:
-  - Foco em experiências recentes quando possível (pergunta sobre recência)
-  - Perguntas sobre projetos específicos para ancorar memórias
-  - Análise considerando recência da experiência
-  - Transparência sobre limitações relacionadas a viés de memória
-
-**5. Regressão à média:**
-- **Ameaça**: Participantes com experiências extremas (muito positivas ou negativas) podem relatar percepções que regridem à média em medições subsequentes
-- **Estratégia de controle**:
-  - Estudo transversal com uma única medição, então regressão à média não se aplica diretamente
-  - Análise de outliers e valores extremos para identificar padrões
-
-**6. Mortalidade experimental (Attrition):**
-- **Ameaça**: Participantes que abandonam o questionário podem diferir sistematicamente daqueles que completam
-- **Estratégia de controle**:
-  - Monitoramento de taxa de abandono e análise de características dos que abandonam
-  - Design do questionário para minimizar abandono (progresso claro, tempo razoável)
-  - Análise de padrões de resposta incompleta
-  - Exclusão de respostas incompletas em questões críticas
-
-**7. Instrumentação:**
-- **Ameaça**: Mudanças no instrumento de medida durante a coleta podem afetar resultados
-- **Estratégia de controle**:
-  - Questionário fixo após validação do piloto
-  - Sem mudanças durante a coleta principal
-  - Documentação de qualquer ajuste necessário e análise de impacto
-
-**8. Viés de desejabilidade social:**
-- **Ameaça**: Participantes podem responder de forma socialmente desejável em vez de honesta
-- **Estratégia de controle**:
-  - Garantia de anonimato explícita
-  - Perguntas diretas e objetivas
-  - Perguntas sobre vantagens e desvantagens de ambas as abordagens para reduzir viés de confirmação
-  - Análise de padrões de resposta suspeitos
 
 #### 13.3 Validade de constructo
 
@@ -1742,30 +1183,6 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
   - Consistência no uso de escalas ao longo do questionário
   - Análise de distribuições de respostas para identificar padrões suspeitos
 
-**5. Efeito de halo:**
-- **Ameaça**: Percepção geral positiva ou negativa de uma abordagem pode influenciar todas as avaliações
-- **Mitigação**:
-  - Perguntas sobre vantagens e desvantagens de ambas as abordagens
-  - Ordem aleatória ou balanceada de perguntas
-  - Análise de consistência entre diferentes dimensões de avaliação
-  - Identificação de padrões de resposta que sugerem efeito de halo
-
-**6. Viés de confirmação:**
-- **Ameaça**: Participantes podem buscar confirmar suas escolhas anteriores
-- **Mitigação**:
-  - Perguntas sobre experiências reais, não sobre preferências
-  - Perguntas sobre vantagens e desvantagens de ambas as abordagens
-  - Análise de participantes com experiência mista (se houver)
-  - Foco em comportamentos e resultados observáveis, não apenas opiniões
-
-**7. Construção de grupos pode não refletir diferenças reais:**
-- **Ameaça**: Classificação em grupos API-First vs. Code-First pode não capturar diferenças reais na experiência
-- **Mitigação**:
-  - Validação através de descrição detalhada da experiência
-  - Perguntas sobre características específicas da abordagem utilizada
-  - Exclusão de participantes com experiência ambígua ou mista (se necessário)
-  - Análise de sensibilidade considerando diferentes critérios de classificação
-
 #### 13.4 Validade externa
 
 **Contextos onde os resultados podem ser generalizados:**
@@ -1792,35 +1209,20 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
    - **Impacto**: Resultados podem não ser generalizáveis para todos os profissionais da área
    - **Mitigação**: Documentação clara de características da amostra, comparação com dados populacionais quando disponíveis, transparência sobre limitações
 
-2. **Viés geográfico e cultural:**
-   - **Limitação**: Se maioria dos participantes for de uma região específica (ex: Brasil), resultados podem não se aplicar a outros contextos culturais ou organizacionais
-   - **Impacto**: Práticas e percepções podem variar entre países e culturas organizacionais
-   - **Mitigação**: Coleta de dados demográficos geográficos, análise de sensibilidade, discussão de limitações de generalização geográfica
-
-3. **Viés de experiência:**
+2. **Viés de experiência:**
    - **Limitação**: Participantes que optam por responder podem ter características diferentes (mais experientes, mais engajados)
    - **Impacto**: Resultados podem superestimar ou subestimar certos aspectos
    - **Mitigação**: Análise de características demográficas, comparação com população-alvo quando possível
 
-4. **Contexto temporal:**
-   - **Limitação**: Resultados refletem percepções em um momento específico; práticas e tecnologias evoluem
-   - **Impacto**: Resultados podem se tornar menos relevantes com mudanças tecnológicas
-   - **Mitigação**: Documentação do período de coleta, discussão de relevância temporal dos resultados
-
-5. **Tipo de projeto específico:**
+3. **Tipo de projeto específico:**
    - **Limitação**: Experiências relatadas podem ser de tipos específicos de projetos (ex: projetos web, mobile, enterprise)
    - **Impacto**: Resultados podem não se aplicar a todos os tipos de projetos
    - **Mitigação**: Coleta de dados sobre tipo de projeto, análise estratificada por tipo de projeto quando possível
 
-6. **Tamanho da amostra:**
+4. **Tamanho da amostra:**
    - **Limitação**: Tamanho mínimo de amostra (50 participantes) pode limitar generalização estatística
    - **Impacto**: Intervalos de confiança mais amplos, menor poder estatístico
    - **Mitigação**: Documentação clara de tamanho da amostra e limitações, interpretação cautelosa
-
-7. **Idioma e cultura:**
-   - **Limitação**: Survey em português limita participação a profissionais que dominam o idioma
-   - **Impacto**: Resultados podem não se aplicar a contextos onde português não é o idioma principal
-   - **Mitigação**: Documentação clara da limitação, possibilidade de replicação em outros idiomas
 
 **Estratégias para aumentar validade externa:**
 
@@ -1846,25 +1248,10 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
 | Tipo de Ameaça | Ameaça Específica | Impacto | Estratégia de Mitigação |
 |----------------|-------------------|---------|------------------------|
 | **Validade de Conclusão** | Baixo poder estatístico | Alto | Tamanho mínimo de amostra planejado; documentação de limitações; análises de sensibilidade |
-| | Violação de suposições estatísticas | Médio | Verificação de normalidade; uso de testes não paramétricos quando necessário |
-| | Múltiplas comparações | Médio | Correção de Bonferroni ou FDR; priorização de análises |
 | **Validade Interna** | Viés de seleção | Alto | Análise de características demográficas; estratificação; análises ajustadas |
-| | Viés de memória/recall | Alto | Foco em experiências recentes; perguntas sobre projetos específicos; transparência sobre limitações |
-| | Viés de desejabilidade social | Médio | Garantia de anonimato; perguntas diretas; análise de padrões suspeitos |
 | **Validade de Constructo** | Definições ambíguas | Alto | Definições claras; exemplos; perguntas de verificação; validação através de descrição |
 | | Medidas não representam constructos | Médio | Múltiplas métricas; triangulação quantitativa/qualitativa; base teórica |
-| | Efeito de halo | Médio | Perguntas sobre vantagens e desvantagens; ordem balanceada; análise de consistência |
 | **Validade Externa** | Amostra não probabilística | Alto | Documentação de características; transparência sobre limitações; diversificação de canais |
-| | Viés geográfico/cultural | Médio | Coleta de dados demográficos; análise de sensibilidade; discussão de limitações |
-| | Contexto temporal | Médio | Documentação do período; discussão de relevância temporal |
-
-**Ameaças mais críticas (prioridade alta):**
-
-1. **Viés de seleção**: Grupos podem diferir sistematicamente → Mitigação através de análise de características, estratificação e análises ajustadas
-2. **Viés de memória**: Relatos sobre experiências passadas podem ser enviesados → Mitigação através de foco em experiências recentes e perguntas sobre projetos específicos
-3. **Definições ambíguas**: Diferentes interpretações de API-First/Code-First → Mitigação através de definições claras, exemplos e validação
-4. **Amostra não probabilística**: Limitações de generalização → Mitigação através de documentação detalhada, diversificação e transparência
-5. **Baixo poder estatístico**: Pode não detectar diferenças reais → Mitigação através de tamanho mínimo planejado e documentação de limitações
 
 ---
 
@@ -1883,14 +1270,7 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
   - Sem pressão de superiores ou colegas para participar
   - Questionário pode ser abandonado sem penalização
 
-**2. Uso de profissionais (não estudantes):**
-- **Questão**: Estudo foca em profissionais da indústria, não estudantes
-- **Tratamento**:
-  - Critérios de inclusão exigem experiência profissional mínima (1 ano)
-  - Estudantes sem experiência profissional são excluídos
-  - Foco em experiências profissionais reais, não acadêmicas
-
-**3. Ausência de incentivos financeiros:**
+**2. Ausência de incentivos financeiros:**
 - **Questão**: Não há incentivos financeiros ou materiais para participação
 - **Tratamento**:
   - Participação baseada em contribuição voluntária para pesquisa
@@ -1898,7 +1278,7 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
   - Transparência sobre ausência de compensação financeira
   - Sem pressão para participar devido a incentivos
 
-**4. Riscos de exposição e confidencialidade:**
+**3. Riscos de exposição e confidencialidade:**
 - **Questão**: Participantes podem se preocupar com exposição de informações sensíveis sobre suas organizações
 - **Tratamento**:
   - Anonimato completo garantido (sem coleta de identificadores pessoais)
@@ -1907,274 +1287,32 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
   - Informações contextuais coletadas de forma genérica (tipo de organização, não nome)
   - Dados armazenados de forma segura e acessíveis apenas ao pesquisador
 
-**5. Carga de tempo e esforço:**
-- **Questão**: Participantes dedicam tempo (15-20 minutos) sem compensação
-- **Tratamento**:
-  - Tempo estimado claramente comunicado
-  - Questionário otimizado para ser eficiente
-  - Direito de abandonar a qualquer momento
-  - Reconhecimento do tempo dedicado na comunicação
-
-**6. Uso de dados para pesquisa acadêmica:**
+**4. Uso de dados para pesquisa acadêmica:**
 - **Questão**: Dados serão usados para TCC e possivelmente publicações
 - **Tratamento**:
   - Transparência sobre uso dos dados no consentimento informado
   - Participantes informados sobre objetivos acadêmicos
   - Possibilidade de acesso aos resultados finais (se desejado)
 
-**7. Vulnerabilidade dos participantes:**
-- **Questão**: Verificação de se há grupos vulneráveis que precisam proteção especial
-- **Tratamento**:
-  - Participantes são profissionais adultos com capacidade de consentimento
-  - Sem grupos vulneráveis identificados (não são crianças, pessoas com deficiência cognitiva, etc.)
-  - Critérios de exclusão para menores de idade sem consentimento apropriado
-
-**8. Conflitos de interesse:**
-- **Questão**: Possíveis conflitos de interesse do pesquisador
-- **Tratamento**:
-  - Exclusão de participantes com relação profissional direta com pesquisador
-  - Transparência sobre objetivos da pesquisa
-  - Análise objetiva dos dados, sem viés intencional
-
-**9. Retorno de benefícios:**
-- **Questão**: Participantes contribuem sem receber benefício direto imediato
-- **Tratamento**:
-  - Oferecimento de acesso aos resultados finais do estudo
-  - Contribuição para avanço do conhecimento na área
-  - Benefício indireto através de evidências que podem orientar decisões futuras
-
 #### 14.2 Consentimento informado
 
-**Processo de consentimento informado:**
-
-**1. Informações fornecidas aos participantes:**
-
-O consentimento informado será integrado ao questionário online e incluirá as seguintes informações:
-
-- **Título do estudo**: Design de API no Contexto de Arquiteturas Distribuídas: Um Estudo Comparativo entre API-First e Code-First
-
-- **Objetivo**: Explicação clara do propósito da pesquisa, objetivos e questões de pesquisa
-
-- **Procedimentos**: 
-  - Descrição do que será solicitado (preenchimento de questionário online)
-  - Tempo estimado (15-20 minutos)
-  - Natureza das perguntas (experiências, percepções, dados demográficos)
-
-- **Riscos e desconfortos**:
-  - Riscos mínimos (carga de tempo)
-  - Sem riscos físicos, psicológicos ou sociais significativos
-  - Possível desconforto ao relembrar experiências negativas (mínimo)
-
-- **Benefícios**:
-  - Contribuição para avanço do conhecimento na área
-  - Acesso aos resultados finais do estudo (se desejado)
-  - Benefício indireto através de evidências que podem orientar decisões futuras
-
-- **Confidencialidade e anonimato**:
-  - Garantia de anonimato completo
-  - Dados agregados e anonimizados
-  - Sem identificação de participantes ou organizações
-  - Armazenamento seguro dos dados
-  - Uso dos dados apenas para fins de pesquisa acadêmica
-
-- **Participação voluntária**:
-  - Natureza voluntária da participação
-  - Direito de retirada a qualquer momento, sem consequências
-  - Possibilidade de abandonar o questionário sem penalização
-
-- **Contato**:
-  - Informações de contato do pesquisador (e-mail)
-  - Informações de contato do orientador (se aplicável)
-  - Informações sobre comitê de ética (se aplicável)
-
-**2. Formato do consentimento:**
-
-- **Integrado ao questionário**: Primeira seção do questionário online
-- **Checkbox obrigatório**: Participante deve marcar checkbox confirmando que leu e concorda
-- **Não é possível prosseguir sem consentimento**: Validação técnica impede avanço sem aceite
-- **Texto claro e acessível**: Linguagem simples, sem jargão excessivo
-
-**3. Registro do consentimento:**
-
-- **Registro digital**: Aceite do consentimento registrado junto com as respostas do questionário
-- **Timestamp**: Data e hora do consentimento registrados automaticamente
-- **Armazenamento**: Consentimentos armazenados de forma segura junto com dados do estudo
-- **Sem identificação pessoal**: Consentimento não vinculado a identificadores pessoais (anonimato mantido)
-
-**4. Consentimento para menores de idade:**
-
-- **Critério**: Participantes devem ser maiores de idade ou ter consentimento de responsável legal
-- **Verificação**: Pergunta sobre idade no início do questionário
-- **Exclusão**: Menores sem consentimento apropriado serão excluídos
-
-**5. Reconsentimento (se necessário):**
-
-- **Mudanças significativas**: Se houver mudanças significativas no protocolo, novo consentimento será solicitado
-- **Uso futuro dos dados**: Se houver necessidade de uso futuro dos dados para outros fins, novo consentimento será solicitado
-
-**6. Retirada do consentimento:**
-
-- **Direito de retirada**: Participantes podem retirar consentimento a qualquer momento
-- **Processo**: Contato com pesquisador para solicitar retirada
-- **Tratamento de dados**: Dados já coletados podem ser mantidos se anonimizados (conforme aprovação ética), mas novos dados não serão coletados
+Antes do início da coleta de dados, os profissionais receberão uma explicação clara e detalhada sobre os objetivos do estudo, os tipos de dados que serão coletados, a finalidade exclusiva acadêmica e de pesquisa, bem como o direito de recusar a participação ou se retirar a qualquer momento, sem qualquer prejuízo.
 
 #### 14.3 Privacidade e proteção de dados
 
-**Dados coletados:**
-
-**Dados não identificáveis (anonimizados):**
-- Respostas ao questionário sobre experiências e percepções
-- Dados demográficos genéricos (tipo de organização, tamanho de equipe, anos de experiência)
-- Avaliações e opiniões sobre abordagens de design de API
-- Respostas qualitativas (texto livre sobre vantagens, desvantagens, comentários)
-
-**Dados não coletados (para garantir anonimato):**
-- Nome completo
-- E-mail pessoal ou profissional
-- Nome da organização ou empresa
-- Nome de projetos específicos
-- Endereço ou localização específica
-- Qualquer outro identificador pessoal direto
-
-**Proteção de dados:**
-
-**1. Anonimização:**
-- **Coleta anônima**: Questionário configurado para não coletar identificadores automáticos (IP, cookies, etc.) quando possível
-- **Dados já anonimizados na coleta**: Não há processo de anonimização posterior, pois dados já são coletados de forma anônima
-- **Agregação**: Dados serão agregados para análise e publicação (sem identificação individual)
-
-**2. Pseudoanonimização (se aplicável):**
-- **Códigos de identificação**: Se necessário para rastreabilidade técnica, códigos numéricos serão usados (não vinculados a identificadores pessoais)
-- **Separação de identificadores**: Qualquer identificador técnico será mantido separado dos dados de pesquisa
-
-**3. Controle de acesso:**
-- **Acesso restrito**: Apenas o pesquisador principal terá acesso aos dados brutos
-- **Orientador**: Acesso apenas a dados agregados ou anonimizados para revisão
-- **Sem compartilhamento**: Dados não serão compartilhados com terceiros sem aprovação ética
-- **Armazenamento seguro**: Dados armazenados em local seguro (computador pessoal com senha, ou serviço de nuvem com autenticação)
-
-**4. Armazenamento:**
-- **Local**: Dados armazenados localmente em computador pessoal do pesquisador ou em serviço de nuvem seguro (Google Drive, OneDrive) com acesso restrito
-- **Backup**: Backups regulares em local seguro
-- **Formato**: Dados em formato estruturado (CSV, Excel) com proteção por senha quando possível
-
-**5. Transmissão:**
-- **Conexão segura**: Questionário online usando HTTPS (conexão criptografada)
-- **Plataforma confiável**: Uso de plataformas de survey com políticas de privacidade adequadas (Google Forms, Typeform, SurveyMonkey)
-
-**6. Retenção de dados:**
-- **Período de retenção**: Dados serão mantidos por período necessário para conclusão do TCC e possíveis publicações (estimativa: 2-3 anos)
-- **Destruição**: Após período de retenção, dados serão destruídos de forma segura (exclusão permanente de arquivos, sem possibilidade de recuperação)
-- **Documentação**: Período de retenção documentado no consentimento informado
-
-**7. Uso futuro dos dados:**
-- **Uso secundário**: Se houver necessidade de uso futuro dos dados para outros fins de pesquisa, novo consentimento será solicitado
-- **Publicação**: Dados agregados e anonimizados podem ser publicados em artigos ou repositórios acadêmicos (conforme aprovação ética)
-
-**8. Direitos dos participantes:**
-- **Acesso aos dados**: Participantes têm direito de solicitar informações sobre seus dados (limitado pelo anonimato)
-- **Correção**: Participantes podem solicitar correção de dados (limitado pelo anonimato e natureza do estudo)
-- **Exclusão**: Participantes podem solicitar exclusão de seus dados (se identificáveis, o que não é o caso devido ao anonimato)
-
-**9. Conformidade com regulamentações:**
-- **LGPD (Lei Geral de Proteção de Dados)**: Conformidade com LGPD brasileira
-- **Aprovação ética**: Conformidade com diretrizes do comitê de ética da instituição
-- **Boas práticas**: Seguimento de boas práticas de proteção de dados em pesquisa
-
-**10. Incidentes de segurança:**
-- **Plano de resposta**: Em caso de violação de dados (improvável devido ao anonimato), notificação imediata ao comitê de ética e participantes (se identificáveis)
-- **Prevenção**: Medidas preventivas para evitar incidentes (armazenamento seguro, acesso restrito, backups)
+Serão coletadas apenas as informações estritamente necessárias para a caracterização da amostra e a análise dos resultados, tais como experiência prévia, respostas a questionários, tempos de execução e desempenho nas tarefas. Todos os dados serão armazenados utilizando identificadores anônimos ou pseudoanônimos, sem qualquer associação direta a nomes, e-mails ou números de matrícula. O acesso a dados potencialmente identificáveis, quando existente, será restrito ao professor responsável e a membros previamente autorizados da equipe. As informações serão mantidas apenas pelo período necessário para a conclusão da disciplina e para a elaboração de eventuais publicações acadêmicas, de acordo com as diretrizes institucionais vigentes.
 
 #### 14.4 Aprovações necessárias (comitê de ética, jurídico, DPO, etc.)
 
 **Aprovações necessárias:**
 
-**1. Comitê de Ética em Pesquisa (CEP) da PUC Minas:**
-- **Órgão**: Comitê de Ética em Pesquisa da PUC Minas (ou equivalente)
-- **Documentação necessária**:
-  - Protocolo de pesquisa completo
-  - Termo de consentimento livre e esclarecido (TCLE)
-  - Questionário completo
-  - Plano de análise de dados
-  - Documentação sobre proteção de dados
-- **Status atual**: A ser submetido
-- **Prazo estimado**: 4-8 semanas após submissão
-- **Bloqueio**: Coleta de dados não pode iniciar sem aprovação
+- Comitê de Ética em Pesquisa (CEP) da PUC Minas
 
-**2. Orientador do TCC:**
-- **Pessoa**: Professor orientador do trabalho de conclusão de curso
-- **Aprovação necessária para**:
-  - Plano experimental completo
-  - Questionário antes da submissão ao CEP
-  - Estratégia de análise de dados
-  - Qualquer mudança significativa no protocolo
-- **Status atual**: Em revisão contínua
-- **Formato**: Revisão e aprovação verbal ou por e-mail, documentada
+- 2. Orientador do TCC
 
-**3. Coordenação do Curso (se necessário):**
-- **Órgão**: Coordenação do Bacharelado em Engenharia de Software da PUC Minas
-- **Aprovação necessária para**: Validação de que o estudo está alinhado com requisitos do TCC
-- **Status atual**: A verificar necessidade
-- **Formato**: Aprovação informal ou formal conforme políticas do curso
+- 4. Comitê de Proteção de Dados (DPO - Data Protection Officer)
 
-**4. Comitê de Proteção de Dados (DPO - Data Protection Officer):**
-- **Órgão**: DPO da PUC Minas (se existir) ou responsável por proteção de dados
-- **Aprovação necessária para**: Conformidade com LGPD e políticas de proteção de dados da instituição
-- **Status atual**: A verificar necessidade e processo
-- **Observação**: Pode estar incluído no processo de aprovação do CEP
-
-**5. Banca examinadora (pós-execução):**
-- **Órgão**: Banca examinadora do TCC
-- **Aprovação necessária para**: Avaliação final do trabalho completo
-- **Status atual**: Não aplicável (após execução)
-- **Formato**: Apresentação e defesa do TCC
-
-**Cronograma de aprovações:**
-
-1. **Fase 1 - Preparação (Antes da submissão ao CEP)**:
-   - [ ] Revisão do protocolo pelo orientador
-   - [ ] Finalização do questionário
-   - [ ] Preparação da documentação para CEP
-   - **Prazo**: 2-3 semanas
-
-2. **Fase 2 - Submissão ao CEP**:
-   - [ ] Submissão da documentação ao CEP
-   - [ ] Aguardar análise e possíveis solicitações de ajustes
-   - [ ] Responder a solicitações do CEP
-   - [ ] Receber aprovação final
-   - **Prazo**: 4-8 semanas após submissão
-
-3. **Fase 3 - Validação final**:
-   - [ ] Validação do questionário após aprovação ética (se necessário)
-   - [ ] Teste piloto (se aprovado pelo CEP)
-   - [ ] Aprovação final do orientador para início da coleta
-   - **Prazo**: 1-2 semanas
-
-**Documentação para aprovação:**
-
-- Plano experimental completo (este documento)
-- Termo de consentimento livre e esclarecido (TCLE)
-- Questionário completo
-- Plano de análise de dados
-- Documentação sobre proteção de dados e privacidade
-- Informações sobre pesquisador e orientador
-- Justificativa científica do estudo
-
-**Status atual das aprovações:**
-
-- **Comitê de Ética**: Pendente (a ser submetido)
-- **Orientador**: Em revisão contínua
-- **Coordenador do Curso**: A verificar necessidade
-- **DPO**: A verificar necessidade
-- **Banca Examinadora**: Não aplicável (após execução)
-
-**Observações:**
-
-- Todas as aprovações necessárias devem ser obtidas antes do início da coleta de dados
-- Qualquer mudança significativa no protocolo após aprovação pode exigir nova submissão ou comunicação ao CEP
-- Documentação de todas as aprovações será mantida para registro
-
----
+- 5. Banca examinadora
 
 ### 15. Recursos, infraestrutura e orçamento
 
@@ -2185,91 +1323,14 @@ O consentimento informado será integrado ao questionário online e incluirá as
 **1. Pesquisador Principal / Autor do TCC:**
 - **Nome**: Gabriel Lourenço Reis Resende
 - **Papel**: Executor principal do experimento
-- **Responsabilidades**:
-  - Desenvolvimento do plano experimental
-  - Criação e validação do questionário
-  - Submissão ao comitê de ética
-  - Recrutamento de participantes
-  - Coleta de dados
-  - Análise de dados (quantitativa e qualitativa)
-  - Redação do trabalho de conclusão de curso
-  - Comunicação com participantes
-  - Documentação do processo experimental
-- **Carga horária estimada**: 200-300 horas ao longo do período do TCC
-- **Disponibilidade**: Tempo parcial (concomitante com outras atividades acadêmicas)
 
 **2. Orientador do TCC:**
 - **Nome**: A definir (professor orientador)
 - **Papel**: Orientador científico e supervisor metodológico
-- **Responsabilidades**:
-  - Orientação científica sobre metodologia de pesquisa
-  - Revisão e validação do plano experimental
-  - Revisão e aprovação do questionário
-  - Revisão da estratégia de análise de dados
-  - Supervisão da execução do experimento
-  - Revisão de resultados e interpretações
-  - Revisão do trabalho escrito
-  - Apoio na submissão ao comitê de ética
-- **Carga horária estimada**: 20-40 horas de orientação
-- **Disponibilidade**: Conforme cronograma de orientação acadêmica
 
 **3. Participantes do Survey (Voluntários):**
-- **Número**: 50-80 participantes
 - **Papel**: Fornecedores de dados através de respostas ao questionário
-- **Responsabilidades**:
-  - Preenchimento honesto e completo do questionário
-  - Fornecimento de informações baseadas em experiências reais
-- **Carga horária por participante**: 15-20 minutos
-- **Compensação**: Voluntária, sem compensação financeira
-
-**4. Banca Examinadora (Pós-execução):**
-- **Número**: 2-3 membros (a definir)
-- **Papel**: Avaliação final do trabalho
-- **Responsabilidades**:
-  - Avaliação da qualidade científica do trabalho
-  - Avaliação da metodologia e resultados
-  - Avaliação da contribuição científica
-  - Aprovação ou solicitação de ajustes
-- **Carga horária**: 2-4 horas por membro (leitura e avaliação)
-- **Disponibilidade**: Após conclusão do trabalho escrito
-
-**5. Comitê de Ética em Pesquisa (CEP):**
-- **Órgão**: Comitê de Ética da PUC Minas
-- **Papel**: Avaliação ética do protocolo de pesquisa
-- **Responsabilidades**:
-  - Revisão do protocolo de pesquisa
-  - Avaliação de aspectos éticos
-  - Aprovação, solicitação de ajustes ou reprovação
-- **Carga horária**: Processo institucional
-- **Disponibilidade**: Conforme cronograma do CEP
-
-**Estrutura organizacional:**
-
-```
-Pesquisador Principal (Gabriel)
-    │
-    ├── Orientador (Supervisão)
-    │
-    ├── CEP (Aprovação ética)
-    │
-    ├── Participantes (Coleta de dados)
-    │
-    └── Banca Examinadora (Avaliação final)
-```
-
-**Comunicação e coordenação:**
-
-- **Pesquisador ↔ Orientador**: Reuniões regulares de orientação (semanal ou quinzenal), comunicação por e-mail
-- **Pesquisador ↔ Participantes**: Comunicação através do questionário e mensagens de recrutamento
-- **Pesquisador ↔ CEP**: Comunicação formal através de sistema de submissão do CEP
-- **Pesquisador ↔ Banca**: Comunicação através de apresentação e defesa do TCC
-
-**Observações:**
-
-- Equipe enxuta, focada em pesquisa acadêmica de TCC
-- Sem equipe técnica adicional (pesquisador realiza todas as atividades técnicas)
-- Sem necessidade de equipe de análise de dados externa (pesquisador realiza análises)
-- Suporte do orientador em questões metodológicas e científicas
+- **Carga horária por participante**: 15-20 minutos q
 
 #### 15.2 Infraestrutura técnica necessária
 
@@ -2288,19 +1349,9 @@ Pesquisador Principal (Gabriel)
 - **Custo**: Gratuito ou plano básico (baixo custo)
 - **Disponibilidade**: Acesso via internet
 
-**2. Computador do Pesquisador:**
-- **Requisitos**:
-  - Computador pessoal com sistema operacional (Windows, macOS ou Linux)
-  - Navegador web atualizado
-  - Acesso à internet estável
-  - Software de planilhas (Microsoft Excel, Google Sheets ou LibreOffice Calc)
-- **Uso**: Criação do questionário, análise de dados, redação do trabalho
-- **Disponibilidade**: Já disponível
-
-**3. Software de Análise de Dados:**
+**2. Software de Análise de Dados:**
 - **Ferramentas**:
   - **Python** (com bibliotecas: pandas, numpy, scipy, matplotlib, seaborn) OU
-  - **R** (com pacotes: dplyr, ggplot2, etc.) OU
   - **Microsoft Excel / Google Sheets** (para análises básicas)
 - **Requisitos**:
   - Capacidade de importar dados CSV/Excel
@@ -2310,7 +1361,7 @@ Pesquisador Principal (Gabriel)
 - **Custo**: Gratuito (Python, R) ou já disponível (Excel)
 - **Disponibilidade**: Instalação local ou uso online
 
-**4. Armazenamento de Dados:**
+**3. Armazenamento de Dados:**
 - **Opções**:
   - **Armazenamento local**: Computador pessoal com backup
   - **Armazenamento em nuvem**: Google Drive, OneDrive, Dropbox (com acesso restrito)
@@ -2321,58 +1372,12 @@ Pesquisador Principal (Gabriel)
 - **Custo**: Gratuito (planos básicos de nuvem) ou já disponível
 - **Disponibilidade**: Já disponível
 
-**5. Repositório de Código (Opcional):**
+**4. Repositório de Código (Opcional):**
 - **Ferramenta**: GitHub, GitLab ou similar
 - **Uso**: Versionamento de scripts de análise, documentação
 - **Requisitos**: Conta gratuita
 - **Custo**: Gratuito
 - **Disponibilidade**: Criar se necessário
-
-**6. Software de Documentação:**
-- **Ferramentas**:
-  - Editor de texto (Microsoft Word, Google Docs, LaTeX)
-  - Software de apresentação (PowerPoint, Google Slides) para defesa
-- **Requisitos**: Capacidade de criar documentos acadêmicos
-- **Custo**: Gratuito (Google Docs) ou já disponível
-- **Disponibilidade**: Já disponível
-
-**7. Comunicação:**
-- **Ferramentas**:
-  - E-mail (para comunicação com orientador, CEP, participantes)
-  - Plataforma de videoconferência (Zoom, Google Meet) para reuniões com orientador
-- **Requisitos**: Acesso a e-mail e internet
-- **Custo**: Gratuito
-- **Disponibilidade**: Já disponível
-
-**8. Navegadores para Teste:**
-- **Requisitos**: Testar questionário em diferentes navegadores (Chrome, Firefox, Safari, Edge)
-- **Uso**: Validação de compatibilidade do questionário
-- **Disponibilidade**: Já disponível ou acessível
-
-**Resumo de infraestrutura:**
-
-| Componente | Ferramenta | Custo | Status |
-|------------|-----------|-------|--------|
-| Plataforma de Survey | Google Forms / Typeform | Gratuito/Baixo | A configurar |
-| Computador | Computador pessoal | Já disponível | Disponível |
-| Análise de Dados | Python/R ou Excel | Gratuito | A instalar/configurar |
-| Armazenamento | Local + Nuvem | Gratuito | Disponível |
-| Repositório | GitHub (opcional) | Gratuito | A criar se necessário |
-| Documentação | Word/Google Docs | Gratuito | Disponível |
-| Comunicação | E-mail, Zoom | Gratuito | Disponível |
-
-**Dependências técnicas:**
-
-- **Internet**: Necessária para acesso à plataforma de survey, comunicação, armazenamento em nuvem
-- **Eletricidade**: Necessária para operação do computador
-- **Navegadores atualizados**: Necessários para funcionamento adequado da plataforma de survey
-
-**Plano de contingência:**
-
-- **Falha na plataforma de survey**: Ter backup em plataforma alternativa (ex: se Google Forms falhar, usar Typeform)
-- **Perda de dados**: Backups regulares em múltiplos locais (local + nuvem)
-- **Problemas de software**: Uso de alternativas gratuitas (Python/R em vez de software pago)
-- **Problemas de internet**: Trabalho offline quando possível, sincronização quando internet estiver disponível
 
 #### 15.3 Materiais e insumos
 
@@ -2384,13 +1389,7 @@ Pesquisador Principal (Gabriel)
 - **Status**: A ser criado após aprovação ética e validação do piloto
 - **Custo**: Gratuito (plataformas gratuitas) ou baixo (planos básicos)
 
-**2. Termo de Consentimento Livre e Esclarecido (TCLE):**
-- **Tipo**: Documento digital integrado ao questionário
-- **Conteúdo**: Informações sobre o estudo, riscos, benefícios, confidencialidade
-- **Status**: A ser criado e aprovado pelo CEP
-- **Custo**: Nenhum (criação pelo pesquisador)
-
-**3. Planilha de Dados:**
+**2. Planilha de Dados:**
 - **Tipo**: Arquivo digital (CSV, Excel)
 - **Uso**: Armazenamento e organização dos dados coletados
 - **Status**: A ser criado após início da coleta
@@ -2402,17 +1401,7 @@ Pesquisador Principal (Gabriel)
 - **Status**: A ser criado durante fase de análise
 - **Custo**: Nenhum (software gratuito)
 
-**5. Documentação do Experimento:**
-- **Tipo**: Documentos digitais (Word, PDF, Markdown)
-- **Conteúdo**: 
-  - Plano experimental (este documento)
-  - Protocolo de pesquisa para CEP
-  - Guias de operação
-  - Relatórios de coleta
-- **Status**: Em desenvolvimento (plano experimental) e a criar (outros)
-- **Custo**: Nenhum (software gratuito)
-
-**6. Materiais de Recrutamento:**
+**5. Materiais de Recrutamento:**
 - **Tipo**: Mensagens digitais (texto para redes sociais, fóruns, grupos)
 - **Conteúdo**: 
   - Mensagens de recrutamento para diferentes canais
@@ -2421,421 +1410,38 @@ Pesquisador Principal (Gabriel)
 - **Status**: A ser criado antes da coleta
 - **Custo**: Nenhum
 
-**7. Log de Coleta de Dados:**
-- **Tipo**: Documento digital (planilha ou documento de texto)
-- **Uso**: Registro de atividades de coleta, problemas, ajustes
-- **Status**: A ser criado no início da coleta
-- **Custo**: Nenhum
-
-**8. Licenças de Software (se necessário):**
-- **Tipo**: Licenças para software pago (se optar por ferramentas pagas)
-- **Opções**: 
-  - Planos básicos de plataformas de survey (Typeform, SurveyMonkey) - se necessário
-  - Licenças de software de análise (improvável, usando ferramentas gratuitas)
-- **Status**: A avaliar necessidade
-- **Custo**: Baixo (se necessário, planos básicos ~$10-20/mês)
-
-**9. Dispositivos:**
-- **Computador**: Já disponível (computador pessoal do pesquisador)
-- **Smartphone/Tablet**: Opcional, para teste de compatibilidade do questionário
-- **Status**: Disponível
-
-**10. Acesso a Comunidades e Canais:**
-- **Tipo**: Acesso a redes sociais, fóruns, grupos profissionais
-- **Canais**:
-  - LinkedIn (conta pessoal)
-  - Reddit (conta gratuita)
-  - Grupos de WhatsApp/Telegram
-  - Comunidades técnicas online
-- **Status**: Já disponível ou a criar
-- **Custo**: Gratuito
-
-**Resumo de materiais:**
-
-| Material | Tipo | Status | Custo |
-|----------|------|--------|-------|
-| Questionário Online | Digital | A criar | Gratuito |
-| TCLE | Digital | A criar | Gratuito |
-| Planilha de Dados | Digital | A criar | Gratuito |
-| Scripts de Análise | Digital | A criar | Gratuito |
-| Documentação | Digital | Em desenvolvimento | Gratuito |
-| Materiais de Recrutamento | Digital | A criar | Gratuito |
-| Log de Coleta | Digital | A criar | Gratuito |
-| Licenças de Software | Licença | A avaliar | Baixo (se necessário) |
-| Computador | Físico | Disponível | Já disponível |
-| Acesso a Canais | Digital | Disponível | Gratuito |
-
-**Checklist de prontidão de materiais:**
-
-Antes do início da coleta de dados, os seguintes materiais devem estar prontos:
-
-- [ ] Questionário online criado e testado
-- [ ] TCLE integrado ao questionário e aprovado pelo CEP
-- [ ] Planilha de dados estruturada (template)
-- [ ] Materiais de recrutamento preparados
-- [ ] Log de coleta criado
-- [ ] Documentação do experimento atualizada
-- [ ] Acesso a canais de recrutamento verificado
-- [ ] Software de análise instalado e testado (se aplicável)
-
-**Observações:**
-
-- Todos os materiais são digitais (sem necessidade de materiais físicos)
-- Maioria dos materiais tem custo zero (uso de ferramentas gratuitas)
-- Materiais serão criados pelo pesquisador (sem necessidade de terceiros)
-- Foco em ferramentas gratuitas e de baixo custo para manter orçamento mínimo
 
 #### 15.4 Orçamento e custos estimados
 
-**Estimativa de custos:**
-
-**1. Recursos Humanos:**
-
-| Recurso | Horas Estimadas | Custo por Hora | Custo Total | Observação |
-|---------|----------------|----------------|-------------|------------|
-| Pesquisador Principal | 200-300 horas | R$ 0 (voluntário) | R$ 0 | Trabalho acadêmico voluntário |
-| Orientador | 20-40 horas | R$ 0 (orientação acadêmica) | R$ 0 | Orientação incluída nas responsabilidades acadêmicas |
-| Participantes | 50-80 × 0,3h = 15-24h | R$ 0 (voluntários) | R$ 0 | Participação voluntária |
-| **Subtotal Recursos Humanos** | | | **R$ 0** | |
-
-**2. Infraestrutura e Serviços:**
-
-| Item | Descrição | Custo Mensal | Período | Custo Total |
-|------|-----------|--------------|---------|-------------|
-| Plataforma de Survey | Google Forms (gratuito) ou Typeform (plano básico) | R$ 0 - R$ 50 | 3 meses | R$ 0 - R$ 150 |
-| Armazenamento em Nuvem | Google Drive / OneDrive (plano gratuito) | R$ 0 | 3 meses | R$ 0 |
-| Software de Análise | Python/R (gratuito) ou Excel (já disponível) | R$ 0 | - | R$ 0 |
-| **Subtotal Infraestrutura** | | | | **R$ 0 - R$ 150** |
-
-**3. Licenças de Software:**
-
-| Software | Necessidade | Custo | Observação |
-|----------|-------------|-------|------------|
-| Microsoft Office | Opcional (alternativas gratuitas) | R$ 0 | Google Docs como alternativa |
-| Software de Análise Estatística | Não necessário (Python/R gratuito) | R$ 0 | Ferramentas open-source |
-| Plataforma de Survey Premium | Opcional | R$ 0 - R$ 50/mês | Planos gratuitos disponíveis |
-| **Subtotal Licenças** | | | **R$ 0 - R$ 150** |
-
-**4. Materiais e Insumos:**
-
-| Material | Custo | Observação |
-|----------|-------|------------|
-| Materiais digitais | R$ 0 | Criação pelo pesquisador |
-| Impressões | R$ 0 | Tudo digital |
-| **Subtotal Materiais** | | **R$ 0** |
-
-**5. Comunicação e Divulgação:**
-
-| Item | Custo | Observação |
-|------|-------|------------|
-| Divulgação em redes sociais | R$ 0 | Canais gratuitos |
-| Comunicação por e-mail | R$ 0 | E-mail institucional/pessoal |
-| **Subtotal Comunicação** | | **R$ 0** |
-
-**6. Outros Custos:**
-
-| Item | Custo | Observação |
-|------|-------|------------|
-| Taxas de submissão (CEP) | R$ 0 | Geralmente gratuito para estudantes |
-| Taxas de publicação (futuro) | R$ 0 | Não aplicável no momento |
-| **Subtotal Outros** | | **R$ 0** |
-
-**Resumo de custos:**
-
-| Categoria | Custo Mínimo | Custo Máximo | Observação |
-|-----------|--------------|--------------|------------|
-| Recursos Humanos | R$ 0 | R$ 0 | Voluntário |
-| Infraestrutura | R$ 0 | R$ 150 | Maioria gratuita |
-| Licenças | R$ 0 | R$ 150 | Opcionais |
-| Materiais | R$ 0 | R$ 0 | Digitais |
-| Comunicação | R$ 0 | R$ 0 | Gratuito |
-| Outros | R$ 0 | R$ 0 | Não aplicável |
-| **TOTAL** | **R$ 0** | **R$ 300** | |
-
-**Cenário mais provável:**
-- **Custo estimado**: R$ 0 - R$ 50 (uso de ferramentas gratuitas)
-- **Custo máximo**: R$ 300 (se optar por planos premium de plataformas de survey)
-
-**Fonte de financiamento:**
-
-- **Financiamento próprio**: Pesquisador arcará com custos mínimos (se houver)
-- **Sem financiamento externo**: Não há solicitação de bolsas ou financiamento externo
-- **Recursos da instituição**: Uso de recursos já disponíveis (e-mail institucional, acesso a biblioteca, orientação acadêmica)
-- **Ferramentas gratuitas**: Priorização de ferramentas gratuitas para manter custos zero
-
-**Plano de contingência para custos:**
-
-- **Cenário 1 - Custo zero**: Uso exclusivo de ferramentas gratuitas (Google Forms, Python, Google Drive)
-- **Cenário 2 - Custo baixo**: Se necessário, uso de planos básicos de plataformas de survey (R$ 50/mês por 2-3 meses = R$ 100-150)
-- **Cenário 3 - Custo médio**: Se necessário, uso de múltiplas ferramentas premium (improvável, máximo R$ 300)
-
-**Observações:**
-
-- Experimento projetado para ter custo mínimo ou zero
-- Foco em ferramentas gratuitas e de código aberto
-- Sem necessidade de financiamento externo
-- Custos serão arcados pelo pesquisador se necessário (valores baixos)
-- Priorização de alternativas gratuitas sempre que possível
-
+Espera-se que os custos diretos sejam mínimos, uma vez que o experimento será conduzido utilizando a infraestrutura já disponível na instituição. Os principais custos envolvem o tempo dedicado à preparação, execução e análise por parte do professor orientador e do estudante pesquisador, contabilizado como carga horária da disciplina ou de projeto de pesquisa. Além disso, podem ocorrer custos marginais eventuais, como a impressão de materiais de apoio.
 ---
 
 ### 16. Cronograma, marcos e riscos operacionais
 
 #### 16.1 Macrocronograma (até o início da execução)
 
-**Macrocronograma do experimento:**
-
-**FASE 1: PLANEJAMENTO E PREPARAÇÃO (8-12 semanas)**
-
-**Semana 1-2: Finalização do Plano Experimental**
-- [ ] Revisão final do plano experimental
-- [ ] Validação do plano pelo orientador
-- [ ] Ajustes baseados em feedback
-- **Marco**: Plano experimental aprovado pelo orientador
-
-**Semana 3-4: Desenvolvimento do Questionário**
-- [ ] Criação da estrutura do questionário
-- [ ] Desenvolvimento de todas as seções (consentimento, definições, perguntas)
-- [ ] Revisão do questionário pelo orientador
-- [ ] Ajustes baseados em feedback
-- **Marco**: Questionário completo e revisado
-
-**Semana 5-6: Preparação para Submissão ao CEP**
-- [ ] Preparação da documentação para CEP (protocolo, TCLE, questionário)
-- [ ] Revisão final da documentação
-- [ ] Submissão ao Comitê de Ética em Pesquisa (CEP)
-- **Marco**: Documentação submetida ao CEP
-
-**Semana 7-10: Aguardar Aprovação Ética**
-- [ ] Acompanhamento do processo no CEP
-- [ ] Resposta a solicitações de ajustes (se houver)
-- [ ] Aprovação final do CEP
-- **Marco**: Aprovação ética obtida
-
-**FASE 2: VALIDAÇÃO E PILOTO (2-3 semanas)**
-
-**Semana 11-12: Teste Piloto**
-- [ ] Configuração do questionário na plataforma de survey
-- [ ] Recrutamento de participantes para piloto (5-8 participantes)
-- [ ] Execução do piloto
-- [ ] Coleta de feedback dos participantes do piloto
-- [ ] Análise dos resultados do piloto
-- [ ] Ajustes no questionário baseados no piloto
-- [ ] Validação final do questionário
-- **Marco**: Questionário validado e pronto para coleta principal
-
-**FASE 3: PREPARAÇÃO FINAL (1-2 semanas)**
-
-**Semana 13: Preparação para Coleta**
-- [ ] Configuração final do questionário na plataforma
-- [ ] Preparação de materiais de recrutamento
-- [ ] Identificação e contato com canais de recrutamento
-- [ ] Teste final do questionário
-- [ ] Preparação de planilha de dados e log de coleta
-- **Marco**: Tudo pronto para início da coleta
-
-**FASE 4: COLETA DE DADOS (6-8 semanas)**
-
-**Semana 14-15: Início da Coleta**
-- [ ] Abertura do questionário para respostas
-- [ ] Divulgação inicial em canais primários
-- [ ] Monitoramento inicial de respostas
-- **Marco**: Coleta de dados iniciada
-
-**Semana 16-17: Divulgação Secundária**
-- [ ] Divulgação em canais secundários
-- [ ] Amostra por bola de neve
-- [ ] Monitoramento contínuo de respostas e balanceamento
-
-**Semana 18-19: Recrutamento Direcionado (se necessário)**
-- [ ] Ajuste de estratégia se houver desbalanceamento
-- [ ] Recrutamento direcionado para grupos sub-representados
-- [ ] Continuar monitoramento
-
-**Semana 20-21: Finalização da Coleta**
-- [ ] Avaliar se tamanho mínimo foi atingido
-- [ ] Decisão sobre continuar ou encerrar coleta
-- [ ] Encerramento da coleta (fechar questionário)
-- [ ] Exportação final dos dados
-- **Marco**: Coleta de dados concluída
-
-**Cronograma resumido:**
-
 | Fase | Atividades | Duração | Marcos |
 |------|-----------|---------|--------|
-| **Planejamento** | Finalização do plano, desenvolvimento do questionário, submissão ao CEP | 8-12 semanas | Plano aprovado, CEP aprovado |
+| **Planejamento** | Finalização do plano, desenvolvimento do questionário, submissão ao CEP | Início do semestre | Plano aprovado, CEP aprovado |
 | **Validação** | Teste piloto, ajustes | 2-3 semanas | Questionário validado |
-| **Preparação Final** | Configuração, materiais de recrutamento | 1-2 semanas | Pronto para coleta |
+| **Preparação Final** | Configuração, materiais de recrutamento | 3-4 semanas | Pronto para coleta |
 | **Coleta** | Recrutamento, coleta de dados | 6-8 semanas | Dados coletados |
-| **TOTAL** | | **17-25 semanas** | |
-
-**Datas estimadas (exemplo):**
-
-Assumindo início em janeiro de 2025:
-
-- **Início do planejamento**: Janeiro 2025
-- **Submissão ao CEP**: Março 2025
-- **Aprovação do CEP**: Maio 2025 (após 4-8 semanas)
-- **Piloto**: Junho 2025
-- **Início da coleta**: Julho 2025
-- **Fim da coleta**: Setembro 2025
-
-**Observações sobre o cronograma:**
-
-- **Flexibilidade**: Cronograma pode ser ajustado conforme disponibilidade e prazos do TCC
-- **Dependências críticas**: Aprovação do CEP é bloqueante para início da coleta
-- **Buffer de tempo**: Incluído para imprevistos e atrasos
-- **Paralelização**: Algumas atividades podem ser feitas em paralelo (ex: preparação de materiais enquanto aguarda CEP)
-- **Realismo**: Cronograma considera prazos típicos de CEP (4-8 semanas) e tempo necessário para recrutamento
 
 #### 16.2 Dependências entre atividades
 
-**Dependências críticas do experimento:**
+#### 16.2 Dependências entre Atividades
 
-**1. Desenvolvimento do Questionário → Revisão pelo Orientador**
-- **Dependência**: Questionário deve ser desenvolvido antes da revisão
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Não pode revisar questionário que não existe
-- **Flexibilidade**: Pode haver iterações (revisão → ajustes → revisão)
-
-**2. Questionário Revisado → Preparação para CEP**
-- **Dependência**: Questionário final deve estar pronto para incluir na documentação do CEP
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Não pode submeter ao CEP sem questionário completo
-- **Flexibilidade**: Pequenos ajustes podem ser feitos após submissão (com comunicação ao CEP)
-
-**3. Preparação da Documentação → Submissão ao CEP**
-- **Dependência**: Toda documentação deve estar pronta antes da submissão
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: CEP não aceita submissões incompletas
-- **Flexibilidade**: Documentação pode ser preparada em paralelo com outras atividades
-
-**4. Submissão ao CEP → Aprovação do CEP → Início da Coleta**
-- **Dependência**: **CRÍTICA** - Coleta não pode iniciar sem aprovação ética
-- **Tipo**: Sequencial obrigatória e bloqueante
-- **Bloqueio**: **Não é possível iniciar coleta sem aprovação do CEP**
-- **Flexibilidade**: Nenhuma - esta é uma dependência rígida e obrigatória
-- **Tempo**: 4-8 semanas típicas para aprovação
-
-**5. Aprovação do CEP → Configuração do Questionário na Plataforma**
-- **Dependência**: Questionário deve estar aprovado antes de configurar na plataforma
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Não deve configurar questionário que pode precisar de ajustes após aprovação
-- **Flexibilidade**: Configuração pode ser feita em paralelo com outras preparações
-
-**6. Questionário Configurado → Teste Piloto**
-- **Dependência**: Questionário deve estar configurado e funcional antes do piloto
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Não pode testar questionário que não está configurado
-- **Flexibilidade**: Piloto pode ser feito com versão preliminar para validação técnica
-
-**7. Teste Piloto → Ajustes no Questionário → Validação Final**
-- **Dependência**: Ajustes devem ser feitos após análise do piloto
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Não deve iniciar coleta principal sem ajustar problemas identificados no piloto
-- **Flexibilidade**: Ajustes podem ser menores ou maiores dependendo dos resultados
-
-**8. Validação Final → Preparação de Materiais de Recrutamento**
-- **Dependência**: Questionário final deve estar pronto antes de preparar materiais (que referenciam o questionário)
-- **Tipo**: Sequencial recomendada (não crítica)
-- **Bloqueio**: Não crítico, mas recomendado
-- **Flexibilidade**: Materiais podem ser preparados com link provisório
-
-**9. Materiais de Recrutamento Prontos → Início da Coleta**
-- **Dependência**: Materiais devem estar prontos para divulgação
-- **Tipo**: Sequencial recomendada
-- **Bloqueio**: Não crítico, mas eficiente ter materiais prontos
-- **Flexibilidade**: Materiais podem ser ajustados durante a coleta
-
-**10. Início da Coleta → Monitoramento → Encerramento**
-- **Dependência**: Coleta deve iniciar antes de monitorar e encerrar
-- **Tipo**: Sequencial obrigatória
-- **Bloqueio**: Lógico
-- **Flexibilidade**: Monitoramento contínuo, encerramento quando critérios atendidos
-
-**Diagrama de dependências (simplificado):**
-
-```
-Plano Experimental
-    ↓
-Desenvolvimento do Questionário
-    ↓
-Revisão pelo Orientador
-    ↓
-Preparação para CEP
-    ↓
-Submissão ao CEP
-    ↓
-[AGUARDAR 4-8 SEMANAS]
-    ↓
-Aprovação do CEP
-    ↓
-Configuração na Plataforma
-    ↓
-Teste Piloto
-    ↓
-Ajustes
-    ↓
-Validação Final
-    ↓
-Preparação de Materiais
-    ↓
-Início da Coleta 
-    ↓
-Monitoramento
-    ↓
-Encerramento da Coleta
-```
-
-**Dependências paralelas (podem ser feitas simultaneamente):**
-
-- Preparação de materiais de recrutamento pode ser feita enquanto aguarda aprovação do CEP
-- Desenvolvimento de scripts de análise pode ser feito em paralelo com outras atividades
-- Estudo de literatura e referencial teórico pode continuar em paralelo
-- Preparação de planilhas e logs pode ser feita antecipadamente
-
-**Pontos de bloqueio críticos:**
-
-1. **Aprovação do CEP**: Bloqueia todo o processo de coleta
-2. **Validação do questionário**: Bloqueia início da coleta principal
-3. **Tamanho mínimo de amostra**: Pode exigir extensão do período de coleta
-
-**Estratégias para gerenciar dependências:**
-
-- **Antecipação**: Iniciar atividades que não dependem de outras o mais cedo possível
-- **Paralelização**: Fazer atividades independentes em paralelo
-- **Buffer de tempo**: Incluir margem de segurança para dependências críticas (ex: CEP)
-- **Monitoramento**: Acompanhar status de dependências críticas regularmente
-- **Comunicação**: Manter comunicação com dependentes (orientador, CEP) para evitar atrasos
+| Atividade            | Depende de                | Justificativa |
+|----------------------|---------------------------|----------------|
+| **Validação**        | Planejamento              | O questionário e o plano precisam estar finalizados antes do teste piloto. |
+| **Preparação Final** | Validação                 | Ajustes identificados no piloto devem ser incorporados antes da configuração final. |
+| **Coleta**           | Preparação Final          | A coleta só pode começar após a configuração do ambiente e materiais de recrutamento. |
 
 #### 16.3 Riscos operacionais e plano de contingência
 
 **Riscos operacionais e planos de contingência:**
 
-**1. Atraso na aprovação do CEP:**
-- **Risco**: CEP pode levar mais de 8 semanas para aprovar, atrasando todo o cronograma
-- **Probabilidade**: Média
-- **Impacto**: Alto (bloqueia início da coleta)
-- **Contingência**:
-  - Submissão antecipada (o mais cedo possível)
-  - Preparação cuidadosa da documentação para evitar solicitações de ajustes
-  - Acompanhamento regular do status no CEP
-  - Comunicação proativa com CEP em caso de atrasos
-  - Ajuste do cronograma do TCC se necessário (comunicação com orientador)
-  - Uso do tempo de espera para outras atividades (literatura, preparação de materiais)
-
-**2. Indisponibilidade do orientador:**
-- **Risco**: Orientador pode estar indisponível para revisões ou orientações, atrasando aprovações
-- **Probabilidade**: Baixa-Média
-- **Impacto**: Médio
-- **Contingência**:
-  - Agendamento antecipado de reuniões de orientação
-  - Comunicação clara sobre prazos e urgências
-  - Planejamento de buffer de tempo para revisões
-  - Uso de comunicação assíncrona (e-mail) quando reuniões não são possíveis
-  - Documentação clara para facilitar revisões rápidas
-
-**3. Problemas técnicos com plataforma de survey:**
+**1. Problemas técnicos com plataforma de survey:**
 - **Risco**: Plataforma escolhida pode ter problemas técnicos, indisponibilidade ou limitações
 - **Probabilidade**: Baixa
 - **Impacto**: Alto (bloqueia coleta)
@@ -2845,7 +1451,7 @@ Encerramento da Coleta
   - Exportação regular de dados durante a coleta (backup)
   - Migração para plataforma alternativa se necessário (com comunicação aos participantes)
 
-**4. Baixa taxa de resposta ao survey:**
+**2. Baixa taxa de resposta ao survey:**
 - **Risco**: Número insuficiente de participantes, não atingindo tamanho mínimo
 - **Probabilidade**: Média-Alta
 - **Impacto**: Alto (compromete validade do estudo)
@@ -2856,89 +1462,6 @@ Encerramento da Coleta
   - Extensão do período de coleta se necessário
   - Ajuste do tamanho mínimo de amostra (com justificativa metodológica) se necessário
   - Análise com amostra menor, documentando limitações
-
-**5. Desbalanceamento entre grupos:**
-- **Risco**: Desequilíbrio significativo entre participantes API-First vs. Code-First
-- **Probabilidade**: Média
-- **Impacto**: Médio
-- **Contingência**:
-  - Monitoramento contínuo da distribuição durante a coleta
-  - Recrutamento direcionado para grupo sub-representado
-  - Mensagens de recrutamento específicas para cada grupo
-  - Extensão do período de coleta se necessário
-  - Uso de técnicas estatísticas apropriadas para amostras desbalanceadas
-  - Análise com grupos desbalanceados, documentando limitações
-
-**6. Problemas de saúde ou pessoais do pesquisador:**
-- **Risco**: Situações pessoais podem impedir progresso do experimento
-- **Probabilidade**: Baixa
-- **Impacto**: Alto
-- **Contingência**:
-  - Planejamento com margem de tempo para imprevistos
-  - Comunicação proativa com orientador em caso de problemas
-  - Priorização de atividades críticas
-  - Ajuste de cronograma quando necessário
-  - Documentação do progresso para facilitar retomada
-
-**7. Mudanças nos requisitos do TCC:**
-- **Risco**: Mudanças nos requisitos acadêmicos podem exigir ajustes no experimento
-- **Probabilidade**: Baixa
-- **Impacto**: Médio-Alto
-- **Contingência**:
-  - Comunicação regular com orientador sobre requisitos
-  - Flexibilidade no desenho experimental para permitir ajustes
-  - Documentação clara de decisões metodológicas
-  - Revisão do plano se necessário, com aprovação do orientador
-
-**8. Problemas com qualidade dos dados coletados:**
-- **Risco**: Dados coletados podem ter problemas de qualidade (respostas inválidas, inconsistentes)
-- **Probabilidade**: Média
-- **Impacto**: Médio
-- **Contingência**:
-  - Validação contínua durante a coleta
-  - Exclusão de respostas inválidas conforme critérios definidos
-  - Análise de qualidade dos dados antes do encerramento
-  - Recrutamento adicional se qualidade comprometer tamanho da amostra
-  - Documentação de problemas de qualidade e tratamento aplicado
-
-**9. Indisponibilidade de recursos técnicos:**
-- **Risco**: Problemas com computador, internet ou software podem impedir trabalho
-- **Probabilidade**: Baixa
-- **Impacto**: Médio
-- **Contingência**:
-  - Backup de dados em múltiplos locais (local + nuvem)
-  - Uso de alternativas (biblioteca da universidade, computadores públicos)
-  - Trabalho offline quando possível
-  - Uso de ferramentas online que não dependem de instalação local
-
-**10. Conflitos de agenda:**
-- **Risco**: Conflitos com outras atividades acadêmicas ou pessoais
-- **Probabilidade**: Média
-- **Impacto**: Médio
-- **Contingência**:
-  - Planejamento realista considerando outras atividades
-  - Priorização de atividades críticas
-  - Comunicação proativa sobre conflitos
-  - Ajuste de cronograma quando necessário
-
-**Resumo de riscos operacionais:**
-
-| Risco | Probabilidade | Impacto | Prioridade | Contingência Principal |
-|-------|---------------|---------|------------|----------------------|
-| Atraso no CEP | Média | Alto | Alta | Submissão antecipada, acompanhamento |
-| Baixa taxa de resposta | Média-Alta | Alto | Alta | Diversificação de canais, extensão de prazo |
-| Desbalanceamento | Média | Médio | Média | Recrutamento direcionado, monitoramento |
-| Problemas técnicos | Baixa | Alto | Média | Plataforma alternativa, backups |
-| Indisponibilidade orientador | Baixa-Média | Médio | Média | Agendamento antecipado, comunicação clara |
-| Problemas pessoais | Baixa | Alto | Baixa | Margem de tempo, priorização |
-| Qualidade dos dados | Média | Médio | Média | Validação contínua, exclusão criteriosa |
-
-**Plano de monitoramento de riscos:**
-
-- **Revisão semanal**: Avaliação de status de riscos durante fase de coleta
-- **Indicadores**: Taxa de resposta, distribuição entre grupos, qualidade dos dados
-- **Ações preventivas**: Implementação de contingências antes que riscos se materializem
-- **Comunicação**: Informar orientador sobre riscos materializados e ações tomadas
 
 ---
 
@@ -3006,81 +1529,6 @@ Encerramento da Coleta
 - **Revisão**: Revisão do trabalho completo após execução
 - **Informação**: Informados através de apresentação e defesa do TCC
 
-**Matriz de responsabilidades (RACI):**
-
-| Atividade | Pesquisador | Orientador | CEP | Participantes | Banca |
-|-----------|-------------|------------|-----|---------------|-------|
-| Desenvolvimento do plano | R/A | C | I | - | - |
-| Desenvolvimento do questionário | R/A | C | I | - | - |
-| Submissão ao CEP | R/A | C | A | - | - |
-| Aprovação ética | I | I | A | - | - |
-| Recrutamento | R/A | I | - | - | - |
-| Coleta de dados | R/A | I | - | R | - |
-| Análise de dados | R/A | C | - | - | - |
-| Redação do trabalho | R/A | C | - | - | - |
-| Apresentação final | R/A | I | - | - | A |
-
-**Legenda RACI:**
-- **R (Responsible)**: Executa a atividade
-- **A (Accountable)**: Responsável final, toma decisões
-- **C (Consulted)**: Consultado, fornece input
-- **I (Informed)**: Informado sobre progresso/resultados
-- **-**: Não envolvido
-
-**Fluxo de decisão:**
-
-```
-Decisões Operacionais (dia a dia)
-    ↓
-Pesquisador (decide e executa)
-    ↓
-Informa Orientador (se necessário)
-
-Decisões Metodológicas Significativas
-    ↓
-Pesquisador (proposta)
-    ↓
-Orientador (aprova/rejeita)
-    ↓
-Pesquisador (executa se aprovado)
-
-Decisões Éticas
-    ↓
-Pesquisador (prepara documentação)
-    ↓
-CEP (aprova/rejeita/solicita ajustes)
-    ↓
-Pesquisador (executa se aprovado)
-
-Decisões sobre Início da Coleta
-    ↓
-Requer: Aprovação do Orientador + Aprovação do CEP
-    ↓
-Pesquisador (inicia coleta se ambos aprovados)
-```
-
-**Comunicação e reporte:**
-
-- **Pesquisador → Orientador**: 
-  - Reuniões regulares (semanal/quinzenal)
-  - E-mail para questões urgentes
-  - Relatórios de progresso
-- **Pesquisador → CEP**: 
-  - Submissão formal
-  - Resposta a solicitações
-  - Comunicação de mudanças significativas
-- **Pesquisador → Participantes**: 
-  - Através do questionário (TCLE)
-  - Mensagens de recrutamento
-  - Comunicação sobre resultados (se prometido)
-
-**Escalação de problemas:**
-
-1. **Nível 1 - Operacional**: Pesquisador resolve sozinho (ex: ajustes menores no questionário)
-2. **Nível 2 - Metodológico**: Consulta orientador (ex: mudanças no desenho experimental)
-3. **Nível 3 - Ético**: Comunicação com CEP (ex: mudanças que afetam aspectos éticos)
-4. **Nível 4 - Crítico**: Decisão conjunta pesquisador + orientador + CEP (ex: cancelamento do experimento)
-
 #### 17.2 Ritos de acompanhamento pré-execução
 
 **Reuniões e checkpoints:**
@@ -3091,8 +1539,6 @@ Pesquisador (inicia coleta se ambos aprovados)
 - **Checkpoint 3 - Aprovação ética**: Validação da aprovação do CEP e preparação para piloto
 - **Checkpoint 4 - Pós-piloto**: Revisão dos resultados do piloto e ajustes necessários
 - **Checkpoint 5 - Pronto para coleta**: Validação final antes do início da coleta principal
-
-**Participantes**: Pesquisador e orientador (reuniões bilaterais)
 
 #### 17.3 Processo de controle de mudanças no plano
 
@@ -3129,9 +1575,7 @@ Pesquisador (inicia coleta se ambos aprovados)
 **Artefatos principais:**
 - **Plano experimental**: Este documento (README.md)
 - **Questionário**: Template na plataforma de survey (Google Forms/Typeform)
-- **TCLE**: Integrado ao questionário
 - **Planilha de dados**: Template Excel/CSV com colunas para todas as variáveis
-- **Log de coleta**: Documento de texto ou planilha para registro de atividades
 - **Scripts de análise**: Templates Python/R para análises estatísticas básicas
 
 **Localização**: Repositório Git ou pasta organizada no Google Drive
@@ -3157,33 +1601,24 @@ Pesquisador (inicia coleta se ambos aprovados)
 **Públicos e mensagens:**
 
 - **Orientador**: Objetivos, progresso, aprovações necessárias, problemas encontrados
-- **CEP**: Protocolo completo, justificativa científica, aspectos éticos
 - **Participantes potenciais**: Objetivo do estudo, tempo estimado, benefícios, anonimato garantido
 - **Comunidades técnicas**: Convite para participação, link do questionário, propósito da pesquisa
 - **Coordenação do curso** (se necessário): Informação sobre o estudo e cronograma
-
-**Mensagens-chave**: Pesquisa acadêmica voluntária, anonimato garantido, contribuição para área, tempo estimado 15-20 minutos
 
 #### 19.2 Canais e frequência de comunicação
 
 **Canais:**
 - **Orientador**: E-mail + reuniões presenciais/videoconferência (semanal/quinzenal)
-- **CEP**: Sistema formal de submissão + e-mail quando necessário
-- **Participantes**: Questionário online (TCLE) + mensagens de recrutamento (redes sociais, fóruns)
+- **Participantes**: Questionário online + mensagens de recrutamento (redes sociais, fóruns)
 - **Comunidades**: Posts em redes sociais, fóruns, grupos (LinkedIn, Reddit, WhatsApp, Telegram)
-
-**Frequência**: Reuniões regulares com orientador; comunicação com participantes conforme necessidade de recrutamento
 
 #### 19.3 Pontos de comunicação obrigatórios
 
 **Eventos que exigem comunicação formal:**
 - **Aprovação do plano**: Comunicação ao orientador e CEP
 - **Aprovação ética**: Comunicação ao orientador e início de preparação para coleta
-- **Mudanças significativas no protocolo**: Comunicação ao orientador e CEP (se necessário)
 - **Início da coleta**: Comunicação ao orientador
-- **Problemas críticos durante coleta**: Comunicação imediata ao orientador e CEP (se necessário)
 - **Encerramento da coleta**: Comunicação ao orientador com resumo dos dados coletados
-- **Cancelamento ou adiamento**: Comunicação formal ao orientador, CEP e participantes (se aplicável)
 
 ---
 
@@ -3193,21 +1628,15 @@ Pesquisador (inicia coleta se ambos aprovados)
 
 **Checklist obrigatório antes do início da coleta:**
 
-- [ ] Plano experimental completo e aprovado pelo orientador
-- [ ] Questionário desenvolvido, revisado e validado
-- [ ] Aprovação ética do CEP obtida
-- [ ] TCLE integrado ao questionário e aprovado
-- [ ] Teste piloto realizado e ajustes implementados
-- [ ] Questionário configurado na plataforma de survey e testado
-- [ ] Materiais de recrutamento preparados
-- [ ] Planilha de dados estruturada (template)
-- [ ] Log de coleta criado
-- [ ] Canais de recrutamento identificados
-- [ ] Software de análise instalado e testado (se aplicável)
-- [ ] Backup de dados configurado
-- [ ] Aprovação final do orientador para início da coleta
-
-**Critério**: Todos os itens devem estar completos antes de iniciar a coleta principal
+- Plano experimental completo e aprovado pelo orientador
+- Questionário desenvolvido, revisado e validado
+- Aprovação ética do CEP obtida
+- Teste piloto realizado e ajustes implementados
+- Questionário configurado na plataforma de survey e testado
+- Materiais de recrutamento preparados
+- Planilha de dados estruturada
+- Canais de recrutamento identificados
+- Aprovação final do orientador para início da coleta
 
 #### 20.2 Aprovações finais para iniciar a operação
 
@@ -3215,10 +1644,3 @@ Pesquisador (inicia coleta se ambos aprovados)
 
 1. **Comitê de Ética em Pesquisa (CEP)**: Aprovação formal do protocolo (documento oficial do CEP)
 2. **Orientador do TCC**: Aprovação verbal ou por e-mail após revisão do checklist de prontidão
-
-**Registro das aprovações:**
-- Aprovação do CEP: Documento oficial arquivado
-- Aprovação do orientador: Registro em e-mail ou ata de reunião
-- Checklist de prontidão: Preenchido e arquivado com data
-
-**Critério de início**: Ambas as aprovações obtidas + todos os itens do checklist completos
