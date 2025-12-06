@@ -1007,21 +1007,21 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
 
 **FASE 2: COLETA DE DADOS**
 
-6. **Início da Coleta**:
+5. **Início da Coleta**:
    - Publicar questionário online
 
-7. **Divulgação Inicial**:
+6. **Divulgação Inicial**:
    - Publicar mensagens de recrutamento
 
-8. **Validação de Respostas (Contínuo)**:
+7. **Validação de Respostas**:
     - Revisar respostas recebidas
 
-9. **Encerramento da Coleta**:
+8. **Encerramento da Coleta**:
     - Fechar questionário para novas respostas
     - Exportar dados finais em formato CSV/Excel
     - Fazer backup final dos dados
 
-10. **Organização dos Dados**:
+9. **Organização dos Dados**:
     - Organizar dados em planilha estruturada
     - Codificar variáveis categóricas
     - Criar variáveis derivadas se necessário
@@ -1029,16 +1029,19 @@ Como este é um estudo observacional baseado em survey sobre experiências passa
 
 **FASE 4: PÓS-COLETA**
 
-11. **Análise de Dados**:
+10. **Análise de Dados**:
     - Executar análises estatísticas planejadas
     - Realizar análises qualitativas de respostas abertas
     - Gerar visualizações e relatórios
 
-12. **Documentação**:
+11. **Documentação**:
     - Documentar processo de coleta
     - Registrar problemas encontrados e soluções
     - Documentar decisões sobre exclusão de participantes
     - Preparar relatório de coleta
+
+![Fluxograma da Metodologia](imagens/fluxograma-metodologia.png)
+Figura 1. Fluxograma das etapas de metodologia do estudo
 
 #### 11.4 Plano de piloto (se haverá piloto, escopo e critérios de ajuste)
 
