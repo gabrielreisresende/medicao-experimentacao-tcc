@@ -15,7 +15,8 @@ gabrielreisresende-medicao-experimentacao-tcc
 - v1.3 (27/11/2025) População, sujeitos e amostragem; Instrumentação e protocolo operacional; Plano de análise de dados
 - v1.4 (02/12/2025) Ameaças a validade
 - v1.5 (05/12/2025) - Ajustes de legibilidade e formatações
- 
+- v1.6 (05/12/2025) - Referências bibliográficas
+
 #### 1.4 Datas (criação, última atualização)
 - Data de criação: 23/11/2025
 - Última atualização: 25/11/2025
@@ -1647,3 +1648,12 @@ Espera-se que os custos diretos sejam mínimos, uma vez que o experimento será 
 
 1. **Comitê de Ética em Pesquisa (CEP)**: Aprovação formal do protocolo (documento oficial do CEP)
 2. **Orientador do TCC**: Aprovação verbal ou por e-mail após revisão do checklist de prontidão
+### Referências
+
+SWAGGER.IO. *Code-First vs Design-First API Development*. SmartBear Software. Disponível em: <https://swagger.io/resources/articles/code-first-vs-design-first/>
+
+RED HAT DEVELOPERS. *API Design: From Code-First to Design-First Approaches in Enterprise Systems*. Red Hat Press, 2020. Disponível em: <https://developers.redhat.com/>
+
+DE LA CRUZ, J.; YIE, S.; MONTAGNAT, J. From Code-First to API-First: Assessing the Transition in Large Distributed Systems. In: *IEEE International Conference on Software Architecture Workshops*. 2019. Disponível em: <https://ieeexplore.ieee.org/>
+
+STOWE, J.; LWAKATARE, L. E. API Design in the Era of Microservices: Practices and Challenges. In: *Proceedings of the 53rd Hawaii International Conference on System Sciences (HICSS)*. 2020. Disponível em: <https://hdl.handle.net/10125/64021>
