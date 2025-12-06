@@ -1257,6 +1257,8 @@ Ameaças relacionadas a causas alternativas para os efeitos observados:
 | | Medidas não representam constructos | Médio | Múltiplas métricas; triangulação quantitativa/qualitativa; base teórica |
 | **Validade Externa** | Amostra não probabilística | Alto | Documentação de características; transparência sobre limitações; diversificação de canais |
 
+**Apresentação em vídeo:** Para uma apresentação detalhada das ameaças à validade discutidas nesta seção, consulte o vídeo disponível em [video/Video-Ameacas.mkv](video/Video-Ameacas.mkv).
+
 ---
 
 ### 14. Ética, privacidade e conformidade
